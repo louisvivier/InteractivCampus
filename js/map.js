@@ -14,4 +14,5 @@ var initMap = function() {
     maxZoom: 20
   }).addTo(macarte);
   Markers();
+  Polygone();
 };
