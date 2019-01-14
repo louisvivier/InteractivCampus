@@ -5,7 +5,7 @@ var Markers=function(){
 //_______ISEN___________
 var isen = L.icon({
     iconUrl: iconBase + "isen.png",
-    iconSize: [70, 30], //[largeur,hauteur]
+    iconSize: [40, 60], //[largeur,hauteur]
     iconAnchor: [0, 0], //ancrage
     popupAnchor: [35, 0],
   });
@@ -15,7 +15,7 @@ markerISEN.bindPopup(PopUpISEN);
 //_______URBAWOOD___________
 var urbawood = L.icon({
     iconUrl: iconBase + "urbawood.png",
-    iconSize: [70, 30],
+    iconSize: [40, 60],
     iconAnchor: [0, 0],
     popupAnchor: [35, 0],
   });
@@ -26,7 +26,7 @@ markerURBA.bindPopup(PopUpURBA);
 //_______HEI________________
 var hei = L.icon({
     iconUrl: iconBase + "hei.png",
-    iconSize: [70, 30],
+    iconSize: [40, 60],
     iconAnchor: [0,0],
     popupAnchor: [35,0],
   });
@@ -36,7 +36,7 @@ markerHEI.bindPopup(PopUpHEI);
 //___________ISA______________
 var isa = L.icon({
     iconUrl: iconBase + "isa.png",
-    iconSize: [70, 30],
+    iconSize: [40, 60],
     iconAnchor: [0,0],
     popupAnchor: [35,0],
   });
@@ -46,7 +46,7 @@ markerISA.bindPopup(PopUpISA);
 //__________AEU_______________
 var aeu = L.icon({
     iconUrl: iconBase + "aeu.png",
-    iconSize: [70, 30],
+    iconSize: [40, 60],
     iconAnchor: [0, 0],
     popupAnchor: [35,0],
   });
