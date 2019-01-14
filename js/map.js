@@ -13,6 +13,5 @@ var initMap = function() {
     minZoom: 1,
     maxZoom: 20
   }).addTo(macarte);
-  var marker = L.marker([50.63394, 3.04875]).addTo(macarte);
-  var marker = L.marker([50.6331, 3.02359]).addTo(macarte);
+  Markers();
 };
