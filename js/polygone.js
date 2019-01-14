@@ -67,4 +67,18 @@ var Polygone = function(){
       fillColor:'brown',
       fillOpacity:0.7
     }).addTo(macarte);
+    var poly_AEU = L.polygon([
+      [50.63328, 3.04777],
+      [50.63322, 3.04794],
+      [50.63318, 3.04791],
+      [50.63310, 3.04809],
+      [50.63317, 3.04825],
+      [50.63306, 3.04837],
+      [50.63287, 3.04796],
+      [50.63315, 3.04763]
+    ],{
+      color:'blue',
+      fillColor:'blue',
+      fillOpacity:0.7
+    }).addTo(macarte);
 };
