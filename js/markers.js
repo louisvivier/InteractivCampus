@@ -53,5 +53,14 @@ var aeu = L.icon({
 var markerAEU = L.marker([50.63309,3.04795],{icon:aeu }).addTo(macarte);
 var PopUpAEU= "<b>Ici c'est AEU</b><br>I am a popup.";
 markerAEU.bindPopup(PopUpAEU);
-
+//____________YNCREA____________
+var yncrea = L.icon({
+    iconUrl: iconBase + "yncrea.png",
+    iconSize: [40, 60],
+    iconAnchor: [20,55],
+    popupAnchor: [0,0],
+  });
+var markerYNCREA = L.marker([50.63360,3.04692],{icon:yncrea }).addTo(macarte);
+var PopUpYNCREA = "<b>Ici c'est YNCREA</b><br>I am a popup.";
+markerYNCREA.bindPopup(PopUpYNCREA);
 };
