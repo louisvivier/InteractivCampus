@@ -33,6 +33,5 @@ var map = {
     polygone.yncrea();
     polygone.yncreaCompta();
     polygone.aeu();
-    tempsRestant();
   }
 };
