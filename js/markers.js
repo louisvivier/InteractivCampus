@@ -72,6 +72,9 @@ var markers = {
     let markerBUS5 = L.marker([50.62648,3.04002],{icon:bus }).addTo(macarte); //cormon
     let markerBUS6 = L.marker([50.63452,3.03028],{icon:bus }).addTo(macarte); //boisblanc
     let markerBUS7 = L.marker([50.63487,3.03023],{icon:bus }).addTo(macarte); //boisblanc
+    let markerBUS8 = L.marker([50.63712,3.07073],{icon:bus }).addTo(macarte); //flandres
+    let markerBUS9 = L.marker([50.63720,3.07024],{icon:bus }).addTo(macarte); //flandres
+    let markerBUS10 = L.marker([50.63942,3.07507],{icon:bus }).addTo(macarte); //europe
   },
   metro(){
     let metro = L.icon({
@@ -111,7 +114,7 @@ var markers = {
   sandwich(){
     let sandwich = L.icon({
       iconUrl: "images/markers/sandwich.png",
-      iconSize: [55, 60],
+      iconSize: [40, 60],
       iconAnchor: [20, 55],
       popupAnchor: [0,0],
     });
@@ -158,5 +161,22 @@ var markers = {
     let markerATM = L.marker([50.63195,3.04642],{icon:atm }).addTo(macarte); //société générale
     let markerATM1 = L.marker([50.63348,3.04707],{icon:atm }).addTo(macarte); //atm isa
     let markerATM2 = L.marker([50.63640,3.02629],{icon:atm }).addTo(macarte); //lcl
+    let markerATM3 = L.marker([50.62621,3.04082],{icon:atm }).addTo(macarte); //crédit agricole cormon
+    let markerATM4 = L.marker([50.63083,3.04449],{icon:atm }).addTo(macarte); //crédit agricole vauban
+    let markerATM5 = L.marker([50.62916,3.04258],{icon:atm }).addTo(macarte); //CIC
+  },
+  caddy(){
+    let caddy = L.icon({
+      iconUrl: "images/markers/caddy.png",
+      iconSize: [40, 60],
+      iconAnchor: [20, 55],
+      popupAnchor: [0,0],
+    });
+    let markerCADDY = L.marker([50.63210,3.04283],{icon:caddy }).addTo(macarte); //leader price
+    let markerCADDY1 = L.marker([50.63222,3.05387],{icon:caddy }).addTo(macarte); //atm isa
+    let markerCADDY2 = L.marker([50.62997,3.04561],{icon:caddy }).addTo(macarte); //carrefour express vauban
+    let markerCADDY3 = L.marker([50.63435,3.03073],{icon:caddy }).addTo(macarte); //carrefour express bois blanc
+    let markerCADDY4 = L.marker([50.63748,3.07436],{icon:caddy }).addTo(macarte); //euralille
   }
+
 };
