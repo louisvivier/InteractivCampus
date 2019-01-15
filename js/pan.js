@@ -8,7 +8,7 @@ var leftPan = {
     $('.adress').html(places[id].adress_street + ", " + places[id].adress_city);
     $('.phone').html(places[id].phone);
     $('.email').html(places[id].email);
-    $('.website').html('<a target="_blank" href="http://'+places[id].website+'">'+places[id].website+'</a>') ;
+    $('.website').html('<a target="_blank" href="'+places[id].website+'">'+places[id].link_text+'</a>') ;
     if (places[id].twitter != ""){
       $('.twitterFeed').html('<a class="twitter-timeline" data-width="480" data-dnt="true" href="https://twitter.com/'+places[id].twitter+'?ref_src=twsrc%5Etfw" data-tweet-limit="5">Tweets by '+places[id].twitter+'</a> <script src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>');
     }
