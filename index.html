@@ -5,6 +5,7 @@
   <link rel="stylesheet" href="css/libs/leaflet.css"/>
   <link rel="stylesheet" href="css/pan.css"/>
   <link rel="stylesheet" href="css/map.css"/>
+  <link rel="stylesheet" href="css/panContent.css"/>
   <script src="js/libs/leaflet.js"></script>
   <script src="js/libs/jquery.js"></script>
   <script src="js/markers.js"></script>
@@ -17,8 +18,6 @@
 </head>
 <body>
   <div id="leftPan" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="leftPan.close();">&times;</a>
-
   </div>
 
   <div id="map">
@@ -26,6 +25,8 @@
 </body>
 <script>
   var macarte = null;
+  $("#leftPan").load('html/pan/panContent.html #leftPan');
   map.init();
+  
 </script>
 </html>
