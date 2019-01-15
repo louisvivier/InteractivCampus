@@ -177,6 +177,7 @@ var markers = {
     let markerCADDY2 = L.marker([50.62997,3.04561],{icon:caddy }).addTo(macarte); //carrefour express vauban
     let markerCADDY3 = L.marker([50.63435,3.03073],{icon:caddy }).addTo(macarte); //carrefour express bois blanc
     let markerCADDY4 = L.marker([50.63748,3.07436],{icon:caddy }).addTo(macarte); //euralille
+    let markerCADDY5 = L.marker([50.62575,3.03954],{icon:caddy }).addTo(macarte); //carrefour city cormon
   }
 
 };
