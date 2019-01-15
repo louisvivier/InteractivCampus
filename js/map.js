@@ -21,6 +21,9 @@ var map = {
     markers.metro();
     markers.velo();
     markers.aeu();
+    markers.sandwich();
+    markers.pizza();
+    markers.gare();
     polygone.isen();
     polygone.urbawood();
     polygone.hei();
@@ -28,5 +31,7 @@ var map = {
     polygone.yncrea();
     polygone.yncreaCompta();
     polygone.aeu();
+
+    Batiments();
   }
 };
