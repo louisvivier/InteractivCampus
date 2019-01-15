@@ -133,7 +133,6 @@ var markers = {
     let markerPIZZA1 = L.marker([50.63385,3.05564],{icon:pizza }).addTo(macarte); //pizza rabbit centre
     let markerPIZZA2 = L.marker([50.63697,3.02513],{icon:pizza }).addTo(macarte); //kiosque à pizza
     let markerPIZZA3 = L.marker([50.63589,3.02881],{icon:pizza }).addTo(macarte); //pizza rabbit eura
-    let markerPIZZA4 = L.marker([50.63213,3.04663],{icon:pizza }).addTo(macarte); //pizza factory
     let markerPIZZA5 = L.marker([50.62981,3.04590],{icon:pizza }).addTo(macarte); //perfecto pizza
   },
   gare(){
