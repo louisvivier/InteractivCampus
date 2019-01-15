@@ -1,15 +1,18 @@
-var Polygone = function(){
-  var poly_urbawood = L.polygon([
-           [50.6330912, 3.0232973],
-           [50.6332685, 3.0237283],
-           [50.6331245, 3.0238751],
-           [50.6329517, 3.0234348]
-        ],{
-        color:'#703500',
-        fillColor:'#be8d2e',
-        fillOpacity:0.7
-      }).addTo(macarte);
-    var poly_ISEN = L.polygon([
+var polygone = {
+  urbawood(){
+    let poly_urbawood = L.polygon([
+      [50.6330912, 3.0232973],
+      [50.6332685, 3.0237283],
+      [50.6331245, 3.0238751],
+      [50.6329517, 3.0234348]
+    ],{
+      color:'#703500',
+      fillColor:'#be8d2e',
+      fillOpacity:0.7
+    }).addTo(macarte);
+  },
+  isen(){
+    let poly_ISEN = L.polygon([
       [50.63427, 3.04880],
       [50.63385, 3.04962],
       [50.63334, 3.04894],
@@ -19,7 +22,9 @@ var Polygone = function(){
       fillColor:'red',
       fillOpacity:0.7
     }).addTo(macarte);
-    var poly_ISA = L.polygon([
+  },
+  isa(){
+    let poly_ISA = L.polygon([
       [50.63408, 3.04659],
       [50.63404, 3.04677],
       [50.63401, 3.04674],
@@ -37,7 +42,9 @@ var Polygone = function(){
       fillColor:'#6cc934',
       fillOpacity:0.7
     }).addTo(macarte);
-    var poly_HEI = L.polygon([
+  },
+  hei(){
+    let poly_HEI = L.polygon([
       [50.63393, 3.04524],
       [50.63368, 3.04581],
       [50.63334, 3.04545],
@@ -47,7 +54,9 @@ var Polygone = function(){
       fillColor:'black',
       fillOpacity:0.7
     }).addTo(macarte);
-    var poly_yncrea = L.polygon([
+  },
+  yncrea(){
+    let poly_yncrea = L.polygon([
       [50.63359, 3.04711],
       [50.63373, 3.04682],
       [50.63363, 3.04670],
@@ -57,7 +66,9 @@ var Polygone = function(){
       fillColor:'#ffa500',
       fillOpacity:0.7
     }).addTo(macarte);
-    var poly_yncrea_compta = L.polygon([
+  },
+  yncreaCompta(){
+    let poly_yncrea_compta = L.polygon([
       [50.63539, 3.04989],
       [50.63532, 3.05005],
       [50.63522, 3.04995],
@@ -67,7 +78,9 @@ var Polygone = function(){
       fillColor:'brown',
       fillOpacity:0.7
     }).addTo(macarte);
-    var poly_AEU = L.polygon([
+  },
+  aeu(){
+    let poly_AEU = L.polygon([
       [50.63328, 3.04777],
       [50.63322, 3.04794],
       [50.63318, 3.04791],
@@ -81,4 +94,5 @@ var Polygone = function(){
       fillColor:'#0070ff',
       fillOpacity:0.7
     }).addTo(macarte);
-};
+  }
+}

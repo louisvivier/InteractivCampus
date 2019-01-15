@@ -21,7 +21,13 @@ var map = {
     markers.metro();
     markers.velo();
     markers.aeu();
-    Polygone();
+    polygone.isen();
+    polygone.urbawood();
+    polygone.hei();
+    polygone.isa();
+    polygone.yncrea();
+    polygone.yncreaCompta();
+    polygone.aeu();
     Batiments();
   }
 };
