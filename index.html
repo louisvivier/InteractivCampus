@@ -3,19 +3,27 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/libs/leaflet.css"/>
+  <link rel="stylesheet" href="css/pan.css"/>
   <link rel="stylesheet" href="css/map.css"/>
   <script src="js/libs/leaflet.js"></script>
   <script src="js/markers.js"></script>
   <script src="js/polygone.js"></script>
-  <script src="js/batiments.js"></script>
+  <script src="js/pan.js"></script>
   <script src="js/map.js"></script>
+  <script src="js/batiments.js"></script>
   <title>InteractivCampus</title>
 </head>
 <body>
+  <div id="leftPan" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="leftPan.close();">&times;</a>
+
+  </div>
+  <span onclick="leftPan.open();">open</span>
   <div id="map">
   </div>
 </body>
 <script>
-  initMap();
+  var macarte = null;
+  map.init();
 </script>
 </html>
