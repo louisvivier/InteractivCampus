@@ -15,4 +15,5 @@ var initMap = function() {
   }).addTo(macarte);
   Markers();
   Polygone();
+  Batiments();
 };
