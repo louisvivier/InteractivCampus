@@ -173,7 +173,7 @@ var markers = {
       popupAnchor: [0,0],
     });
     let markerCADDY = L.marker([50.63210,3.04283],{icon:caddy }).addTo(macarte); //leader price
-    let markerCADDY1 = L.marker([50.63222,3.05387],{icon:caddy }).addTo(macarte); //atm isa
+    let markerCADDY1 = L.marker([50.63222,3.05387],{icon:caddy }).addTo(macarte); //match
     let markerCADDY2 = L.marker([50.62997,3.04561],{icon:caddy }).addTo(macarte); //carrefour express vauban
     let markerCADDY3 = L.marker([50.63435,3.03073],{icon:caddy }).addTo(macarte); //carrefour express bois blanc
     let markerCADDY4 = L.marker([50.63748,3.07436],{icon:caddy }).addTo(macarte); //euralille
