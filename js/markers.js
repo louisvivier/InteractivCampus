@@ -70,6 +70,8 @@ var markers = {
     let markerBUS3 = L.marker([50.63134,3.06231],{icon:bus }).addTo(macarte); //beaux arts
     let markerBUS4 = L.marker([50.62661,3.04079],{icon:bus }).addTo(macarte); //cormon
     let markerBUS5 = L.marker([50.62648,3.04002],{icon:bus }).addTo(macarte); //cormon
+    let markerBUS6 = L.marker([50.63452,3.03028],{icon:bus }).addTo(macarte); //boisblanc
+    let markerBUS7 = L.marker([50.63487,3.03023],{icon:bus }).addTo(macarte); //boisblanc
   },
   metro(){
     let metro = L.icon({
@@ -119,6 +121,7 @@ var markers = {
     let markerSAND3 = L.marker([50.63420,3.05505],{icon:sandwich }).addTo(macarte); //Paul
     let markerSAND4 = L.marker([50.63601,3.02760],{icon:sandwich }).addTo(macarte); //friterie colysee
     let markerSAND5 = L.marker([50.62983,3.04597],{icon:sandwich }).addTo(macarte); //kebab celine
+    let markerSAND6 = L.marker([50.63405,3.02094],{icon:sandwich }).addTo(macarte); //sogood
     let PopUpDOG= "<b>DOG Sandwich</b><br>Sandwicherie";
     markerSAND.bindPopup(PopUpDOG);
   },
@@ -133,7 +136,7 @@ var markers = {
     let markerPIZZA1 = L.marker([50.63385,3.05564],{icon:pizza }).addTo(macarte); //pizza rabbit centre
     let markerPIZZA2 = L.marker([50.63697,3.02513],{icon:pizza }).addTo(macarte); //kiosque à pizza
     let markerPIZZA3 = L.marker([50.63589,3.02881],{icon:pizza }).addTo(macarte); //pizza rabbit eura
-    let markerPIZZA5 = L.marker([50.62981,3.04590],{icon:pizza }).addTo(macarte); //perfecto pizza
+    let markerPIZZA4 = L.marker([50.62981,3.04590],{icon:pizza }).addTo(macarte); //perfecto pizza
   },
   gare(){
     let gare = L.icon({
