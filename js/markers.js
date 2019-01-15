@@ -2,7 +2,7 @@ var markers = {
   //******************************************ECOLES**************************************************
   isen(){
     let isen = L.icon({
-      iconUrl: "images/logo/isen.png",
+      iconUrl: "images/markers/isen.png",
       iconSize: [40, 60], //[largeur,hauteur]
       iconAnchor: [20, 55], //ancrage
       popupAnchor: [0, 0],
@@ -13,7 +13,7 @@ var markers = {
   },
   hei(){
     let hei = L.icon({
-      iconUrl: "images/logo/hei.png",
+      iconUrl: "images/markers/hei.png",
       iconSize: [40, 60],
       iconAnchor: [20,55],
       popupAnchor: [0,0],
@@ -24,7 +24,7 @@ var markers = {
   },
   isa(){
     let isa = L.icon({
-      iconUrl: "images/logo/isa.png",
+      iconUrl: "images/markers/isa.png",
       iconSize: [40, 60],
       iconAnchor: [20,55],
       popupAnchor: [0,0],
@@ -35,7 +35,7 @@ var markers = {
   },
   yncrea(){
     let yncrea = L.icon({
-      iconUrl: "images/logo/yncrea.png",
+      iconUrl: "images/markers/yncrea.png",
       iconSize: [40, 60],
       iconAnchor: [20,55],
       popupAnchor: [0,0],
@@ -47,7 +47,7 @@ var markers = {
   },
   urbawood(){
     let urbawood = L.icon({
-      iconUrl: "images/logo/urbawood.png",
+      iconUrl: "images/markers/urbawood.png",
       iconSize: [40, 60],
       iconAnchor: [20, 55],
       popupAnchor: [0, 0],
@@ -59,7 +59,7 @@ var markers = {
   //***********************************************TRANSPORTS********************************************************
   bus(){
     let bus = L.icon({
-      iconUrl: "images/logo/bus.png",
+      iconUrl: "images/markers/bus.png",
       iconSize: [40, 60],
       iconAnchor: [20,55],
       popupAnchor: [0,0],
@@ -73,7 +73,7 @@ var markers = {
   },
   metro(){
     let metro = L.icon({
-      iconUrl: "images/logo/metro.png",
+      iconUrl: "images/markers/metro.png",
       iconSize: [40, 60],
       iconAnchor: [20,55],
       popupAnchor: [0,0],
@@ -85,7 +85,7 @@ var markers = {
   },
   velo (){
     let velo = L.icon({
-      iconUrl: "images/logo/velo.png",
+      iconUrl: "images/markers/velo.png",
       iconSize: [40, 60],
       iconAnchor: [20,55],
       popupAnchor: [0,0],
@@ -97,7 +97,7 @@ var markers = {
   //******************************************RESTAU************************************************
   aeu(){
     let aeu = L.icon({
-      iconUrl: "images/logo/aeu.png",
+      iconUrl: "images/markers/aeu.png",
       iconSize: [40, 60],
       iconAnchor: [20, 55],
       popupAnchor: [0,0],
@@ -108,7 +108,7 @@ var markers = {
   },
   sandwich(){
     let sandwich = L.icon({
-      iconUrl: "images/logo/sandwich.png",
+      iconUrl: "images/markers/sandwich.png",
       iconSize: [40, 60],
       iconAnchor: [20, 55],
       popupAnchor: [0,0],
@@ -124,7 +124,7 @@ var markers = {
   },
   pizza(){
     let pizza = L.icon({
-      iconUrl: "images/logo/pizza.png",
+      iconUrl: "images/markers/pizza.png",
       iconSize: [40, 60],
       iconAnchor: [20, 55],
       popupAnchor: [0,0],
@@ -138,7 +138,7 @@ var markers = {
   },
   gare(){
     let gare = L.icon({
-      iconUrl: "images/logo/gare.png",
+      iconUrl: "images/markers/gare.png",
       iconSize: [40, 60],
       iconAnchor: [20, 55],
       popupAnchor: [0,0],
