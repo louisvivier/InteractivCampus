@@ -1,11 +1,31 @@
 .images {
   object-fit: contain;
+  margin-bottom: 3px;
 }
 .logo{
   width: 33%;
   height: auto;
 }
 .streetpic{
-  width: 66%;
+  width: 66.1%;
   height: auto;
+}
+.infos{
+  margin: 3px;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  padding: 10px;
+  font-family: sans-serif;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.infos a {
+  text-decoration: none;
+}
+.twitterFeed {
+  margin-top: 5px;
+  text-align: center;
 }
