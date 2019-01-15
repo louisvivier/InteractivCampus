@@ -1,0 +1,11 @@
+.images {
+  object-fit: contain;
+}
+.logo{
+  width: 33%;
+  height: auto;
+}
+.streetpic{
+  width: 66%;
+  height: auto;
+}
