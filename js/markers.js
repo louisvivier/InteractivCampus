@@ -48,7 +48,7 @@ var markers = {
   urbawood(){
     let urbawood = L.icon({
       iconUrl: "images/markers/urbawood.png",
-      iconSize: [40, 60],
+      iconSize: [55, 60],
       iconAnchor: [20, 55],
       popupAnchor: [0, 0],
     });
@@ -109,7 +109,7 @@ var markers = {
   sandwich(){
     let sandwich = L.icon({
       iconUrl: "images/markers/sandwich.png",
-      iconSize: [40, 60],
+      iconSize: [55, 60],
       iconAnchor: [20, 55],
       popupAnchor: [0,0],
     });
