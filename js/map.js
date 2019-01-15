@@ -12,7 +12,15 @@ var map = {
       minZoom: 14,
       maxZoom: 20
     }).addTo(macarte);
-    Markers();
+    markers.isen();
+    markers.hei();
+    markers.isa();
+    markers.yncrea();
+    markers.urbawood();
+    markers.bus();
+    markers.metro();
+    markers.velo();
+    markers.aeu();
     Polygone();
     Batiments();
   }
