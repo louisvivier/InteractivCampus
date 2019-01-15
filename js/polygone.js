@@ -5,8 +5,8 @@ var Polygone = function(){
            [50.6331245, 3.0238751],
            [50.6329517, 3.0234348]
         ],{
-        color:'brown',
-        fillColor:'brown',
+        color:'#703500',
+        fillColor:'#be8d2e',
         fillOpacity:0.7
       }).addTo(macarte);
     var poly_ISEN = L.polygon([
@@ -15,7 +15,7 @@ var Polygone = function(){
       [50.63334, 3.04894],
       [50.63373, 3.04821]
     ],{
-      color:'red',
+      color:'black',
       fillColor:'red',
       fillOpacity:0.7
     }).addTo(macarte);
@@ -34,7 +34,7 @@ var Polygone = function(){
       [50.63391 ,3.04639]
     ],{
       color:'green',
-      fillColor:'green',
+      fillColor:'#6cc934',
       fillOpacity:0.7
     }).addTo(macarte);
     var poly_HEI = L.polygon([
@@ -43,7 +43,7 @@ var Polygone = function(){
       [50.63334, 3.04545],
       [50.63357, 3.04485]
     ],{
-      color:'black',
+      color:'white',
       fillColor:'black',
       fillOpacity:0.7
     }).addTo(macarte);
@@ -53,8 +53,8 @@ var Polygone = function(){
       [50.63363, 3.04670],
       [50.63350, 3.04701],
     ],{
-      color:'brown',
-      fillColor:'brown',
+      color:'black',
+      fillColor:'#ffa500',
       fillOpacity:0.7
     }).addTo(macarte);
     var poly_yncrea_compta = L.polygon([
@@ -78,7 +78,7 @@ var Polygone = function(){
       [50.63315, 3.04763]
     ],{
       color:'blue',
-      fillColor:'blue',
+      fillColor:'#0070ff',
       fillOpacity:0.7
     }).addTo(macarte);
 };
