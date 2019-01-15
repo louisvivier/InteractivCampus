@@ -7,7 +7,9 @@ places = {
     "website": "http://www.isen-lille.fr",
     "link_text":"isen-lille.fr",
     "twitter": "isenlille",
-    "marker_color": "#d65543"
+    "marker_color": "#d65543",
+    "logo_name":"isen",
+    "streetpic_name":"isen"
   },
   "HEI":{
     "adress_street": "13 Rue de Toul",
@@ -17,7 +19,9 @@ places = {
     "website": "http://www.hei.fr",
     "link_text":"hei.fr",
     "twitter": "",
-    "marker_color": "#d65543"
+    "marker_color": "#d65543",
+    "logo_name":"hei",
+    "streetpic_name":"hei"
   },
   "ISA":{
     "adress_street": "48 Boulevard Vauban",
@@ -27,9 +31,11 @@ places = {
     "website": "http://www.isa-lille.fr",
     "link_text":"isa-lille.fr",
     "twitter": "",
-    "marker_color": "#d65543"
+    "marker_color": "#d65543",
+    "logo_name":"isa",
+    "streetpic_name":"isa"
   },
-  "yncrea":{
+  "Yncrea":{
     "adress_street": "2 Rue Norbert Segard",
     "adress_city": "59014 Lille",
     "phone": "03 28 38 48 58",
@@ -37,9 +43,11 @@ places = {
     "website": "http://www.yncrea-hautsdefrance.fr",
     "link_text":"yncrea-hautsdefrance.fr",
     "twitter": "",
-    "marker_color": "#d65543"
+    "marker_color": "#d65543",
+    "logo_name":"yncrea",
+    "streetpic_name":"yncrea1"
   },
-  "urbawood":{
+  "Urbawood":{
     "adress_street": "58 Allée Marie-Thérèse Vicot-Lhermitte",
     "adress_city": "59000 Lille",
     "phone": "03 28 38 48 58",
@@ -47,7 +55,9 @@ places = {
     "website": "http://www.yncrea-hautsdefrance.fr",
     "link_text":"yncrea-hautsdefrance.fr",
     "twitter": "",
-    "marker_color": "#d65543"
+    "marker_color": "#d65543",
+    "logo_name":"adicode",
+    "streetpic_name":"adicode"
   },
   "AEU":{
     "adress_street": "47 Boulevard Vauban",
@@ -57,7 +67,9 @@ places = {
     "website": "http://www.asso-aeu.fr",
     "link_text":"asso-aeu.fr",
     "twitter": "",
-    "marker_color": "#dfc277"
+    "marker_color": "#dfc277",
+    "logo_name":"aeu",
+    "streetpic_name":"aeu"
   },
   "Beaux-Arts":{
     "adress_street": "Place de la République",
@@ -67,9 +79,11 @@ places = {
     "website": "https://www.transpole.fr/fr/",
     "link_text":"transpole.fr",
     "twitter": "",
-    "marker_color": "#9eb886"
+    "marker_color": "#9eb886",
+    "logo_name":"metro",
+    "streetpic_name":"beauxarts"
   },
-  "Bois":{
+  "BoisBlanc":{
     "adress_street": "Quartier Bois-Blancs",
     "adress_city": "59000 Lille",
     "phone": "03 20 40 40 40",
@@ -77,7 +91,9 @@ places = {
     "website": "https://www.transpole.fr/fr/",
     "link_text":"transpole.fr",
     "twitter": "",
-    "marker_color": "#9eb886"
+    "marker_color": "#9eb886",
+    "logo_name":"metro",
+    "streetpic_name":"boisblanc"
   },
   "Boite":{
     "adress_street": "45 Boulevard Vauban",
@@ -87,9 +103,11 @@ places = {
     "website": "https://laboiteasandwichs-lille.com/",
     "link_text":"laboiteasandwichs-lille.com",
     "twitter": "",
-    "marker_color": "#dfc277"
+    "marker_color": "#dfc277",
+    "logo_name":"boite",
+    "streetpic_name":"boite"
   },
-  "celine":{
+  "Celine":{
     "adress_street": "261 Rue Nationale",
     "adress_city": "59800 Lille",
     "phone": "03 20 86 27 22",
@@ -97,9 +115,11 @@ places = {
     "website": "https://www.kebabceline.com/",
     "link_text":"kebabceline.com",
     "twitter": "",
-    "marker_color": "#dfc277"
+    "marker_color": "#dfc277",
+    "logo_name":"celine",
+    "streetpic_name":"celine"
   },
-  "cormon":{
+  "Cormontaigne":{
     "adress_street": "Cormontaigne",
     "adress_city": "59800 Lille",
     "phone": "03 20 40 40 40",
@@ -107,9 +127,11 @@ places = {
     "website": "https://www.transpole.fr/fr/",
     "link_text":"transpole.fr",
     "twitter": "",
-    "marker_color": "#9eb886"
+    "marker_color": "#9eb886",
+    "logo_name":"metro",
+    "streetpic_name":"cormontaigne"
   },
-  "colisee":{
+  "Colisee":{
     "adress_street": "206 Avenue de Dunkerque",
     "adress_city": "59130 Lambersart",
     "phone": "07 82 62 99 80",
@@ -117,9 +139,11 @@ places = {
     "website": "http://friteriducolisee.e-monsite.com",
     "link_text":"friteriducolisee.e-monsite.com",
     "twitter": "",
-    "marker_color": "#dfc277"
+    "marker_color": "#dfc277",
+    "logo_name":"colisee",
+    "streetpic_name":"colisee"
   },
-  "dog":{
+  "Dog":{
     "adress_street": "43 Boulevard Vauban",
     "adress_city": "59800 Lille",
     "phone": "03 28 36 06 78",
@@ -127,9 +151,11 @@ places = {
     "website": "",
     "link_text":"",
     "twitter": "",
-    "marker_color": "#dfc277"
+    "marker_color": "#dfc277",
+    "logo_name":"dog",
+    "streetpic_name":"dog"
   },
-  "dominos":{
+  "Dominos":{
     "adress_street": "236 Avenue de Dunkerque",
     "adress_city": "59130 Lambersart",
     "phone": "03 20 09 18 00",
@@ -137,9 +163,11 @@ places = {
     "website": "https://www.dominos.fr/magasin/lambersart_59130",
     "link_text":"dominos.fr",
     "twitter": "",
-    "marker_color": "#dfc277"
+    "marker_color": "#dfc277",
+    "logo_name":"dominos",
+    "streetpic_name":"dominos"
   },
-  "europe":{
+  "Europe":{
     "adress_street": "1 Place François Mitterrand",
     "adress_city": "59777 Euralille",
     "phone": "08 90 10 72 94",
@@ -147,9 +175,11 @@ places = {
     "website": "http://www.gares-sncf.com/fr/gare/frlle/lille-europe",
     "link_text":"gares-sncf.com",
     "twitter": "",
-    "marker_color": "#9eb886"
+    "marker_color": "#9eb886",
+    "logo_name":"sncf",
+    "streetpic_name":"europe"
   },
-  "flandres":{
+  "Flandres":{
     "adress_street": "Place des Buisses",
     "adress_city": "59000 Lille",
     "phone": "08 92 35 35 35",
@@ -157,9 +187,11 @@ places = {
     "website": "https://www.gares-sncf.com/fr/gare/fradj/lille-flandres",
     "link_text":"gares-sncf.com",
     "twitter": "",
-    "marker_color": "#9eb886"
+    "marker_color": "#9eb886",
+    "logo_name":"sncf",
+    "streetpic_name":"flandres"
   },
-  "kiosque":{
+  "Kiosque":{
     "adress_street": "246 Avenue de Dunkerque ",
     "adress_city": "59130 Lambersart",
     "phone": "03 62 65 11 51",
@@ -167,7 +199,9 @@ places = {
     "website": "https://www.le-kiosque-a-pizzas.com/commander-pizza/pizza-lambersart-37-0.html",
     "link_text":"",
     "twitter": "",
-    "marker_color": "#dfc277"
+    "marker_color": "#dfc277",
+    "logo_name":"kiosque",
+    "streetpic_name":"kiosque"
   },
   "Paul":{
     "adress_street": "19 Place Du Général De Gaulle",
@@ -177,7 +211,9 @@ places = {
     "website": "https://www.paul.fr/fr/boutique/1036-paul-lille-de-gaulle",
     "link_text":"paul.fr",
     "twitter": "",
-    "marker_color": "#dfc277"
+    "marker_color": "#dfc277",
+    "logo_name":"paul",
+    "streetpic_name":"paul"
   },
   "Pause":{
     "adress_street": "144 Avenue de Bretagne",
@@ -187,6 +223,8 @@ places = {
     "website": "",
     "link_text":"",
     "twitter": "",
-    "marker_color": "#dfc277"
+    "marker_color": "#dfc277",
+    "logo_name":"sandwich",
+    "streetpic_name":"pause"
   },
 }

@@ -3,8 +3,8 @@ var leftPan = {
     $("#leftPan").css("background-color",places[id].marker_color);
     $("#leftPan").css("visibility","visible");
     $("#leftPan").css("width","500px");
-    $(".logo").attr("src", "images/logos/"+id+".png");
-    $(".streetpic").attr("src", "images/streetpics/"+id+".png");
+    $(".logo").attr("src", "images/logos/"+places[id].logo_name+".png");
+    $(".streetpic").attr("src", "images/streetpics/"+places[id].streetpic_name+".png");
     $('.adress').html(places[id].adress_street + ", " + places[id].adress_city);
     $('.phone').html(places[id].phone);
     $('.email').html(places[id].email);
