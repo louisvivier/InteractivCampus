@@ -1,5 +1,5 @@
-var Batiments = {
-  ISEN:{
+buildings = {
+  "ISEN":{
     "adresse_rue": "41 Boulevard Vauban",
     "adresse_ville": "59800 Lille",
     "telephone": "03 20 30 40 50",
