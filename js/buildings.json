@@ -1,37 +1,37 @@
 buildings = {
   "ISEN":{
-    "adresse_rue": "41 Boulevard Vauban",
-    "adresse_ville": "59800 Lille",
-    "telephone": "03 20 30 40 50",
-    "mail": "lille@isen.fr",
-    "site": "www.isen-lille.fr",
+    "adress_street": "41 Boulevard Vauban",
+    "adress_city": "59800 Lille",
+    "phone": "03 20 30 40 50",
+    "email": "lille@isen.fr",
+    "website": "www.isen-lille.fr",
   },
   "HEI":{
-    "adresse_rue": "13 Rue de Toul",
-    "adresse_ville": "59000 Lille",
-    "telephone": "03 28 38 48 58",
-    "mail": "contact@hei.fr",
-    "site": "www.hei.fr"
+    "adress_street": "13 Rue de Toul",
+    "adress_city": "59000 Lille",
+    "phone": "03 28 38 48 58",
+    "email": "contact@hei.fr",
+    "website": "www.hei.fr"
   },
   "ISA":{
-    "adresse_rue": "48 Boulevard Vauban",
-    "adresse_ville": "59046 Lille",
-    "telephone": "03 28 38 48 48",
-    "mail": "contact@isa-lille.fr",
-    "site": "www.isa-lille.fr"
+    "adress_street": "48 Boulevard Vauban",
+    "adress_city": "59046 Lille",
+    "phone": "03 28 38 48 48",
+    "email": "contact@isa-lille.fr",
+    "website": "www.isa-lille.fr"
   },
   "yncrea":{
-    "adresse_rue": "2 Rue Norbert Segard",
-    "adresse_ville": "59014 Lille",
-    "telephone": "03 28 38 48 58",
-    "mail": "contact@yncrea.fr",
-    "site": "http://www.yncrea-hautsdefrance.fr"
+    "adress_street": "2 Rue Norbert Segard",
+    "adress_city": "59014 Lille",
+    "phone": "03 28 38 48 58",
+    "email": "contact@yncrea.fr",
+    "website": "http://www.yncrea-hautsdefrance.fr"
   },
   "urbawood":{
-    "adresse_rue": "58 Allée Marie-Thérèse Vicot-Lhermitte",
-    "adresse_ville": "59000 Lille",
-    "telephone": "03 28 38 48 58",
-    "mail": "contac@yncrea.fr",
-    "site": "http://www.yncrea-hautsdefrance.fr"
+    "adress_street": "58 Allée Marie-Thérèse Vicot-Lhermitte",
+    "adress_city": "59000 Lille",
+    "phone": "03 28 38 48 58",
+    "email": "contac@yncrea.fr",
+    "website": "http://www.yncrea-hautsdefrance.fr"
   }
 }
