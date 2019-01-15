@@ -26,6 +26,7 @@ var map = {
     markers.pizza();
     markers.gare();
     markers.atm();
+    markers.caddy();
     polygone.isen();
     polygone.urbawood();
     polygone.hei();
@@ -33,5 +34,6 @@ var map = {
     polygone.yncrea();
     polygone.yncreaCompta();
     polygone.aeu();
+    tempsRestant();
   }
 };

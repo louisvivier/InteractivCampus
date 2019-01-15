@@ -161,7 +161,7 @@ var markers = {
     let markerATM = L.marker([50.63195,3.04642],{icon:atm }).addTo(macarte); //société générale
     let markerATM1 = L.marker([50.63348,3.04707],{icon:atm }).addTo(macarte); //atm isa
     let markerATM2 = L.marker([50.63640,3.02629],{icon:atm }).addTo(macarte); //lcl
-    let markerATM3 = L.marker([50.62621,3.04082],{icon:atm }).addTo(macarte); //crédit agricole cormon
+    let markerATM3 = L.marker([50.62621,3.04082],{icon:atm }).addTo(macarte); //crédit du nord cormon
     let markerATM4 = L.marker([50.63083,3.04449],{icon:atm }).addTo(macarte); //crédit agricole vauban
     let markerATM5 = L.marker([50.62916,3.04258],{icon:atm }).addTo(macarte); //CIC
   },
