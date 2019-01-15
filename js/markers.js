@@ -96,7 +96,7 @@ var markers = {
     let markerVELO1 = L.marker([50.63235,3.06231],{icon:velo }).addTo(macarte); //beaux arts
     let markerVELO2 = L.marker([50.62624,3.04001],{icon:velo }).addTo(macarte); //cormon
   },
-  //******************************************RESTAU************************************************
+  //******************************************AUTRE************************************************
   aeu(){
     let aeu = L.icon({
       iconUrl: "images/markers/aeu.png",
@@ -147,5 +147,16 @@ var markers = {
     });
     let markerGARE = L.marker([50.63627,3.07089],{icon:gare }).addTo(macarte); //lille flandres
     let markerGARE1 = L.marker([50.63932,3.07540],{icon:gare }).addTo(macarte); //lille europe
+  },
+  atm(){
+    let atm = L.icon({
+      iconUrl: "images/markers/atm.png",
+      iconSize: [40, 60],
+      iconAnchor: [20, 55],
+      popupAnchor: [0,0],
+    });
+    let markerATM = L.marker([50.63195,3.04642],{icon:atm }).addTo(macarte); //société générale
+    let markerATM1 = L.marker([50.63348,3.04707],{icon:atm }).addTo(macarte); //atm isa
+    let markerATM2 = L.marker([50.63640,3.02629],{icon:atm }).addTo(macarte); //lcl
   }
 };
