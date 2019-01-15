@@ -1,24 +1,27 @@
-buildings = {
+places = {
   "ISEN":{
     "adress_street": "41 Boulevard Vauban",
     "adress_city": "59800 Lille",
     "phone": "03 20 30 40 50",
     "email": "lille@isen.fr",
     "website": "www.isen-lille.fr",
+    "twitter": "isenlille"
   },
   "HEI":{
     "adress_street": "13 Rue de Toul",
     "adress_city": "59000 Lille",
     "phone": "03 28 38 48 58",
     "email": "contact@hei.fr",
-    "website": "www.hei.fr"
+    "website": "www.hei.fr",
+    "twitter": ""
   },
   "ISA":{
     "adress_street": "48 Boulevard Vauban",
     "adress_city": "59046 Lille",
     "phone": "03 28 38 48 48",
     "email": "contact@isa-lille.fr",
-    "website": "www.isa-lille.fr"
+    "website": "www.isa-lille.fr",
+    "twitter": ""
   },
   "yncrea":{
     "adress_street": "2 Rue Norbert Segard",
@@ -32,104 +35,119 @@ buildings = {
     "adress_city": "59000 Lille",
     "phone": "03 28 38 48 58",
     "email": "contac@yncrea.fr",
-    "website": "http://www.yncrea-hautsdefrance.fr"
+    "website": "http://www.yncrea-hautsdefrance.fr",
+    "twitter": ""
   },
   "AEU":{
     "adress_street": "47 Boulevard Vauban",
     "adress_city": "59800 Lille",
     "phone": "03 20 15 97 70",
     "email": "",
-    "website": "www.asso-aeu.fr"
+    "website": "www.asso-aeu.fr",
+    "twitter": ""
   },
   "Beaux-Arts":{
     "adress_street": "Place de la République",
     "adress_city": "59000 Lille",
     "phone": "03 20 40 40 40",
     "email": "",
-    "website": "https://www.transpole.fr/fr/"
+    "website": "https://www.transpole.fr/fr/",
+    "twitter": ""
   },
   "Bois":{
     "adress_street": "Quartier Bois-Blancs",
     "adress_city": "59000 Lille",
     "phone": "03 20 40 40 40",
     "email": "",
-    "website": "https://www.transpole.fr/fr/"
+    "website": "https://www.transpole.fr/fr/",
+    "twitter": ""
   },
   "Boite":{
     "adress_street": "45 Boulevard Vauban",
     "adress_city": "59800 Lille",
     "phone": "06 48 70 22 38",
     "email": "",
-    "website": "https://laboiteasandwichs-lille.com/"
+    "website": "https://laboiteasandwichs-lille.com/",
+    "twitter": ""
   },
   "celine":{
     "adress_street": "261 Rue Nationale",
     "adress_city": "59800 Lille",
     "phone": "03 20 86 27 22",
     "email": "contact@kebabceline.com",
-    "website": "https://www.kebabceline.com/"
+    "website": "https://www.kebabceline.com/",
+    "twitter": ""
   },
   "cormon":{
     "adress_street": "Cormontaigne",
     "adress_city": "59800 Lille",
     "phone": "03 20 40 40 40",
     "email": "",
-    "website": "https://www.transpole.fr/fr/"
+    "website": "https://www.transpole.fr/fr/",
+    "twitter": ""
   },
   "colisee":{
     "adress_street": "206 Avenue de Dunkerque",
     "adress_city": "59130 Lambersart",
     "phone": "07 82 62 99 80",
     "email": "",
-    "website": "http://friteriducolisee.e-monsite.com"
+    "website": "http://friteriducolisee.e-monsite.com",
+    "twitter": ""
   },
   "dog":{
     "adress_street": "43 Boulevard Vauban",
     "adress_city": "59800 Lille",
     "phone": "03 28 36 06 78",
     "email": "",
-    "website": ""
+    "website": "",
+    "twitter": ""
   },
   "dominos":{
     "adress_street": "236 Avenue de Dunkerque",
     "adress_city": "59130 Lambersart",
     "phone": "03 20 09 18 00",
     "email": "",
-    "website": "https://www.dominos.fr/magasin/lambersart_59130"
+    "website": "https://www.dominos.fr/magasin/lambersart_59130",
+    "twitter": ""
   },
   "europe":{
     "adress_street": "1 Place François Mitterrand",
     "adress_city": "59777 Euralille",
     "phone": "08 90 10 72 94",
     "email": "",
-    "website": "http://www.gares-sncf.com/fr/gare/frlle/lille-europe"
+    "website": "http://www.gares-sncf.com/fr/gare/frlle/lille-europe",
+    "twitter": ""
   },
   "flandres":{
     "adress_street": "Place des Buisses",
     "adress_city": "59000 Lille",
     "phone": "08 92 35 35 35",
     "email": "",
-    "website": "https://www.gares-sncf.com/fr/gare/fradj/lille-flandres"
+    "website": "https://www.gares-sncf.com/fr/gare/fradj/lille-flandres",
+    "twitter": ""
   },
   "kiosque":{
     "adress_street": "246 Avenue de Dunkerque ",
     "adress_city": "59130 Lambersart",
     "phone": "03 62 65 11 51",
     "email": "",
-    "website": "https://www.le-kiosque-a-pizzas.com/commander-pizza/pizza-lambersart-37-0.html"
+    "website": "https://www.le-kiosque-a-pizzas.com/commander-pizza/pizza-lambersart-37-0.html",
+    "twitter": ""
   },
   "Paul":{
     "adress_street": "19 Place Du Général De Gaulle",
     "adress_city": "59000 Lille",
     "phone": "03 20 57 40 99",
     "email": "",
-    "website": "https://www.paul.fr/fr/boutique/1036-paul-lille-de-gaulle"
+    "website": "https://www.paul.fr/fr/boutique/1036-paul-lille-de-gaulle",
+    "twitter": ""
   },
   "Pause":{
     "adress_street": "144 Avenue de Bretagne",
     "adress_city": "59000 Lille",
     "phone": "03 20 93 72 11",
     "email": "",
-    "website": ""
+    "website": "",
+    "twitter": ""
   },
 }
