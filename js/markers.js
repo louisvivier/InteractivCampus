@@ -179,6 +179,15 @@ var markers = {
     let markerCADDY4 = L.marker([50.63748,3.07436],{icon:caddy }).addTo(macarte).on('click',function(e) { leftPan.open("Euralille");}); //euralille
     let markerCADDY5 = L.marker([50.62575,3.03954],{icon:caddy }).addTo(macarte).on('click',function(e) { leftPan.open("CarrefourCity");}); //carrefour city cormon
     let markerCADDY6 = L.marker([50.63219,3.05076],{icon:caddy }).addTo(macarte).on('click',function(e) { leftPan.open("Casino2");}); //Petit casino
-  }
+  },
+  thermo(){
+    let thermo = L.icon({
+      iconUrl: "images/markers/thermo.png",
+      iconSize: [40, 40],
+      iconAnchor: [18, 30],
+      popupAnchor: [0,0],
+    });
+    let markerTHERMO = L.marker([50.63308,3.02345],{icon:thermo }).addTo(macarte)//.on('click',function(e) { leftPan.open("Thermo");}); //thermo urbawood
+  },
 
 };

@@ -28,6 +28,7 @@ var map = {
     markers.gare();
     markers.atm();
     markers.caddy();
+    markers.thermo();
     polygone.isen();
     polygone.rameau();
     polygone.urbawood();
