@@ -71,17 +71,12 @@ var tempsRestant = function(suivant, second, troisieme){
 var getHoraires = function(ligne, arret, sens){
   var xhr = new XMLHttpRequest();
   var chemin = "https://opendata.lillemetropole.fr/api/records/1.0/search/?dataset=transpole-prochainspassages&facet=nomstation&facet=codeligne&facet=sensligne&refine.codeligne=" + ligne + "&refine.nomstation=" + arret + "&refine.sensligne=" + sens;
-  xhr.open('GET', chemin);
+  xhr.open('GET', chemin, false);
   xhr.send(null);
-  xhr.responseType = 'arraybuffer';
-  var requete;
-  console.log(requete);
-  requete = xhr.response;
-  console.log(typeof(requete));
-  console.log(requete);
-  var suivant1;
-  var suivant2;
-  var suivant3;
+  var requete = xhr.response;
+  var suivant1 = requete.records[0].fields.heureestimeedepart;
+  var suivant2 = requete.records[1].fields.heureestimeedepart;
+  var suivant3 = requete.records[2].fields.heureestimeedepart;
   var horaires = tempsRestant(suivant1, suivant2, suivant3);
   return horaires;
 };
