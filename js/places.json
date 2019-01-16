@@ -649,6 +649,44 @@ places = {
     "name":"Ligne 18 - Hotel de Ville"
   }
 },
+"BusEuratech1":{
+  "name":"Arrêt de bus Euratechnologies",
+  "adress_street": "Avenue De Bretagne",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/bus/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_bus",
+  "marker_color": "#9eb886",
+  "logo_name":"bus",
+  "streetpic_name":"lille",
+  "bus_infos":{
+    "ligne":"18",
+    "stop":"EURATECHNOLOGIES",
+    "way":"ANATOLE+FRANCE",
+    "name":"Ligne 18 - Anatole France"
+  }
+},
+"BusEuratech2":{
+  "name":"Arrêt de bus Euratechnologies",
+  "adress_street": "Avenue Marie-Louise Delwaulle",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/bus/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_bus",
+  "marker_color": "#9eb886",
+  "logo_name":"bus",
+  "streetpic_name":"lille",
+  "bus_infos":{
+    "ligne":"18",
+    "stop":"EURATECHNOLOGIES",
+    "way":"HOTEL+DE+VILLE",
+    "name":"Ligne 18 - Hotel De Ville"
+  }
+},
 
 "_comment":"________________________________________________VELOS_________________________________________________",
 

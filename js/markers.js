@@ -79,6 +79,8 @@ var markers = {
     let markerBUS12 = L.marker([50.63076,3.02271],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusPont2");}); //pont
     let markerBUS13 = L.marker([50.63486,3.04895],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusSolfe3");}); //solfé
     let markerBUS14 = L.marker([50.63194,3.06211],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusBeauxArts3");}); //beaux arts
+    let markerBUS15 = L.marker([50.63353,3.01944],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusEuratech1");}); //euratechnologies
+    let markerBUS16 = L.marker([50.63310,3.01921],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusEuratech2");}); //euratechnologies
   },
   metro(){
     let metro = L.icon({
