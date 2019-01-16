@@ -214,7 +214,7 @@ places = {
   },
   "Sogood":{
     "name":"Sogood",
-    "adress_street": "163 Avenue de Bretagne",
+    "adress_street": "163 Avenue de Bretagne,",
     "adress_city": "59000 Lille",
     "phone": "03 20 53 40 12",
     "email": "",
@@ -229,7 +229,7 @@ places = {
 
   "Kiosque":{
     "name":"Le Kiosque à Pizzas",
-    "adress_street": "246 Avenue de Dunkerque",
+    "adress_street": "246 Avenue de Dunkerque ",
     "adress_city": "59130 Lambersart",
     "phone": "03 62 65 11 51",
     "email": "",
@@ -402,6 +402,25 @@ places = {
     "name":"Ligne 18 - Anatole France"
   }
 },
+"BusSolfe3":{
+  "name":"Arrêt de bus Solférino",
+  "adress_street": "Solférino",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/bus/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_bus",
+  "marker_color": "#9eb886",
+  "logo_name":"bus",
+  "streetpic_name":"lille",
+  "bus_infos":{
+    "ligne":"12",
+    "stop":"SOLFERINO",
+    "way":"LE+PARC",
+    "name":"Ligne 12 - Le Parc"
+  }
+},
 "BusBeauxArts1":{
   "name":"Arrêt de bus République - Beaux Arts",
   "adress_street": "République Beaux Arts",
@@ -438,6 +457,25 @@ places = {
     "stop":"REPUBLIQUE",
     "way":"HOTEL+DE+VILLE",
     "name":"Ligne 18 - Hotel De Ville"
+  }
+},
+"BusBeauxArts3":{
+  "name":"Arrêt de bus République - Beaux Arts",
+  "adress_street": "République Beaux Arts",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/bus/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_bus",
+  "marker_color": "#9eb886",
+  "logo_name":"bus",
+  "streetpic_name":"lille",
+  "bus_infos":{
+    "ligne":"12",
+    "stop":"REPUBLIQUE",
+    "way":"LE+PARC",
+    "name":"Ligne 12 - Le Parc"
   }
 },
 "BusFlandres1":{

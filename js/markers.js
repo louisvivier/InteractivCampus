@@ -77,6 +77,8 @@ var markers = {
     let markerBUS10 = L.marker([50.63942,3.07507],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusEurope");}); //europe
     let markerBUS11 = L.marker([50.63089,3.02271],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusPont1");}); //pont
     let markerBUS12 = L.marker([50.63076,3.02271],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusPont2");}); //pont
+    let markerBUS13 = L.marker([50.63486,3.04895],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusSolfe3");}); //solfé
+    let markerBUS14 = L.marker([50.63194,3.06211],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusBeauxArts3");}); //beaux arts
   },
   metro(){
     let metro = L.icon({
