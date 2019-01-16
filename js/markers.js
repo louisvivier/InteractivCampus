@@ -34,7 +34,7 @@ var markers = {
       iconAnchor: [20,55],
       popupAnchor: [0,0],
     });
-    let markerCATHO = L.marker([50.63327,3.04635],{icon:catho }).addTo(macarte)//.on('click',function(e) { leftPan.open("Catho");});
+    let markerCATHO = L.marker([50.63327,3.04635],{icon:catho }).addTo(macarte).on('click',function(e) { leftPan.open("Catho");});
   },
   yncrea(){
     let yncrea = L.icon({
