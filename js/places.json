@@ -379,7 +379,8 @@ places = {
   "bus_infos":{
     "ligne":"12",
     "stop":"SOLFERINO",
-    "way":"PAVE+STRATEGIQUE"
+    "way":"PAVE+STRATEGIQUE",
+    "name":"Ligne 12 - Pave Strategique"
   }
 },
 "BusSolfe2":{
@@ -397,7 +398,8 @@ places = {
   "bus_infos":{
     "ligne":"18",
     "stop":"SOLFERINO",
-    "way":"ANATOLE+FRANCE"
+    "way":"ANATOLE+FRANCE",
+    "name":"Ligne 18 - Anatole France"
   }
 },
 "BusBeauxArts1":{
@@ -415,7 +417,8 @@ places = {
   "bus_infos":{
     "ligne":"18",
     "stop":"REPUBLIQUE",
-    "way":"ANATOLE+FRANCE"
+    "way":"ANATOLE+FRANCE",
+    "name":"Ligne 18 - Anatole France"
   }
 },
 "BusBeauxArts2":{
@@ -433,7 +436,8 @@ places = {
   "bus_infos":{
     "ligne":"12",
     "stop":"REPUBLIQUE+BEAUX+ARTS",
-    "way":"LE+PARC"
+    "way":"LE+PARC",
+    "name":"Ligne 12 - Le Parc"
   }
 },
 "BusFlandres1":{
@@ -451,7 +455,8 @@ places = {
   "bus_infos":{
     "ligne":"12",
     "stop":"LILLE+FLANDRES",
-    "way":"PAVE+STRATEGIQUE"
+    "way":"PAVE+STRATEGIQUE",
+    "name":"Ligne 12 - Pave Strategique"
   }
 },
 "BusFlandres2":{
@@ -469,7 +474,8 @@ places = {
   "bus_infos":{
     "ligne":"12",
     "stop":"LILLE+FLANDRES",
-    "way":"LE PARC"
+    "way":"LE PARC",
+    "name":"Ligne 12 - Le Parc"
   }
 },
 "BusEurope":{
@@ -487,7 +493,8 @@ places = {
   "bus_infos":{
     "ligne":"12",
     "stop":"LILLE+EUROPE",
-    "way":"LE+PARC"
+    "way":"LE+PARC",
+    "name":"Ligne 12 - Le Parc"
   }
 },
 "BusCormon1":{
@@ -505,7 +512,8 @@ places = {
   "bus_infos":{
     "ligne":"",
     "stop":"",
-    "way":""
+    "way":"",
+    "name":""
   }
 },
 "BusCormon2":{
@@ -523,7 +531,8 @@ places = {
   "bus_infos":{
     "ligne":"12",
     "stop":"CORMONTAIGNE",
-    "way":"PAVE+STRATEGIQUE"
+    "way":"PAVE+STRATEGIQUE",
+    "name":"Ligne 12 - Pave Strategique"
   }
 },
 "BusBoisBlanc1":{
@@ -541,7 +550,8 @@ places = {
   "bus_infos":{
     "ligne":"18",
     "stop":"BOIS+BLANCS",
-    "way":"ANATOLE+FRANCE"
+    "way":"ANATOLE+FRANCE",
+    "name":"Ligne 18 - Anatole France"
   }
 },
 "BusBoisBlanc2":{
@@ -559,7 +569,8 @@ places = {
   "bus_infos":{
     "ligne":"18",
     "stop":"HENRI+REGNAULT",
-    "way":"HOTEL+VILLE"
+    "way":"HOTEL+VILLE",
+    "name":"Ligne 18 - Hotel de Ville"
   }
 },
 "BusPont1":{
@@ -577,7 +588,8 @@ places = {
   "bus_infos":{
     "ligne":"18",
     "stop":"LE+PONT",
-    "way":"ANATOLE+FRANCE"
+    "way":"ANATOLE+FRANCE",
+    "name":"Ligne 18 - Anatole France"
   }
 },
 "BusPont2":{
@@ -595,7 +607,8 @@ places = {
   "bus_infos":{
     "ligne":"18",
     "stop":"LE+PONT",
-    "way":"HOTEL+VILLE"
+    "way":"HOTEL+VILLE",
+    "name":"Ligne 18 - Hotel de Ville"
   }
 },
 
