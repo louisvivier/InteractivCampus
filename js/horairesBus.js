@@ -52,6 +52,7 @@ var horairesBus = {
     var minuteDecimal = heureDecimal%1;
     var heure = heureDecimal - minuteDecimal;
     var minute = minuteDecimal*60;
+    minute = Math.round(minute);
     let res = [heure, minute];
     return res;
   },
