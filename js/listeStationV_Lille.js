@@ -1,3 +1,3 @@
 var listeStationV_Lille = {
-  "solferino":"PALAIS+RAMEAU"
+  "solferino":["PALAIS+RAMEAU", "LILLE"],
 };

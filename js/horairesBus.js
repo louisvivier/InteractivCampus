@@ -76,13 +76,12 @@ var horairesBus = {
     xhr.send(null);
     var requete = xhr.response;
     try{
-      var suivant1 = requete.records[0].fields.heureestimeedepart;
-      var suivant2 = requete.records[1].fields.heureestimeedepart;
-      var suivant3 = requete.records[2].fields.heureestimeedepart;
+      var suivant1 = requete["records"][0]["fields"]["heureestimeedepart"];
+      var suivant2 = requete["records"][1]["fields"]["heureestimeedepart"];
+      var suivant3 = requete["records"][2]["fields"]["heureestimeedepart"];
       var horaires = horairesBus.tempsRestant(suivant1, suivant2, suivant3);
       return horaires;
     }catch{
-      console.log("Non disponible");
       var erreur = ["Non disponible", "Non disponible", "Non disponible"];
       return erreur;
     }
