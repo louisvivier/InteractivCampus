@@ -1,5 +1,5 @@
 var leftPan = {
-  open(id){
+  open(lat,lng,id){
     $("#leftPan").css("background-color",places[id].marker_color);
     $("#leftPan").css("visibility","visible");
     $("#leftPan").css("width","500px");
@@ -30,6 +30,7 @@ var leftPan = {
     else {
       $('.twitterFeed').html('');
     }
+    theMap.setView([lat, lng],17);
   },
   close(){
     document.getElementById("leftPan").style.visibility = "hidden";
