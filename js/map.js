@@ -29,6 +29,7 @@ var map = {
     markers.atm();
     markers.caddy();
     polygone.isen();
+    polygone.rameau();
     polygone.urbawood();
     polygone.hei();
     polygone.isa();
