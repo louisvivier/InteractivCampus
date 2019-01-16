@@ -377,10 +377,10 @@ places = {
   "logo_name":"bus",
   "streetpic_name":"lille",
   "bus_infos":{
-    "ligne":"12",
+    "ligne":"18",
     "stop":"SOLFERINO",
-    "way":"PAVE+STRATEGIQUE",
-    "name":"Ligne 12 - Pave Strategique"
+    "way":"HOTEL+DE+VILLE",
+    "name":"Ligne 18 - Hotel de Ville"
   }
 },
 "BusSolfe2":{
@@ -416,7 +416,7 @@ places = {
   "streetpic_name":"lille",
   "bus_infos":{
     "ligne":"18",
-    "stop":"REPUBLIQUE+BEAUX+ARTS",
+    "stop":"REPUBLIQUE",
     "way":"ANATOLE+FRANCE",
     "name":"Ligne 18 - Anatole France"
   }
@@ -434,10 +434,10 @@ places = {
   "logo_name":"bus",
   "streetpic_name":"lille",
   "bus_infos":{
-    "ligne":"12",
-    "stop":"REPUBLIQUE+BEAUX+ARTS",
-    "way":"LE+PARC",
-    "name":"Ligne 12 - Le Parc"
+    "ligne":"18",
+    "stop":"REPUBLIQUE",
+    "way":"HOTEL+DE+VILLE",
+    "name":"Ligne 18 - Hotel De Ville"
   }
 },
 "BusFlandres1":{
@@ -455,8 +455,8 @@ places = {
   "bus_infos":{
     "ligne":"12",
     "stop":"LILLE+FLANDRES",
-    "way":"PAVE+STRATEGIQUE",
-    "name":"Ligne 12 - Pave Strategique"
+    "way":"FERME+AUX+OIES",
+    "name":"Ligne 12 - Ferme Aux Oies"
   }
 },
 "BusFlandres2":{
@@ -510,10 +510,10 @@ places = {
   "logo_name":"bus",
   "streetpic_name":"lille",
   "bus_infos":{
-    "ligne":"",
-    "stop":"",
-    "way":"",
-    "name":""
+    "ligne":"12",
+    "stop":"CORMONTAIGNE",
+    "way":"FERME+AUX+OIES",
+    "name":"Ligne 12 - Ferme Aux Oies"
   }
 },
 "BusCormon2":{
@@ -531,8 +531,8 @@ places = {
   "bus_infos":{
     "ligne":"12",
     "stop":"CORMONTAIGNE",
-    "way":"PAVE+STRATEGIQUE",
-    "name":"Ligne 12 - Pave Strategique"
+    "way":"LE+PARC",
+    "name":"Ligne 12 - Le Parc"
   }
 },
 "BusBoisBlanc1":{
