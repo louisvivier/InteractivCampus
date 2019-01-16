@@ -9,7 +9,7 @@ var map = {
     // Leaflet ne récupère pas les cartes (tiles) sur un serveur par défaut. Nous devons lui préciser où nous souhaitons les récupérer. Ici, openstreetmap.fr
     L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
       // Il est toujours bien de laisser le lien vers la source des données
-      attribution: 'données © <a href="//osm.org/copyright">OpenStreetMap</a>/ODbL - rendu <a href="//openstreetmap.fr">OSM France</a>',
+      attribution: '<a href="https://geniusgames.fr">Application par GeniusCorp © </a> | données © <a href="//osm.org/copyright">OpenStreetMap</a>/ODbL - rendu <a href="//openstreetmap.fr">OSM France</a>',
       minZoom: 14,
       maxZoom: 20
     }).addTo(macarte);
