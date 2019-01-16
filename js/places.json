@@ -448,7 +448,7 @@ places = {
   "logo_name":"casino",
   "streetpic_name":"casino"
 },
-"CarrefouExpress1":{
+"CarrefourExpress1":{
   "adress_street": "298 Rue Nationale",
   "adress_city": "59000 Lille",
   "phone": "03 20 77 38 44",
@@ -460,7 +460,7 @@ places = {
   "logo_name":"carrefourexpress",
   "streetpic_name":"carrefourvauban"
 },
-"CarrefouExpress2":{
+"CarrefourExpress2":{
   "adress_street": "130 Avenue de Dunkerque",
   "adress_city": "59000 Lille",
   "phone": "03 28 82 08 09",
@@ -472,7 +472,7 @@ places = {
   "logo_name":"carrefourexpress",
   "streetpic_name":"carrefourboisblanc"
 },
-"CarrefouCity":{
+"CarrefourCity":{
   "adress_street": "4 Rue d'Isly",
   "adress_city": "59000 Lille",
   "phone": "03 20 10 95 71",
@@ -511,7 +511,7 @@ places = {
 
 "_comment":"________________________________________________ATM_________________________________________________",
 
-"Euralille":{
+"AtmIsa":{
   "adress_street": "1 Avenue Willy Brandt",
   "adress_city": "59000 Lille",
   "phone": "08 26 25 32 35",
