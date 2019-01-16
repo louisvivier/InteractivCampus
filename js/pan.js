@@ -4,12 +4,6 @@ var leftPan = {
     $("#leftPan").css("visibility","visible");
     $("#leftPan").css("width","500px");
     $(".logo").attr("src", "images/logos/"+places[id].logo_name+".png");
-    if (places[id].streetpic_name != ""){
-      $(".streetpic").attr("src", "images/streetpics/"+places[id].streetpic_name+".png");
-    }
-    else {
-      $(".streetpic").attr("src", "images/streetpics/lille.png");
-    }
     $(".streetpic").attr("src", "images/streetpics/"+places[id].streetpic_name+".png");
     $('.adress').html(places[id].adress_street + ", " + places[id].adress_city);
     $('.phone').html(places[id].phone);

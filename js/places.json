@@ -311,7 +311,7 @@ places = {
   "twitter": "transpole_bus",
   "marker_color": "#9eb886",
   "logo_name":"bus",
-  "streetpic_name":""
+  "streetpic_name":"lille"
 },
 "BusSolfe2":{
   "adress_street": "Solférino",
@@ -323,7 +323,7 @@ places = {
   "twitter": "transpole_bus",
   "marker_color": "#9eb886",
   "logo_name":"bus",
-  "streetpic_name":""
+  "streetpic_name":"lille"
 },
 "BusBeauxArts1":{
   "adress_street": "République Beaux Arts",
@@ -335,7 +335,7 @@ places = {
   "twitter": "transpole_bus",
   "marker_color": "#9eb886",
   "logo_name":"bus",
-  "streetpic_name":""
+  "streetpic_name":"lille"
 },
 "BusBeauxArts2":{
   "adress_street": "République Beaux Arts",
@@ -347,7 +347,7 @@ places = {
   "twitter": "transpole_bus",
   "marker_color": "#9eb886",
   "logo_name":"bus",
-  "streetpic_name":""
+  "streetpic_name":"lille"
 },
 "BusFlandres1":{
   "adress_street": "Lille Flandres",
@@ -359,7 +359,7 @@ places = {
   "twitter": "transpole_bus",
   "marker_color": "#9eb886",
   "logo_name":"bus",
-  "streetpic_name":""
+  "streetpic_name":"lille"
 },
 "BusFlandres2":{
   "adress_street": "Lille Flandres",
@@ -371,7 +371,7 @@ places = {
   "twitter": "transpole_bus",
   "marker_color": "#9eb886",
   "logo_name":"bus",
-  "streetpic_name":""
+  "streetpic_name":"lille"
 },
 "BusEurope":{
   "adress_street": "Lille Europe",
@@ -383,7 +383,7 @@ places = {
   "twitter": "transpole_bus",
   "marker_color": "#9eb886",
   "logo_name":"bus",
-  "streetpic_name":""
+  "streetpic_name":"lille"
 },
 "BusCormon1":{
   "adress_street": "Cormontaigne",
@@ -395,7 +395,7 @@ places = {
   "twitter": "transpole_bus",
   "marker_color": "#9eb886",
   "logo_name":"bus",
-  "streetpic_name":""
+  "streetpic_name":"lille"
 },
 "BusCormon2":{
   "adress_street": "Cormontaigne",
@@ -407,7 +407,7 @@ places = {
   "twitter": "transpole_bus",
   "marker_color": "#9eb886",
   "logo_name":"bus",
-  "streetpic_name":""
+  "streetpic_name":"lille"
 },
 "BusBoisBlanc1":{
   "adress_street": "Bois Blancs",
@@ -419,7 +419,7 @@ places = {
   "twitter": "transpole_bus",
   "marker_color": "#9eb886",
   "logo_name":"bus",
-  "streetpic_name":""
+  "streetpic_name":"lille"
 },
 "BusBoisBlanc2":{
   "adress_street": "Bois Blancs",
@@ -431,7 +431,7 @@ places = {
   "twitter": "transpole_bus",
   "marker_color": "#9eb886",
   "logo_name":"bus",
-  "streetpic_name":""
+  "streetpic_name":"lille"
 },
 
 "_comment":"________________________________________________SUPERMARKETS_________________________________________________",
