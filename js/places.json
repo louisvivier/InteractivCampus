@@ -198,7 +198,7 @@ places = {
     "logo_name":"pizza",
     "streetpic_name":"perfecto"
   },
-  "Rabbit1":{
+  "Rabbit2":{
     "adress_street": "2 Avenue Hippolyte Peslin",
     "adress_city": "59130 Lambersart",
     "phone": "03 20 08 27 27",
@@ -210,8 +210,8 @@ places = {
     "logo_name":"rabbit",
     "streetpic_name":"rabbit2"
   },
-  "Rabbit2":{
-    "adress_street": "1 Place de Strasbourg,",
+  "Rabbit1":{
+    "adress_street": "1 Place de Strasbourg",
     "adress_city": "59800 Lille",
     "phone": "03 20 14 32 32",
     "email": "",
