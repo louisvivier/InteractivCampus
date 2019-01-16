@@ -8,6 +8,7 @@ var markers = {
       popupAnchor: [0, 0],
     });
     let markerISEN = L.marker([50.63409,3.04879],{ icon: isen }).addTo(macarte).on('click',function(e) { leftPan.open("ISEN");});
+    let markerRameau = L.marker([50.63439,3.04979],{ icon: isen }).addTo(macarte).on('click',function(e) { leftPan.open("Rameau");});
   },
   hei(){
     let hei = L.icon({

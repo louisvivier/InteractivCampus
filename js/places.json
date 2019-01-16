@@ -13,6 +13,18 @@ places = {
     "logo_name":"isen",
     "streetpic_name":"isen"
   },
+  "Rameau":{
+    "adress_street": "39 Boulevard Vauban,",
+    "adress_city": "59800 Lille",
+    "phone": "03 20 49 50 00",
+    "email": "lille@isen.fr",
+    "website": "https://www.lille.fr/Nos-equipements/Palais-Rameau",
+    "link_text":"lille.fr",
+    "twitter": "isenlille",
+    "marker_color": "#d65543",
+    "logo_name":"isen",
+    "streetpic_name":"rameau"
+  },
   "HEI":{
     "adress_street": "13 Rue de Toul",
     "adress_city": "59000 Lille",
