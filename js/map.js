@@ -36,6 +36,5 @@ var map = {
     polygone.yncrea();
     polygone.yncreaCompta();
     polygone.aeu();
-    getHoraires(18, "SOLFERINO", "ANATOLE+FRANCE");
   }
 };
