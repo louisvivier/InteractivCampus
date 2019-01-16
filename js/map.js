@@ -31,6 +31,7 @@ var map = {
     polygone.urbawood();
     polygone.hei();
     polygone.isa();
+    polygone.catho();
     polygone.yncrea();
     polygone.yncreaCompta();
     polygone.aeu();
