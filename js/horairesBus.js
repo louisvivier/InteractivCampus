@@ -34,10 +34,10 @@ var horairesBus = {
       }else{
         res = " " + minute + " minutes";
       }
-    }else if(heure == 1){
+    }else if(heure == 1 || heure == 2){
       res = " " + heure + "h" + minute;
     }else{
-      res = "Plus de bus disponible";
+      res = "Pas de bus disponible";
     }
     return res;
   },
@@ -93,7 +93,53 @@ var horairesBus = {
     return horaires;
   },
 
-  getHoraires(ligne, arret, sens){ //(18, "SOLFERINO", "ANATOLE+FRANCE")
+  tempsRestant1(suivant){
+    var horaireActuel = new Date();
+    var heureActuel = horaireActuel.getUTCHours();
+    var minuteActuel = horaireActuel.getUTCMinutes();
+    var horaire1 = new Date(suivant);
+    var heure1 = horaire1.getUTCHours();
+    var minute1 = horaire1.getUTCMinutes();
+    var resultat1 = horairesBus.soustractionHeure(heureActuel, minuteActuel, heure1, minute1);
+    heure1 = resultat1[0];
+    minute1 = resultat1[1];
+    var temps1 = horairesBus.stringSuivant(heure1, minute1);
+    var temps2 = "Plus de bus disponible";
+    var temps3 = "Plus de bus disponible";
+    var horaires = [temps1, temps2, temps3];
+    return horaires;
+  },
+
+  tempsRestant2(suivant, second){
+    var horaireActuel = new Date();
+    var heureActuel = horaireActuel.getUTCHours();
+    var minuteActuel = horaireActuel.getUTCMinutes();
+    var horaire1 = new Date(suivant);
+    var heure1 = horaire1.getUTCHours();
+    var minute1 = horaire1.getUTCMinutes();
+    var resultat1 = horairesBus.soustractionHeure(heureActuel, minuteActuel, heure1, minute1);
+    heure1 = resultat1[0];
+    minute1 = resultat1[1];
+    var horaire2 = new Date(second);
+    var heure2 = horaire2.getUTCHours();
+    var minute2 = horaire2.getUTCMinutes();
+    var resultat2 = horairesBus.soustractionHeure(heureActuel, minuteActuel, heure2, minute2);
+    heure2 = resultat2[0];
+    minute2 = resultat2[1];
+    var tabHorairesNonTrie = [[heure1, minute1], [heure2, minute2]];
+    dec1 = horairesBus.conversionHeure(tabHorairesNonTrie[0][0], tabHorairesNonTrie[0][1]);
+    dec2 = horairesBus.conversionHeure(tabHorairesNonTrie[1][0], tabHorairesNonTrie[1][1]);
+    var tabDecimal = [dec1, dec2];
+    tabDecimal.sort();
+    var tabHoraires = [horairesBus.conversionHeureMinute(tabDecimal[0]), horairesBus.conversionHeureMinute(tabDecimal[1])];
+    var temps1 = horairesBus.stringSuivant(tabHoraires[0][0], tabHoraires[0][1]);
+    var temps2 = horairesBus.stringSuivant(tabHoraires[1][0], tabHoraires[1][1]);
+    var temps3 = "Plus de bus disponible";
+    var horaires = [temps1, temps2, temps3];
+    return horaires;
+  },
+
+  getHoraires(ligne, arret, sens){ //("18", "SOLFERINO", "ANATOLE+FRANCE")
     var xhr = new XMLHttpRequest();
     xhr.response = "json";
     var chemin = "https://opendata.lillemetropole.fr/api/records/1.0/search/?dataset=transpole-prochainspassages&facet=nomstation&facet=codeligne&facet=sensligne&refine.codeligne=" + ligne + "&refine.nomstation=" + arret + "&refine.sensligne=" + sens;
@@ -103,10 +149,19 @@ var horairesBus = {
     var requete = JSON.parse(obj);
     try{
       var suivant1 = requete["records"][0]["fields"]["heureestimeedepart"];
-      var suivant2 = requete["records"][1]["fields"]["heureestimeedepart"];
-      var suivant3 = requete["records"][2]["fields"]["heureestimeedepart"];
-      var horaires = horairesBus.tempsRestant(suivant1, suivant2, suivant3);
-      return horaires;
+      try{
+        var suivant2 = requete["records"][1]["fields"]["heureestimeedepart"];
+        try{
+          var suivant3 = requete["records"][2]["fields"]["heureestimeedepart"];
+          var horaires = horairesBus.tempsRestant(suivant1, suivant2, suivant3);
+        }catch{
+          var horaires = horairesBus.tempsRestant2(suivant1, suivant2);
+          return horaires;
+        }
+      }catch{
+        var horaires = horairesBus.tempsRestant1(suivant1);
+        return horaires;
+      }
     }catch{
       var erreur = ["Non disponible", "Non disponible", "Non disponible"];
       return erreur;
