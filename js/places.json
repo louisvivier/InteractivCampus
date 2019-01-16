@@ -377,9 +377,9 @@ places = {
   "logo_name":"bus",
   "streetpic_name":"lille",
   "bus_infos":{
-    "ligne":"",
-    "stop":"",
-    "way":""
+    "ligne":"12",
+    "stop":"SOLFERINO",
+    "way":"PAVE+STRATEGIQUE"
   }
 },
 "BusSolfe2":{
@@ -395,9 +395,9 @@ places = {
   "logo_name":"bus",
   "streetpic_name":"lille",
   "bus_infos":{
-    "ligne":"",
-    "stop":"",
-    "way":""
+    "ligne":"18",
+    "stop":"SOLFERINO",
+    "way":"ANATOLE+FRANCE"
   }
 },
 "BusBeauxArts1":{
@@ -413,9 +413,9 @@ places = {
   "logo_name":"bus",
   "streetpic_name":"lille",
   "bus_infos":{
-    "ligne":"",
-    "stop":"",
-    "way":""
+    "ligne":"18",
+    "stop":"REPUBLIQUE",
+    "way":"ANATOLE+FRANCE"
   }
 },
 "BusBeauxArts2":{
@@ -431,9 +431,9 @@ places = {
   "logo_name":"bus",
   "streetpic_name":"lille",
   "bus_infos":{
-    "ligne":"",
-    "stop":"",
-    "way":""
+    "ligne":"12",
+    "stop":"REPUBLIQUE",
+    "way":"LE+PARC"
   }
 },
 "BusFlandres1":{
@@ -449,9 +449,9 @@ places = {
   "logo_name":"bus",
   "streetpic_name":"lille",
   "bus_infos":{
-    "ligne":"",
-    "stop":"",
-    "way":""
+    "ligne":"12",
+    "stop":"LILLE+FLANDRES",
+    "way":"PAVE+STRATEGIQUE"
   }
 },
 "BusFlandres2":{
@@ -467,9 +467,9 @@ places = {
   "logo_name":"bus",
   "streetpic_name":"lille",
   "bus_infos":{
-    "ligne":"",
-    "stop":"",
-    "way":""
+    "ligne":"12",
+    "stop":"LILLE+FLANDRES",
+    "way":"LE PARC"
   }
 },
 "BusEurope":{
@@ -485,9 +485,9 @@ places = {
   "logo_name":"bus",
   "streetpic_name":"lille",
   "bus_infos":{
-    "ligne":"",
-    "stop":"",
-    "way":""
+    "ligne":"12",
+    "stop":"LILLE+EUROPE",
+    "way":"LE+PARC"
   }
 },
 "BusCormon1":{
@@ -521,9 +521,9 @@ places = {
   "logo_name":"bus",
   "streetpic_name":"lille",
   "bus_infos":{
-    "ligne":"",
-    "stop":"",
-    "way":""
+    "ligne":"12",
+    "stop":"CORMONTAIGNE",
+    "way":"PAVE+STRATEGIQUE"
   }
 },
 "BusBoisBlanc1":{
@@ -539,9 +539,9 @@ places = {
   "logo_name":"bus",
   "streetpic_name":"lille",
   "bus_infos":{
-    "ligne":"",
-    "stop":"",
-    "way":""
+    "ligne":"18",
+    "stop":"BOIS+BLANCS",
+    "way":"ANATOLE+FRANCE"
   }
 },
 "BusBoisBlanc2":{
@@ -557,9 +557,9 @@ places = {
   "logo_name":"bus",
   "streetpic_name":"lille",
   "bus_infos":{
-    "ligne":"",
-    "stop":"",
-    "way":""
+    "ligne":"18",
+    "stop":"HENRI+REGNAULT",
+    "way":"HOTEL+VILLE"
   }
 },
 
