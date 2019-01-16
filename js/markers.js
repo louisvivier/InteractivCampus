@@ -93,12 +93,12 @@ var markers = {
       iconAnchor: [20,55],
       popupAnchor: [0,0],
     });
-    let markerVELO = L.marker([50.63465,3.04841],{icon:velo }).addTo(macarte); //solfé
-    let markerVELO1 = L.marker([50.63235,3.06231],{icon:velo }).addTo(macarte); //beaux arts
-    let markerVELO2 = L.marker([50.62624,3.04001],{icon:velo }).addTo(macarte); //cormon
-    let markerVELO3 = L.marker([50.63424,3.02116],{icon:velo }).addTo(macarte); //euratech
-    let markerVELO4 = L.marker([50.63416,3.03072],{icon:velo }).addTo(macarte); //bois blanc
-    
+    let markerVELO = L.marker([50.63465,3.04841],{icon:velo }).addTo(macarte).on('click',function(e) { leftPan.open("VlilleSolfe");}); //solfé
+    let markerVELO1 = L.marker([50.63235,3.06231],{icon:velo }).addTo(macarte).on('click',function(e) { leftPan.open("VlilleBeauxArts");}); //beaux arts
+    let markerVELO2 = L.marker([50.62624,3.04001],{icon:velo }).addTo(macarte).on('click',function(e) { leftPan.open("VlilleCormon");}); //cormon
+    let markerVELO3 = L.marker([50.63424,3.02116],{icon:velo }).addTo(macarte).on('click',function(e) { leftPan.open("VlilleEura");}); //euratech
+    let markerVELO4 = L.marker([50.63416,3.03072],{icon:velo }).addTo(macarte).on('click',function(e) { leftPan.open("VlilleBoisBlanc");}); //bois blanc
+
   },
   //******************************************AUTRE************************************************
   aeu(){
