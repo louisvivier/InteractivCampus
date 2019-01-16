@@ -12,7 +12,7 @@ var leftPan = {
     if (places[id].twitter != ""){
       $('.twitterFeed').html('<a class="twitter-timeline" data-width="480" data-dnt="true" href="https://twitter.com/'+places[id].twitter+'?ref_src=twsrc%5Etfw" data-tweet-limit="5">Tweets by '+places[id].twitter+'</a> <script src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>');
     }
-    else{
+    else {
       $('.twitterFeed').html('');
     }
   },
