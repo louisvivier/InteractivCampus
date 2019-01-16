@@ -34,10 +34,19 @@ var v_Lille = {
     var obj = xhr.response;
     var requete = JSON.parse(obj);
     try{
+      var veloDisponible, borneDisponible;
       var nbDisponible = requete["records"][0]["fields"]["nbvelosdispo"];
       var nbBorneDisponible = requete["records"][0]["fields"]["nbbornesdispo"];
-      var veloDisponible = v_Lille.stringDisponible(nbDisponible);
-      var borneDisponible = v_Lille.stringBorne(nbBorneDisponible);
+      if(typeof(nbDisponible) == "undefined"){
+        veloDisponible = "Pas de donné disponible";
+      }else{
+        veloDisponible = v_Lille.stringDisponible(nbDisponible);
+      }
+      if(typeof(nbBorneDisponible) == "undefined"){
+        nbBorneDisponible = "Pas de donné disponible";
+      }else{
+        nbBorneDisponible = v_Lille.stringBorne(nbBorneDisponible);
+      }
       let resultat = [veloDisponible, borneDisponible];
       return resultat;
     }catch{
