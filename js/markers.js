@@ -125,7 +125,7 @@ var markers = {
     let markerSAND4 = L.marker([50.63601,3.02760],{icon:sandwich }).addTo(macarte).on('click',function(e) { leftPan.open("Colisee");}); //friterie colysee
     let markerSAND5 = L.marker([50.62983,3.04597],{icon:sandwich }).addTo(macarte).on('click',function(e) { leftPan.open("Celine");}); //kebab celine
     let markerSAND6 = L.marker([50.63405,3.02094],{icon:sandwich }).addTo(macarte).on('click',function(e) { leftPan.open("Sogood");}); //sogood
-    let markerSAND7 = L.marker([50.63062,3.04448],{icon:sandwich }).addTo(macarte).on('click',function(e) { leftPan.open("Sogood");}); //épis
+    let markerSAND7 = L.marker([50.63062,3.04448],{icon:sandwich }).addTo(macarte).on('click',function(e) { leftPan.open("Epis");}); //épis
   },
   pizza(){
     let pizza = L.icon({

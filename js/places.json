@@ -148,7 +148,7 @@ places = {
     "logo_name":"dog",
     "streetpic_name":"dog"
   },
-  "epis":{
+  "Epis":{
     "adress_street": "102 Boulevard Vauban",
     "adress_city": "59800 Lille",
     "phone": "03 20 54 59 75",
