@@ -230,7 +230,7 @@ places = {
     "adress_city": "59000 Lille",
     "phone": "03 20 40 40 40",
     "email": "",
-    "website": "https://www.transpole.fr/fr/",
+    "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/metro/",
     "link_text":"transpole.fr",
     "twitter": "",
     "marker_color": "#9eb886",
@@ -242,9 +242,9 @@ places = {
     "adress_city": "59000 Lille",
     "phone": "03 20 40 40 40",
     "email": "",
-    "website": "https://www.transpole.fr/fr/",
+    "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/metro/",
     "link_text":"transpole.fr",
-    "twitter": "",
+    "twitter": "transpole_metro",
     "marker_color": "#9eb886",
     "logo_name":"metro",
     "streetpic_name":"boisblanc"
@@ -254,16 +254,16 @@ places = {
     "adress_city": "59800 Lille",
     "phone": "03 20 40 40 40",
     "email": "",
-    "website": "https://www.transpole.fr/fr/",
+    "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/metro/",
     "link_text":"transpole.fr",
-    "twitter": "",
+    "twitter": "transpole_metro",
     "marker_color": "#9eb886",
     "logo_name":"metro",
     "streetpic_name":"cormontaigne"
   },
   "_comment":"________________________________________________GARES_________________________________________________",
 
-  "Europe":{
+  "GareEurope":{
     "adress_street": "1 Place François Mitterrand",
     "adress_city": "59777 Euralille",
     "phone": "08 90 10 72 94",
@@ -275,7 +275,7 @@ places = {
     "logo_name":"sncf",
     "streetpic_name":"europe"
   },
-  "Flandres":{
+  "GareFlandres":{
     "adress_street": "Place des Buisses",
     "adress_city": "59000 Lille",
     "phone": "08 92 35 35 35",
@@ -289,4 +289,199 @@ places = {
   },
 "_comment":"________________________________________________BUS_________________________________________________",
 
+"BusSolfe1":{
+  "adress_street": "Solférino",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/bus/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_bus",
+  "marker_color": "#9eb886",
+  "logo_name":"bus",
+  "streetpic_name":""
+},
+"BusSolfe2":{
+  "adress_street": "Solférino",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/bus/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_bus",
+  "marker_color": "#9eb886",
+  "logo_name":"bus",
+  "streetpic_name":""
+},
+"BusBeauxArts1":{
+  "adress_street": "République Beaux Arts",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/bus/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_bus",
+  "marker_color": "#9eb886",
+  "logo_name":"bus",
+  "streetpic_name":""
+},
+"BusBeauxArts2":{
+  "adress_street": "République Beaux Arts",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/bus/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_bus",
+  "marker_color": "#9eb886",
+  "logo_name":"bus",
+  "streetpic_name":""
+},
+"BusFlandres1":{
+  "adress_street": "Lille Flandres",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/bus/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_bus",
+  "marker_color": "#9eb886",
+  "logo_name":"bus",
+  "streetpic_name":""
+},
+"BusFlandres2":{
+  "adress_street": "Lille Flandres",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/bus/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_bus",
+  "marker_color": "#9eb886",
+  "logo_name":"bus",
+  "streetpic_name":""
+},
+"BusCormon1":{
+  "adress_street": "Cormontaigne",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/bus/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_bus",
+  "marker_color": "#9eb886",
+  "logo_name":"bus",
+  "streetpic_name":""
+},
+"BusCormon2":{
+  "adress_street": "Cormontaigne",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/bus/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_bus",
+  "marker_color": "#9eb886",
+  "logo_name":"bus",
+  "streetpic_name":""
+},
+"BusBoisBlanc1":{
+  "adress_street": "Bois Blancs",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/bus/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_bus",
+  "marker_color": "#9eb886",
+  "logo_name":"bus",
+  "streetpic_name":""
+},
+"BusBoisBlanc2":{
+  "adress_street": "Bois Blancs",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/bus/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_bus",
+  "marker_color": "#9eb886",
+  "logo_name":"bus",
+  "streetpic_name":""
+},
+
+"_comment":"________________________________________________GARES_________________________________________________",
+
+"Casino":{
+  "adress_street": "158 Rue Colbert",
+  "adress_city": "59000 Lille",
+  "phone": "03 28 36 06 07",
+  "email": "",
+  "website": "https://magasins.lepetitcasino.com/",
+  "link_text":"magasins.lepetitcasino.com",
+  "twitter": "casino_super",
+  "marker_color": "#9eb886",
+  "logo_name":"casino",
+  "streetpic_name":"casino"
+},
+"CarrefouExpress1":{
+  "adress_street": "298 Rue Nationale",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 77 38 44",
+  "email": "",
+  "website": "https://www.carrefour.fr/magasin/express-lille-colbert?utm_medium=flux_opm&utm_source=flux_opm",
+  "link_text":"carrefour.fr",
+  "twitter": "CarrefourFrance",
+  "marker_color": "#9eb886",
+  "logo_name":"carrefourexpress",
+  "streetpic_name":"carrefourvauban"
+},
+"CarrefouExpress2":{
+  "adress_street": "130 Avenue de Dunkerque",
+  "adress_city": "59000 Lille",
+  "phone": "03 28 82 08 09",
+  "email": "",
+  "website": "https://www.carrefour.fr/magasin/express-lille-dunkerque?utm_medium=flux_opm&utm_source=flux_opm",
+  "link_text":"carrefour.fr",
+  "twitter": "CarrefourFrance",
+  "marker_color": "#9eb886",
+  "logo_name":"carrefourexpress",
+  "streetpic_name":"carrefourboisblanc"
+},
+"CarrefouCity":{
+  "adress_street": "4 Rue d'Isly",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 10 95 71",
+  "email": "",
+  "website": "https://www.carrefour.fr/magasin/city-lille-isly?utm_medium=flux_opm&utm_source=flux_opm",
+  "link_text":"carrefour.fr",
+  "twitter": "CarrefourFrance",
+  "marker_color": "#9eb886",
+  "logo_name":"carrefourcity",
+  "streetpic_name":"carrefourcity"
+},
+"Match":{
+  "adress_street": "97 Rue Solférino",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 57 71 45",
+  "email": "",
+  "website": "https://www.supermarchesmatch.fr/79-lille-halles-solferino",
+  "link_text":"supermarchesmatch.fr",
+  "twitter": "supermarchematc",
+  "marker_color": "#9eb886",
+  "logo_name":"match",
+  "streetpic_name":"match"
+},
+"Euralille":{
+  "adress_street": "1 Avenue Willy Brandt",
+  "adress_city": "59000 Lille",
+  "phone": "08 26 25 32 35",
+  "email": "",
+  "website": "https://www.euralille.com/",
+  "link_text":"euralille.com",
+  "twitter": "euralille",
+  "marker_color": "#9eb886",
+  "logo_name":"euralille",
+  "streetpic_name":"euralille"
+}
 }
