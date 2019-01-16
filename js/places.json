@@ -37,7 +37,7 @@ places = {
     "logo_name":"isa",
     "streetpic_name":"isa"
   },
-  "Yncrea":{
+  "Yncrea1":{
     "adress_street": "2 Rue Norbert Segard",
     "adress_city": "59014 Lille",
     "phone": "03 28 38 48 58",
@@ -48,6 +48,18 @@ places = {
     "marker_color": "#d65543",
     "logo_name":"yncrea",
     "streetpic_name":"yncrea1"
+  },
+  "Yncrea2":{
+    "adress_street": "35 Boulevard Vauban",
+    "adress_city": "59014 Lille",
+    "phone": "03 28 38 48 58",
+    "email": "contact@yncrea.fr",
+    "website": "http://www.yncrea-hautsdefrance.fr",
+    "link_text":"yncrea-hautsdefrance.fr",
+    "twitter": "yncrea_hdf",
+    "marker_color": "#d65543",
+    "logo_name":"yncrea",
+    "streetpic_name":"yncrea2"
   },
   "Urbawood":{
     "adress_street": "58 Allée Marie-Thérèse Vicot-Lhermitte",
@@ -361,6 +373,18 @@ places = {
   "logo_name":"bus",
   "streetpic_name":""
 },
+"BusEurope":{
+  "adress_street": "Lille Europe",
+  "adress_city": "59777 Euralille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/bus/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_bus",
+  "marker_color": "#9eb886",
+  "logo_name":"bus",
+  "streetpic_name":""
+},
 "BusCormon1":{
   "adress_street": "Cormontaigne",
   "adress_city": "59000 Lille",
@@ -483,5 +507,20 @@ places = {
   "marker_color": "#9eb886",
   "logo_name":"euralille",
   "streetpic_name":"euralille"
-}
+},
+
+"_comment":"________________________________________________ATM_________________________________________________",
+
+"Euralille":{
+  "adress_street": "1 Avenue Willy Brandt",
+  "adress_city": "59000 Lille",
+  "phone": "08 26 25 32 35",
+  "email": "",
+  "website": "https://www.euralille.com/",
+  "link_text":"euralille.com",
+  "twitter": "euralille",
+  "marker_color": "#9eb886",
+  "logo_name":"euralille",
+  "streetpic_name":"euralille"
+},
 }
