@@ -2,6 +2,7 @@ places = {
   "_comment":"________________________________________________ECOLES_________________________________________________",
 
   "ISEN":{
+    "name":"ISEN - Institut Supérieur de l'Electronique et du Numérique",
     "adress_street": "41 Boulevard Vauban",
     "adress_city": "59800 Lille",
     "phone": "03 20 30 40 50",
@@ -14,6 +15,7 @@ places = {
     "streetpic_name":"isen"
   },
   "Rameau":{
+    "name":"Palais Rameau",
     "adress_street": "39 Boulevard Vauban,",
     "adress_city": "59800 Lille",
     "phone": "03 20 49 50 00",
@@ -26,6 +28,7 @@ places = {
     "streetpic_name":"rameau"
   },
   "HEI":{
+    "name":"HEI - Grande école d'ingénieur généraliste",
     "adress_street": "13 Rue de Toul",
     "adress_city": "59000 Lille",
     "phone": "03 28 38 48 58",
@@ -38,6 +41,7 @@ places = {
     "streetpic_name":"hei"
   },
   "ISA":{
+    "name":"ISA - Institut Supérieur de l'Agriculture",
     "adress_street": "48 Boulevard Vauban",
     "adress_city": "59046 Lille",
     "phone": "03 28 38 48 48",
@@ -50,6 +54,7 @@ places = {
     "streetpic_name":"isa"
   },
   "Catho":{
+    "name":"Université Catholique de Lille",
     "adress_street": "60 Boulevard Vauban",
     "adress_city": "59800 Lille",
     "phone": "03 20 13 40 00",
@@ -62,6 +67,7 @@ places = {
     "streetpic_name":"catho"
   },
   "Yncrea1":{
+    "name":"Groupe Yncrea",
     "adress_street": "2 Rue Norbert Segard",
     "adress_city": "59014 Lille",
     "phone": "03 28 38 48 58",
@@ -74,6 +80,7 @@ places = {
     "streetpic_name":"yncrea1"
   },
   "Yncrea2":{
+    "name":"Comptabilité Yncrea",
     "adress_street": "35 Boulevard Vauban",
     "adress_city": "59014 Lille",
     "phone": "03 28 38 48 58",
@@ -86,6 +93,7 @@ places = {
     "streetpic_name":"yncrea2"
   },
   "Urbawood":{
+    "name":"Adicode Euratechnologie",
     "adress_street": "58 Allée Marie-Thérèse Vicot-Lhermitte",
     "adress_city": "59000 Lille",
     "phone": "03 28 38 48 58",
@@ -101,6 +109,7 @@ places = {
   "_comment":"________________________________________________SANDWICHS_________________________________________________",
 
   "AEU":{
+    "name":"AEU - Association d'Entraide Universitaire",
     "adress_street": "47 Boulevard Vauban",
     "adress_city": "59800 Lille",
     "phone": "03 20 15 97 70",
@@ -113,6 +122,7 @@ places = {
     "streetpic_name":"aeu"
   },
   "Boite":{
+    "name":"La boîte à Sandwichs",
     "adress_street": "45 Boulevard Vauban",
     "adress_city": "59800 Lille",
     "phone": "06 48 70 22 38",
@@ -125,6 +135,7 @@ places = {
     "streetpic_name":"boite"
   },
   "Celine":{
+    "name":"Céline Kebab",
     "adress_street": "261 Rue Nationale",
     "adress_city": "59800 Lille",
     "phone": "03 20 86 27 22",
@@ -137,6 +148,7 @@ places = {
     "streetpic_name":"celine"
   },
   "Colisee":{
+    "name":"La friterie du Colisée",
     "adress_street": "206 Avenue de Dunkerque",
     "adress_city": "59130 Lambersart",
     "phone": "07 82 62 99 80",
@@ -149,6 +161,7 @@ places = {
     "streetpic_name":"colisee"
   },
   "Dog":{
+    "name":"Dog Sandwichs",
     "adress_street": "43 Boulevard Vauban",
     "adress_city": "59800 Lille",
     "phone": "03 28 36 06 78",
@@ -161,6 +174,7 @@ places = {
     "streetpic_name":"dog"
   },
   "Epis":{
+    "name":"L'Epis d'Or'",
     "adress_street": "102 Boulevard Vauban",
     "adress_city": "59800 Lille",
     "phone": "03 20 54 59 75",
@@ -173,6 +187,7 @@ places = {
     "streetpic_name":"epis"
   },
   "Paul":{
+    "name":"Boulangerie Paul",
     "adress_street": "19 Place Du Général De Gaulle",
     "adress_city": "59000 Lille",
     "phone": "03 20 57 40 99",
@@ -185,6 +200,7 @@ places = {
     "streetpic_name":"paul"
   },
   "Pause":{
+    "name":"Pause Sandwich",
     "adress_street": "144 Avenue de Bretagne",
     "adress_city": "59000 Lille",
     "phone": "03 20 93 72 11",
@@ -197,6 +213,7 @@ places = {
     "streetpic_name":"pause"
   },
   "Sogood":{
+    "name":"Sogood",
     "adress_street": "163 Avenue de Bretagne,",
     "adress_city": "59000 Lille",
     "phone": "03 20 53 40 12",
@@ -211,6 +228,7 @@ places = {
   "_comment":"________________________________________________PIZZAS_________________________________________________",
 
   "Kiosque":{
+    "name":"Le Kiosque à Pizzas",
     "adress_street": "246 Avenue de Dunkerque ",
     "adress_city": "59130 Lambersart",
     "phone": "03 62 65 11 51",
@@ -223,6 +241,7 @@ places = {
     "streetpic_name":"kiosque"
   },
   "Perfecto":{
+    "name":"Perfecto Pizza",
     "adress_street": "263 Rue Nationale",
     "adress_city": "59800 Lille",
     "phone": "03 20 09 09 60",
@@ -235,6 +254,7 @@ places = {
     "streetpic_name":"perfecto"
   },
   "Rabbit2":{
+    "name":"Speed Rabbit Pizza",
     "adress_street": "2 Avenue Hippolyte Peslin",
     "adress_city": "59130 Lambersart",
     "phone": "03 20 08 27 27",
@@ -247,6 +267,7 @@ places = {
     "streetpic_name":"rabbit2"
   },
   "Rabbit1":{
+    "name":"Speed Rabbit Pizza",
     "adress_street": "1 Place de Strasbourg",
     "adress_city": "59800 Lille",
     "phone": "03 20 14 32 32",
@@ -259,6 +280,7 @@ places = {
     "streetpic_name":"rabbit1"
   },
   "Dominos":{
+    "name":"Domino's Pizza",
     "adress_street": "236 Avenue de Dunkerque",
     "adress_city": "59130 Lambersart",
     "phone": "03 20 09 18 00",
@@ -274,6 +296,7 @@ places = {
 "_comment":"________________________________________________METROS_________________________________________________",
 
   "Beaux-Arts":{
+    "name":"Station de métro République - Beaux Arts",
     "adress_street": "Place de la République",
     "adress_city": "59000 Lille",
     "phone": "03 20 40 40 40",
@@ -286,6 +309,7 @@ places = {
     "streetpic_name":"beauxarts"
   },
   "BoisBlanc":{
+    "name":"Station de métro Bois Blancs",
     "adress_street": "Quartier Bois-Blancs",
     "adress_city": "59000 Lille",
     "phone": "03 20 40 40 40",
@@ -298,6 +322,7 @@ places = {
     "streetpic_name":"boisblanc"
   },
   "Cormontaigne":{
+    "name":"Station de métro Cormontaigne",
     "adress_street": "Cormontaigne",
     "adress_city": "59800 Lille",
     "phone": "03 20 40 40 40",
@@ -312,6 +337,7 @@ places = {
   "_comment":"________________________________________________GARES_________________________________________________",
 
   "GareEurope":{
+    "name":"Gare Lille Europe",
     "adress_street": "1 Place François Mitterrand",
     "adress_city": "59777 Euralille",
     "phone": "08 90 10 72 94",
@@ -324,6 +350,7 @@ places = {
     "streetpic_name":"europe"
   },
   "GareFlandres":{
+    "name":"Gare Lille Flandres",
     "adress_street": "Place des Buisses",
     "adress_city": "59000 Lille",
     "phone": "08 92 35 35 35",
@@ -338,6 +365,7 @@ places = {
 "_comment":"________________________________________________BUS_________________________________________________",
 
 "BusSolfe1":{
+  "name":"Arrêt de bus Solférino",
   "adress_street": "Solférino",
   "adress_city": "59000 Lille",
   "phone": "03 20 40 40 40",
@@ -350,6 +378,7 @@ places = {
   "streetpic_name":"lille"
 },
 "BusSolfe2":{
+  "name":"Arrêt de bus Solférino",
   "adress_street": "Solférino",
   "adress_city": "59000 Lille",
   "phone": "03 20 40 40 40",
@@ -362,6 +391,7 @@ places = {
   "streetpic_name":"lille"
 },
 "BusBeauxArts1":{
+  "name":"Arrêt de bus République - Beaux Arts",
   "adress_street": "République Beaux Arts",
   "adress_city": "59000 Lille",
   "phone": "03 20 40 40 40",
@@ -374,6 +404,7 @@ places = {
   "streetpic_name":"lille"
 },
 "BusBeauxArts2":{
+  "name":"Arrêt de bus République - Beaux Arts",
   "adress_street": "République Beaux Arts",
   "adress_city": "59000 Lille",
   "phone": "03 20 40 40 40",
@@ -386,6 +417,7 @@ places = {
   "streetpic_name":"lille"
 },
 "BusFlandres1":{
+  "name":"Arrêt de bus Lille Flandres",
   "adress_street": "Lille Flandres",
   "adress_city": "59000 Lille",
   "phone": "03 20 40 40 40",
@@ -398,6 +430,7 @@ places = {
   "streetpic_name":"lille"
 },
 "BusFlandres2":{
+  "name":"Arrêt de bus Lille Flandres",
   "adress_street": "Lille Flandres",
   "adress_city": "59000 Lille",
   "phone": "03 20 40 40 40",
@@ -410,6 +443,7 @@ places = {
   "streetpic_name":"lille"
 },
 "BusEurope":{
+  "name":"Arrêt de bus Lille Europe",
   "adress_street": "Lille Europe",
   "adress_city": "59777 Euralille",
   "phone": "03 20 40 40 40",
@@ -422,6 +456,7 @@ places = {
   "streetpic_name":"lille"
 },
 "BusCormon1":{
+  "name":"Arrêt de bus Cormontaigne",
   "adress_street": "Cormontaigne",
   "adress_city": "59000 Lille",
   "phone": "03 20 40 40 40",
@@ -434,6 +469,7 @@ places = {
   "streetpic_name":"lille"
 },
 "BusCormon2":{
+  "name":"Arrêt de bus Cormontaigne",
   "adress_street": "Cormontaigne",
   "adress_city": "59000 Lille",
   "phone": "03 20 40 40 40",
@@ -446,6 +482,7 @@ places = {
   "streetpic_name":"lille"
 },
 "BusBoisBlanc1":{
+  "name":"Arrêt de bus Bois Blancs",
   "adress_street": "Bois Blancs",
   "adress_city": "59000 Lille",
   "phone": "03 20 40 40 40",
@@ -458,6 +495,7 @@ places = {
   "streetpic_name":"lille"
 },
 "BusBoisBlanc2":{
+  "name":"Arrêt de bus Bois Blancs",
   "adress_street": "Bois Blancs",
   "adress_city": "59000 Lille",
   "phone": "03 20 40 40 40",
@@ -473,6 +511,7 @@ places = {
 "_comment":"________________________________________________VELOS_________________________________________________",
 
 "VlilleSolfe":{
+  "name":"Station V'Lille Solférino",
   "adress_street": "17 Rue Solférino",
   "adress_city": "59800 Lille",
   "phone": "03 20 40 40 40",
@@ -485,6 +524,7 @@ places = {
   "streetpic_name":"lille"
 },
 "VlilleVauban":{
+  "name":"Station V'Lille Boulevard",
   "adress_street": "Rue du Port,",
   "adress_city": "59800 Lille",
   "phone": "03 20 40 40 40",
@@ -497,6 +537,7 @@ places = {
   "streetpic_name":"lille"
 },
 "VlilleHEI":{
+  "name":"Station V'Lille HEI",
   "adress_street": "18 Rue de Toul,",
   "adress_city": "59800 Lille",
   "phone": "03 20 40 40 40",
@@ -509,6 +550,7 @@ places = {
   "streetpic_name":"lille"
 },
 "VlilleBeauxArts":{
+  "name":"Station V'Lille République - Beaux Arts",
   "adress_street": "3 Place Richebé",
   "adress_city": "59800 Lille",
   "phone": "03 20 40 40 40",
@@ -521,6 +563,7 @@ places = {
   "streetpic_name":"lille"
 },
 "VlilleCormon":{
+  "name":"Station V'Lille Cormontaigne",
   "adress_street": "21 Place Cormontaigne",
   "adress_city": "59800 Lille",
   "phone": "03 20 40 40 40",
@@ -533,6 +576,7 @@ places = {
   "streetpic_name":"lille"
 },
 "VlilleBoisBlanc":{
+  "name":"Station V'Lille Bois Blancs",
   "adress_street": "122 Avenue de Dunkerque",
   "adress_city": "59000 Lille",
   "phone": "03 20 40 40 40",
@@ -545,6 +589,7 @@ places = {
   "streetpic_name":"lille"
 },
 "VlilleEura":{
+  "name":"Station V'Lille Euratechnologie",
   "adress_street": "Avenue de Bretagne",
   "adress_city": "59000 Lille",
   "phone": "03 20 40 40 40",
@@ -559,6 +604,7 @@ places = {
 "_comment":"________________________________________________SUPERMARKETS_________________________________________________",
 
 "Casino1":{
+  "name":"Petit Casino",
   "adress_street": "158 Rue Colbert",
   "adress_city": "59000 Lille",
   "phone": "03 28 36 06 07",
@@ -571,6 +617,7 @@ places = {
   "streetpic_name":"casino1"
 },
 "Casino2":{
+  "name":"Petit Casino",
   "adress_street": "204 Rue Nationale",
   "adress_city": "59000 Lille",
   "phone": "03 28 38 80 83",
@@ -583,6 +630,7 @@ places = {
   "streetpic_name":"casino2"
 },
 "CarrefourExpress1":{
+  "name":"Carrefour Express",
   "adress_street": "298 Rue Nationale",
   "adress_city": "59000 Lille",
   "phone": "03 20 77 38 44",
@@ -595,6 +643,7 @@ places = {
   "streetpic_name":"carrefourvauban"
 },
 "CarrefourExpress2":{
+  "name":"Carrefour Express",
   "adress_street": "130 Avenue de Dunkerque",
   "adress_city": "59000 Lille",
   "phone": "03 28 82 08 09",
@@ -607,6 +656,7 @@ places = {
   "streetpic_name":"carrefourboisblanc"
 },
 "CarrefourCity":{
+  "name":"Carrefour City",
   "adress_street": "4 Rue d'Isly",
   "adress_city": "59000 Lille",
   "phone": "03 20 10 95 71",
@@ -619,6 +669,7 @@ places = {
   "streetpic_name":"carrefourcity"
 },
 "Match":{
+  "name":"Supermarchés Match",
   "adress_street": "97 Rue Solférino",
   "adress_city": "59000 Lille",
   "phone": "03 20 57 71 45",
@@ -631,6 +682,7 @@ places = {
   "streetpic_name":"match"
 },
 "Euralille":{
+  "name":"Euralille",
   "adress_street": "1 Avenue Willy Brandt",
   "adress_city": "59000 Lille",
   "phone": "08 26 25 32 35",
@@ -646,6 +698,7 @@ places = {
 "_comment":"________________________________________________ATM_________________________________________________",
 
 "AtmIsa":{
+  "name":"Distributeur Crédit Agricole",
   "adress_street": "2 Rue Norbert Segard",
   "adress_city": "59000 Lille",
   "phone": "03 20 00 30 00",
@@ -658,6 +711,7 @@ places = {
   "streetpic_name":"atmisa"
 },
 "CreditAgricole":{
+  "name":"Distributeur Crédit Agricole",
   "adress_street": "87 Rue Colbert",
   "adress_city": "59000 Lille",
   "phone": "03 20 00 30 00",
@@ -670,6 +724,7 @@ places = {
   "streetpic_name":"agricole"
 },
 "SocieteGenerale":{
+  "name":"Distributeur Société Générale",
   "adress_street": "75b Boulevard Vauban",
   "adress_city": "59000 Lille",
   "phone": "03 20 54 27 71",
@@ -682,6 +737,7 @@ places = {
   "streetpic_name":"generale"
 },
 "CIC":{
+  "name":"Distributeur CIC",
   "adress_street": "8 Place du Maréchal Leclerc",
   "adress_city": "59000 Lille",
   "phone": "03 20 18 77 58",
@@ -694,6 +750,7 @@ places = {
   "streetpic_name":"cic"
 },
 "CreditNord":{
+  "name":"Distributeur Crédit du Nord",
   "adress_street": "3 Boulevard Montebello",
   "adress_city": "59000 Lille",
   "phone": "03 20 22 75 50",
@@ -706,6 +763,7 @@ places = {
   "streetpic_name":"nord"
 },
 "LCL":{
+  "name":"Distributeur LCL",
   "adress_street": "234 Avenue de Dunkerque",
   "adress_city": "59000 Lille",
   "phone": "03 20 17 05 21",
