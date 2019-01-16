@@ -576,7 +576,8 @@ places = {
   "twitter": "transpole_actu",
   "marker_color": "#9eb886",
   "logo_name":"vlille",
-  "streetpic_name":"lille"
+  "streetpic_name":"lille",
+  "vlille_station":"solferino"
 },
 "VlilleVauban":{
   "name":"Station V'Lille Boulevard",
@@ -589,7 +590,8 @@ places = {
   "twitter": "transpole_actu",
   "marker_color": "#9eb886",
   "logo_name":"vlille",
-  "streetpic_name":"lille"
+  "streetpic_name":"lille",
+  "vlille_station":"universitecatholique"
 },
 "VlilleHEI":{
   "name":"Station V'Lille HEI",
@@ -602,7 +604,8 @@ places = {
   "twitter": "transpole_actu",
   "marker_color": "#9eb886",
   "logo_name":"vlille",
-  "streetpic_name":"lille"
+  "streetpic_name":"lille",
+  "vlille_station":"hei"
 },
 "VlilleBeauxArts":{
   "name":"Station V'Lille République - Beaux Arts",
@@ -615,7 +618,8 @@ places = {
   "twitter": "transpole_actu",
   "marker_color": "#9eb886",
   "logo_name":"vlille",
-  "streetpic_name":"lille"
+  "streetpic_name":"lille",
+  "vlille_station":"republique"
 },
 "VlilleCormon":{
   "name":"Station V'Lille Cormontaigne",
@@ -628,7 +632,8 @@ places = {
   "twitter": "transpole_actu",
   "marker_color": "#9eb886",
   "logo_name":"vlille",
-  "streetpic_name":"lille"
+  "streetpic_name":"lille",
+  "vlille_station":"cormontaigne"
 },
 "VlilleBoisBlanc":{
   "name":"Station V'Lille Bois Blancs",
@@ -641,7 +646,8 @@ places = {
   "twitter": "transpole_actu",
   "marker_color": "#9eb886",
   "logo_name":"vlille",
-  "streetpic_name":"lille"
+  "streetpic_name":"lille",
+  "vlille_station":"boisblanc"
 },
 "VlilleEura":{
   "name":"Station V'Lille Euratechnologie",
@@ -654,7 +660,8 @@ places = {
   "twitter": "transpole_actu",
   "marker_color": "#9eb886",
   "logo_name":"vlille",
-  "streetpic_name":"lille"
+  "streetpic_name":"lille",
+  "vlille_station":"euratechnologie"
 },
 "_comment":"________________________________________________SUPERMARKETS_________________________________________________",
 
