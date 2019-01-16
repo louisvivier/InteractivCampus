@@ -27,10 +27,12 @@ var v_Lille = {
     var idsation = listeStationV_Lille[nomstation][0];
     var villestation = listeStationV_Lille[nomstation][1];
     var xhr = new XMLHttpRequest();
+    xhr.response = "json";
     var chemin = "https://opendata.lillemetropole.fr/api/records/1.0/search/?dataset=vlille-realtime&facet=nom&facet=commune&facet=etat&facet=type&facet=etatconnexion&refine.commune=" + villestation + "&refine.nom=" + idsation;
     xhr.open('GET', chemin, false);
     xhr.send(null);
-    var requete = xhr.response;
+    var obj = xhr.response;
+    var requete = JSON.parse(obj);
     try{
       var nbDisponible = requete["records"][0]["fields"]["nbvelosdispo"];
       var nbBorneDisponible = requete["records"][0]["fields"]["nbbornesdispo"];
