@@ -75,6 +75,8 @@ var markers = {
     let markerBUS8 = L.marker([50.63712,3.07073],{icon:bus }).addTo(macarte).on('click',function(e) { leftPan.open("BusFlandres1");}); //flandres
     let markerBUS9 = L.marker([50.63720,3.07024],{icon:bus }).addTo(macarte).on('click',function(e) { leftPan.open("BusFlandres2");}); //flandres
     let markerBUS10 = L.marker([50.63942,3.07507],{icon:bus }).addTo(macarte).on('click',function(e) { leftPan.open("BusEurope");}); //europe
+    let markerBUS11 = L.marker([50.63089,3.02271],{icon:bus }).addTo(macarte).on('click',function(e) { leftPan.open("BusPont1");}); //pont
+    let markerBUS12 = L.marker([50.63076,3.02271],{icon:bus }).addTo(macarte).on('click',function(e) { leftPan.open("BusPont2");}); //pont
   },
   metro(){
     let metro = L.icon({

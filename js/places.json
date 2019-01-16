@@ -562,6 +562,42 @@ places = {
     "way":"HOTEL+VILLE"
   }
 },
+"BusPont1":{
+  "name":"Arrêt de bus Le Pont",
+  "adress_street": "Pont à Fourchons",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/bus/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_bus",
+  "marker_color": "#9eb886",
+  "logo_name":"bus",
+  "streetpic_name":"lille",
+  "bus_infos":{
+    "ligne":"18",
+    "stop":"LE+PONT",
+    "way":"ANATOLE+FRANCE"
+  }
+},
+"BusPont2":{
+  "name":"Arrêt de bus Le Pont",
+  "adress_street": "Pont à Fourchons",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/bus/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_bus",
+  "marker_color": "#9eb886",
+  "logo_name":"bus",
+  "streetpic_name":"lille",
+  "bus_infos":{
+    "ligne":"18",
+    "stop":"LE+PONT",
+    "way":"HOTEL+VILLE"
+  }
+},
 
 "_comment":"________________________________________________VELOS_________________________________________________",
 
