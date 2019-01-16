@@ -1,19 +1,21 @@
 /* The side navigation menu */
 .sidenav {
-  height: 100vh; /* 100% Full-height */
+  height: 50vh; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
   background-color: #f1f1f1; /* white*/
+  border-radius: 20px;
   box-shadow: 8px 8px 12px #aaa;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 10px; /* Place content 60px from the top */
+  margin-top: 20px;
+  margin-left: 20px;
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
   visibility: hidden;
 }
-
 /* The navigation menu links */
 /*.sidenav .closebtn {
   padding: 8px 8px 8px 32px;
