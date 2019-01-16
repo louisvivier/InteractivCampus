@@ -42,7 +42,7 @@ places = {
     "email": "contact@yncrea.fr",
     "website": "http://www.yncrea-hautsdefrance.fr",
     "link_text":"yncrea-hautsdefrance.fr",
-    "twitter": "https://twitter.com/yncrea_hdf",
+    "twitter": "yncrea_hdf",
     "marker_color": "#d65543",
     "logo_name":"yncrea",
     "streetpic_name":"yncrea1"
@@ -54,7 +54,7 @@ places = {
     "email": "contac@yncrea.fr",
     "website": "http://www.yncrea-hautsdefrance.fr",
     "link_text":"yncrea-hautsdefrance.fr",
-    "twitter": "https://twitter.com/yncrea_hdf",
+    "twitter": "yncrea_hdf",
     "marker_color": "#d65543",
     "logo_name":"adicode",
     "streetpic_name":"adicode"
