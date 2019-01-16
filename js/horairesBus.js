@@ -71,20 +71,23 @@ var horairesBus = {
 
   getHoraires(ligne, arret, sens){ //(18, "SOLFERINO", "ANATOLE+FRANCE")
     var xhr = new XMLHttpRequest();
+    xhr.response = "json";
     var chemin = "https://opendata.lillemetropole.fr/api/records/1.0/search/?dataset=transpole-prochainspassages&facet=nomstation&facet=codeligne&facet=sensligne&refine.codeligne=" + ligne + "&refine.nomstation=" + arret + "&refine.sensligne=" + sens;
     xhr.open('GET', chemin, false);
     xhr.send(null);
-    var requete = xhr.response;
-    try{
+    var obj = xhr.response;
+    var requete = JSON.parse(obj);
+    console.log(typeof(requete));
+    //try{
       var suivant1 = requete["records"][0]["fields"]["heureestimeedepart"];
       var suivant2 = requete["records"][1]["fields"]["heureestimeedepart"];
       var suivant3 = requete["records"][2]["fields"]["heureestimeedepart"];
       var horaires = horairesBus.tempsRestant(suivant1, suivant2, suivant3);
       return horaires;
-    }catch{
-      var erreur = ["Non disponible", "Non disponible", "Non disponible"];
-      return erreur;
-    }
+    //}catch{
+      //var erreur = ["Non disponible", "Non disponible", "Non disponible"];
+      //return erreur;
+    //}
   }
 };
 /*
