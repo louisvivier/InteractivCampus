@@ -18,7 +18,7 @@ places = {
     "email": "contact@hei.fr",
     "website": "http://www.hei.fr",
     "link_text":"hei.fr",
-    "twitter": "",
+    "twitter": "Hei_Lille",
     "marker_color": "#d65543",
     "logo_name":"hei",
     "streetpic_name":"hei"
@@ -30,7 +30,7 @@ places = {
     "email": "contact@isa-lille.fr",
     "website": "http://www.isa-lille.fr",
     "link_text":"isa-lille.fr",
-    "twitter": "",
+    "twitter": "ISA_Lille",
     "marker_color": "#d65543",
     "logo_name":"isa",
     "streetpic_name":"isa"
@@ -42,7 +42,7 @@ places = {
     "email": "contact@yncrea.fr",
     "website": "http://www.yncrea-hautsdefrance.fr",
     "link_text":"yncrea-hautsdefrance.fr",
-    "twitter": "",
+    "twitter": "https://twitter.com/yncrea_hdf",
     "marker_color": "#d65543",
     "logo_name":"yncrea",
     "streetpic_name":"yncrea1"
@@ -54,7 +54,7 @@ places = {
     "email": "contac@yncrea.fr",
     "website": "http://www.yncrea-hautsdefrance.fr",
     "link_text":"yncrea-hautsdefrance.fr",
-    "twitter": "",
+    "twitter": "https://twitter.com/yncrea_hdf",
     "marker_color": "#d65543",
     "logo_name":"adicode",
     "streetpic_name":"adicode"
@@ -197,7 +197,7 @@ places = {
     "phone": "03 62 65 11 51",
     "email": "",
     "website": "https://www.le-kiosque-a-pizzas.com/commander-pizza/pizza-lambersart-37-0.html",
-    "link_text":"",
+    "link_text":"le-kiosque-a-pizzas.com",
     "twitter": "",
     "marker_color": "#dfc277",
     "logo_name":"kiosque",
@@ -226,5 +226,53 @@ places = {
     "marker_color": "#dfc277",
     "logo_name":"sandwich",
     "streetpic_name":"pause"
+  },
+  "Perfecto":{
+    "adress_street": "263 Rue Nationale",
+    "adress_city": "59800 Lille",
+    "phone": "03 20 09 09 60",
+    "email": "",
+    "website": "https://www.perfecto-pizza-lille.fr/",
+    "link_text":"perfecto-pizza.fr",
+    "twitter": "",
+    "marker_color": "#dfc277",
+    "logo_name":"pizza",
+    "streetpic_name":"perfecto"
+  },
+  "rabbit1":{
+    "adress_street": "263 Rue Nationale",
+    "adress_city": "59800 Lille",
+    "phone": "03 20 09 09 60",
+    "email": "",
+    "website": "https://lille.speedrabbitpizza.com/categories/pizzas",
+    "link_text":"lille.speedrabbitpizza.com",
+    "twitter": "",
+    "marker_color": "#dfc277",
+    "logo_name":"pizza",
+    "streetpic_name":"perfecto"
+  },
+  "rabbit2":{
+    "adress_street": "263 Rue Nationale",
+    "adress_city": "59800 Lille",
+    "phone": "03 20 09 09 60",
+    "email": "",
+    "website": "https://lille.speedrabbitpizza.com/categories/pizzas",
+    "link_text":"lille.speedrabbitpizza.com",
+    "twitter": "",
+    "marker_color": "#dfc277",
+    "logo_name":"pizza",
+    "streetpic_name":"perfecto"
+  },
+  "sogood":{
+    "adress_street": "163 Avenue de Bretagne,",
+    "adress_city": "59000 Lille",
+    "phone": "03 20 53 40 12",
+    "email": "",
+    "website": "https://www.sogood.fr/3-commander",
+    "link_text":"sogood.fr",
+    "twitter": "",
+    "marker_color": "#dfc277",
+    "logo_name":"pizza",
+    "streetpic_name":"perfecto"
   },
 }
