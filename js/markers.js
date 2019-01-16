@@ -98,6 +98,8 @@ var markers = {
     let markerVELO2 = L.marker([50.62624,3.04001],{icon:velo }).addTo(macarte); //cormon
     let markerVELO3 = L.marker([50.63424,3.02116],{icon:velo }).addTo(macarte); //euratech
     let markerVELO4 = L.marker([50.63416,3.03072],{icon:velo }).addTo(macarte); //bois blanc
+    let markerVELO5 = L.marker([50.63214,3.04613],{icon:velo }).addTo(macarte); //vauban
+    let markerVELO6 = L.marker([50.63403,3.04512],{icon:velo }).addTo(macarte); //hei
   },
   //******************************************AUTRE************************************************
   aeu(){
