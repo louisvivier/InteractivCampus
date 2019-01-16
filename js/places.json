@@ -446,6 +446,68 @@ places = {
   "streetpic_name":"lille"
 },
 
+"_comment":"________________________________________________VELOS_________________________________________________",
+
+"VlilleSolfe":{
+  "adress_street": "17 Rue Solférino",
+  "adress_city": "59800 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/vlille/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_actu",
+  "marker_color": "#9eb886",
+  "logo_name":"vlille",
+  "streetpic_name":"lille"
+},
+"VlilleBeauxArts":{
+  "adress_street": "3 Place Richebé",
+  "adress_city": "59800 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/vlille/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_actu",
+  "marker_color": "#9eb886",
+  "logo_name":"vlille",
+  "streetpic_name":"lille"
+},
+"VlilleCormon":{
+  "adress_street": "21 Place Cormontaigne",
+  "adress_city": "59800 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/vlille/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_actu",
+  "marker_color": "#9eb886",
+  "logo_name":"vlille",
+  "streetpic_name":"lille"
+},
+"VlilleBoisBlanc":{
+  "adress_street": "122 Avenue de Dunkerque",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/vlille/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_actu",
+  "marker_color": "#9eb886",
+  "logo_name":"vlille",
+  "streetpic_name":"lille"
+},
+"VlilleEura":{
+  "adress_street": "Avenue de Bretagne",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/vlille/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_actu",
+  "marker_color": "#9eb886",
+  "logo_name":"vlille",
+  "streetpic_name":"lille"
+},
 "_comment":"________________________________________________SUPERMARKETS_________________________________________________",
 
 "Casino":{
