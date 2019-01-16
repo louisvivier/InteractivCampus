@@ -160,7 +160,7 @@ places = {
     "logo_name":"sandwich",
     "streetpic_name":"pause"
   },
-  "sogood":{
+  "Sogood":{
     "adress_street": "163 Avenue de Bretagne,",
     "adress_city": "59000 Lille",
     "phone": "03 20 53 40 12",
@@ -198,7 +198,7 @@ places = {
     "logo_name":"pizza",
     "streetpic_name":"perfecto"
   },
-  "rabbit1":{
+  "Rabbit1":{
     "adress_street": "263 Rue Nationale",
     "adress_city": "59800 Lille",
     "phone": "03 20 09 09 60",
@@ -210,7 +210,7 @@ places = {
     "logo_name":"pizza",
     "streetpic_name":"perfecto"
   },
-  "rabbit2":{
+  "Rabbit2":{
     "adress_street": "263 Rue Nationale",
     "adress_city": "59800 Lille",
     "phone": "03 20 09 09 60",
