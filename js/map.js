@@ -12,7 +12,7 @@ var map = {
       minZoom: 14,
       maxZoom: 18
     }).addTo(macarte);
-    $('.leaflet-control-attribution').html('<a href="https://geniusgames.fr target="_blank"">Application par GeniusCorp © </a> | <a href="http://www.openstreetmap.org/copyright">OpenStreetMap ©</a>');
+    $('.leaflet-control-attribution').html('<a href="https://geniusgames.fr"target="_blank">Application par GeniusCorp © </a> | <a href="http://www.openstreetmap.org/copyright">OpenStreetMap ©</a>');
     markers.isen();
     markers.hei();
     markers.isa();

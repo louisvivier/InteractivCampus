@@ -562,6 +562,42 @@ places = {
     "way":"HOTEL+VILLE"
   }
 },
+"BusPont1":{
+  "name":"Arrêt de bus Le Pont",
+  "adress_street": "Pont à Fourchons",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/bus/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_bus",
+  "marker_color": "#9eb886",
+  "logo_name":"bus",
+  "streetpic_name":"lille",
+  "bus_infos":{
+    "ligne":"18",
+    "stop":"LE+PONT",
+    "way":"ANATOLE+FRANCE"
+  }
+},
+"BusPont2":{
+  "name":"Arrêt de bus Le Pont",
+  "adress_street": "Pont à Fourchons",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/bus/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_bus",
+  "marker_color": "#9eb886",
+  "logo_name":"bus",
+  "streetpic_name":"lille",
+  "bus_infos":{
+    "ligne":"18",
+    "stop":"LE+PONT",
+    "way":"HOTEL+VILLE"
+  }
+},
 
 "_comment":"________________________________________________VELOS_________________________________________________",
 
@@ -576,7 +612,8 @@ places = {
   "twitter": "transpole_actu",
   "marker_color": "#9eb886",
   "logo_name":"vlille",
-  "streetpic_name":"lille"
+  "streetpic_name":"lille",
+  "vlille_station":"solferino"
 },
 "VlilleVauban":{
   "name":"Station V'Lille Boulevard",
@@ -589,7 +626,8 @@ places = {
   "twitter": "transpole_actu",
   "marker_color": "#9eb886",
   "logo_name":"vlille",
-  "streetpic_name":"lille"
+  "streetpic_name":"lille",
+  "vlille_station":"universitecatholique"
 },
 "VlilleHEI":{
   "name":"Station V'Lille HEI",
@@ -602,7 +640,8 @@ places = {
   "twitter": "transpole_actu",
   "marker_color": "#9eb886",
   "logo_name":"vlille",
-  "streetpic_name":"lille"
+  "streetpic_name":"lille",
+  "vlille_station":"hei"
 },
 "VlilleBeauxArts":{
   "name":"Station V'Lille République - Beaux Arts",
@@ -615,7 +654,8 @@ places = {
   "twitter": "transpole_actu",
   "marker_color": "#9eb886",
   "logo_name":"vlille",
-  "streetpic_name":"lille"
+  "streetpic_name":"lille",
+  "vlille_station":"republique"
 },
 "VlilleCormon":{
   "name":"Station V'Lille Cormontaigne",
@@ -628,7 +668,8 @@ places = {
   "twitter": "transpole_actu",
   "marker_color": "#9eb886",
   "logo_name":"vlille",
-  "streetpic_name":"lille"
+  "streetpic_name":"lille",
+  "vlille_station":"cormontaigne"
 },
 "VlilleBoisBlanc":{
   "name":"Station V'Lille Bois Blancs",
@@ -641,7 +682,8 @@ places = {
   "twitter": "transpole_actu",
   "marker_color": "#9eb886",
   "logo_name":"vlille",
-  "streetpic_name":"lille"
+  "streetpic_name":"lille",
+  "vlille_station":"boisblanc"
 },
 "VlilleEura":{
   "name":"Station V'Lille Euratechnologie",
@@ -654,7 +696,8 @@ places = {
   "twitter": "transpole_actu",
   "marker_color": "#9eb886",
   "logo_name":"vlille",
-  "streetpic_name":"lille"
+  "streetpic_name":"lille",
+  "vlille_station":"euratechnologie"
 },
 "_comment":"________________________________________________SUPERMARKETS_________________________________________________",
 
