@@ -569,7 +569,7 @@ places = {
   "bus_infos":{
     "ligne":"18",
     "stop":"HENRI+REGNAULT",
-    "way":"HOTEL+VILLE",
+    "way":"HOTEL+DE+VILLE",
     "name":"Ligne 18 - Hotel de Ville"
   }
 },
@@ -607,7 +607,7 @@ places = {
   "bus_infos":{
     "ligne":"18",
     "stop":"LE+PONT",
-    "way":"HOTEL+VILLE",
+    "way":"HOTEL+DE+VILLE",
     "name":"Ligne 18 - Hotel de Ville"
   }
 },
