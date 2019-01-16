@@ -148,6 +148,18 @@ places = {
     "logo_name":"dog",
     "streetpic_name":"dog"
   },
+  "epis":{
+    "adress_street": "102 Boulevard Vauban",
+    "adress_city": "59800 Lille",
+    "phone": "03 20 54 59 75",
+    "email": "",
+    "website": "",
+    "link_text":"",
+    "twitter": "",
+    "marker_color": "#dfc277",
+    "logo_name":"epis",
+    "streetpic_name":"epis"
+  },
   "Paul":{
     "adress_street": "19 Place Du Général De Gaulle",
     "adress_city": "59000 Lille",
