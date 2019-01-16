@@ -7,9 +7,7 @@ var markers = {
       iconAnchor: [20, 55], //ancrage
       popupAnchor: [0, 0],
     });
-    let markerISEN = L.marker([50.63409,3.04879],{ icon: isen }).addTo(macarte);
-    let PopUpISEN = "<b>ISEN</b><br>Institut Supérieur de l'Electronique et du Numérique";
-    markerISEN.bindPopup(PopUpISEN);
+    let markerISEN = L.marker([50.63409,3.04879],{ icon: isen }).addTo(macarte).on('click',function(e) { leftPan.open("ISEN");});
   },
   hei(){
     let hei = L.icon({
@@ -18,9 +16,7 @@ var markers = {
       iconAnchor: [20,55],
       popupAnchor: [0,0],
     });
-    let markerHEI = L.marker([50.63366,3.04539],{icon:hei }).addTo(macarte);
-    let PopUpHEI = "<b>HEI</b><br>Grande Ecole d'Ingénieur Généraliste";
-    markerHEI.bindPopup(PopUpHEI);
+    let markerHEI = L.marker([50.63366,3.04539],{icon:hei }).addTo(macarte).on('click',function(e) { leftPan.open("HEI");});
   },
   isa(){
     let isa = L.icon({
@@ -29,9 +25,7 @@ var markers = {
       iconAnchor: [20,55],
       popupAnchor: [0,0],
     });
-    let markerISA = L.marker([50.63390,3.04663],{icon:isa }).addTo(macarte);
-    let PopUpISA = "<b>ISA</b><br>Institut Supérieur de l'Agriculture";
-    markerISA.bindPopup(PopUpISA);
+    let markerISA = L.marker([50.63390,3.04663],{icon:isa }).addTo(macarte).on('click',function(e) { leftPan.open("ISA");});
   },
   yncrea(){
     let yncrea = L.icon({
@@ -40,10 +34,8 @@ var markers = {
       iconAnchor: [20,55],
       popupAnchor: [0,0],
     });
-    let markerYNCREA = L.marker([50.63360,3.04692],{icon:yncrea }).addTo(macarte);
-    let markerYNCREA1 = L.marker([50.63530,3.04993],{icon:yncrea }).addTo(macarte);
-    let PopUpYNCREA = "<b>YNCREA</b><br>Pôle associatif d'écoles d'ingénieurs en France - HEI ISA ISEN";
-    markerYNCREA.bindPopup(PopUpYNCREA);
+    let markerYNCREA = L.marker([50.63360,3.04692],{icon:yncrea }).addTo(macarte).on('click',function(e) { leftPan.open("Yncrea1");});
+    let markerYNCREA2 = L.marker([50.63530,3.04993],{icon:yncrea }).addTo(macarte).on('click',function(e) { leftPan.open("Yncrea2");});
   },
   urbawood(){
     let urbawood = L.icon({
@@ -52,9 +44,7 @@ var markers = {
       iconAnchor: [20, 55],
       popupAnchor: [0, 0],
     });
-    let markerURBA = L.marker([50.63316,3.02354],{icon:urbawood }).addTo(macarte);
-    let PopUpURBA = "<b>ADICODE</b><br>Euratechnologie - Pôle des nouvelles technologies de l'information et de la communication";
-    markerURBA.bindPopup(PopUpURBA);
+    let markerURBA = L.marker([50.63316,3.02354],{icon:urbawood }).addTo(macarte).on('click',function(e) { leftPan.open("Urbawood");});
   },
   //***********************************************TRANSPORTS********************************************************
   bus(){
@@ -64,17 +54,17 @@ var markers = {
       iconAnchor: [20,55],
       popupAnchor: [0,0],
     });
-    let markerBUS = L.marker([50.63411,3.04850],{icon:bus }).addTo(macarte); //solfé
-    let markerBUS1 = L.marker([50.63413,3.04946],{icon:bus }).addTo(macarte); //solfé
-    let markerBUS2 = L.marker([50.63158,3.06226],{icon:bus }).addTo(macarte); //beaux arts
-    let markerBUS3 = L.marker([50.63134,3.06231],{icon:bus }).addTo(macarte); //beaux arts
-    let markerBUS4 = L.marker([50.62661,3.04079],{icon:bus }).addTo(macarte); //cormon
-    let markerBUS5 = L.marker([50.62648,3.04002],{icon:bus }).addTo(macarte); //cormon
-    let markerBUS6 = L.marker([50.63452,3.03028],{icon:bus }).addTo(macarte); //boisblanc
-    let markerBUS7 = L.marker([50.63487,3.03023],{icon:bus }).addTo(macarte); //boisblanc
-    let markerBUS8 = L.marker([50.63712,3.07073],{icon:bus }).addTo(macarte); //flandres
-    let markerBUS9 = L.marker([50.63720,3.07024],{icon:bus }).addTo(macarte); //flandres
-    let markerBUS10 = L.marker([50.63942,3.07507],{icon:bus }).addTo(macarte); //europe
+    let markerBUS = L.marker([50.63411,3.04850],{icon:bus }).addTo(macarte).on('click',function(e) { leftPan.open("BusSolfe1");}); //solfé
+    let markerBUS1 = L.marker([50.63413,3.04946],{icon:bus }).addTo(macarte).on('click',function(e) { leftPan.open("BusSolfe2");}); //solfé
+    let markerBUS2 = L.marker([50.63158,3.06226],{icon:bus }).addTo(macarte).on('click',function(e) { leftPan.open("BusBeauxArts1");}); //beaux arts
+    let markerBUS3 = L.marker([50.63134,3.06231],{icon:bus }).addTo(macarte).on('click',function(e) { leftPan.open("BusBeauxArts2");}); //beaux arts
+    let markerBUS4 = L.marker([50.62661,3.04079],{icon:bus }).addTo(macarte).on('click',function(e) { leftPan.open("BusCormon1");}); //cormon
+    let markerBUS5 = L.marker([50.62648,3.04002],{icon:bus }).addTo(macarte).on('click',function(e) { leftPan.open("BusCormon2");}); //cormon
+    let markerBUS6 = L.marker([50.63452,3.03028],{icon:bus }).addTo(macarte).on('click',function(e) { leftPan.open("BusBoisBlanc1");}); //boisblanc
+    let markerBUS7 = L.marker([50.63487,3.03023],{icon:bus }).addTo(macarte).on('click',function(e) { leftPan.open("BusBoisBlanc2");}); //boisblanc
+    let markerBUS8 = L.marker([50.63712,3.07073],{icon:bus }).addTo(macarte).on('click',function(e) { leftPan.open("BusFlandres1");}); //flandres
+    let markerBUS9 = L.marker([50.63720,3.07024],{icon:bus }).addTo(macarte).on('click',function(e) { leftPan.open("BusFlandres2");}); //flandres
+    let markerBUS10 = L.marker([50.63942,3.07507],{icon:bus }).addTo(macarte).on('click',function(e) { leftPan.open("BusEurope");}); //europe
   },
   metro(){
     let metro = L.icon({
@@ -83,10 +73,9 @@ var markers = {
       iconAnchor: [20,55],
       popupAnchor: [0,0],
     });
-    let markerMETRO = L.marker([50.63214,3.06161],{icon:metro }).addTo(macarte);
-    let markerMETRO1 = L.marker([50.62633,3.04060],{icon:metro }).addTo(macarte);
-    let markerMETRO2 = L.marker([50.63441,3.03039],{icon:metro }).addTo(macarte);
-    let markerMETRO3 = L.marker([50.62999,3.03537],{icon:metro }).addTo(macarte);
+    let markerMETRO = L.marker([50.63214,3.06161],{icon:metro }).addTo(macarte).on('click',function(e) { leftPan.open("Beaux-Arts");});
+    let markerMETRO1 = L.marker([50.62633,3.04060],{icon:metro }).addTo(macarte).on('click',function(e) { leftPan.open("Cormontaigne");});
+    let markerMETRO2 = L.marker([50.63441,3.03039],{icon:metro }).addTo(macarte).on('click',function(e) { leftPan.open("BoisBlanc");});
   },
   velo (){
     let velo = L.icon({
@@ -107,9 +96,7 @@ var markers = {
       iconAnchor: [20, 55],
       popupAnchor: [0,0],
     });
-    let markerAEU = L.marker([50.63309,3.04795],{icon:aeu }).addTo(macarte);
-    let PopUpAEU= "<b>AEU</b><br>Association d'Entraide Universitaire";
-    markerAEU.bindPopup(PopUpAEU);
+    let markerAEU = L.marker([50.63309,3.04795],{icon:aeu }).addTo(macarte).on('click',function(e) { leftPan.open("AEU");});
   },
   sandwich(){
     let sandwich = L.icon({
@@ -118,15 +105,13 @@ var markers = {
       iconAnchor: [20, 55],
       popupAnchor: [0,0],
     });
-    let markerSAND = L.marker([50.63359,3.04813],{icon:sandwich }).addTo(macarte); //dog
-    let markerSAND1 = L.marker([50.63334,3.04788],{icon:sandwich }).addTo(macarte); //boite à sandwich
-    let markerSAND2 = L.marker([50.63445,3.02112],{icon:sandwich }).addTo(macarte); //pause sandwich
-    let markerSAND3 = L.marker([50.63420,3.05505],{icon:sandwich }).addTo(macarte); //Paul
-    let markerSAND4 = L.marker([50.63601,3.02760],{icon:sandwich }).addTo(macarte); //friterie colysee
-    let markerSAND5 = L.marker([50.62983,3.04597],{icon:sandwich }).addTo(macarte); //kebab celine
-    let markerSAND6 = L.marker([50.63405,3.02094],{icon:sandwich }).addTo(macarte); //sogood
-    let PopUpDOG= "<b>DOG Sandwich</b><br>Sandwicherie";
-    markerSAND.bindPopup(PopUpDOG);
+    let markerSAND = L.marker([50.63359,3.04813],{icon:sandwich }).addTo(macarte).on('click',function(e) { leftPan.open("Dog");}); //dog
+    let markerSAND1 = L.marker([50.63334,3.04788],{icon:sandwich }).addTo(macarte).on('click',function(e) { leftPan.open("Boite");}); //boite à sandwich
+    let markerSAND2 = L.marker([50.63445,3.02112],{icon:sandwich }).addTo(macarte).on('click',function(e) { leftPan.open("Pause");}); //pause sandwich
+    let markerSAND3 = L.marker([50.63420,3.05505],{icon:sandwich }).addTo(macarte).on('click',function(e) { leftPan.open("Paul");}); //Paul
+    let markerSAND4 = L.marker([50.63601,3.02760],{icon:sandwich }).addTo(macarte).on('click',function(e) { leftPan.open("Colisee");}); //friterie colysee
+    let markerSAND5 = L.marker([50.62983,3.04597],{icon:sandwich }).addTo(macarte).on('click',function(e) { leftPan.open("Celine");}); //kebab celine
+    let markerSAND6 = L.marker([50.63405,3.02094],{icon:sandwich }).addTo(macarte).on('click',function(e) { leftPan.open("Sogood");}); //sogood
   },
   pizza(){
     let pizza = L.icon({
@@ -135,11 +120,11 @@ var markers = {
       iconAnchor: [20, 55],
       popupAnchor: [0,0],
     });
-    let markerPIZZA = L.marker([50.63649,3.02608],{icon:pizza }).addTo(macarte); //dominos
-    let markerPIZZA1 = L.marker([50.63385,3.05564],{icon:pizza }).addTo(macarte); //pizza rabbit centre
-    let markerPIZZA2 = L.marker([50.63697,3.02513],{icon:pizza }).addTo(macarte); //kiosque à pizza
-    let markerPIZZA3 = L.marker([50.63589,3.02881],{icon:pizza }).addTo(macarte); //pizza rabbit eura
-    let markerPIZZA4 = L.marker([50.62981,3.04590],{icon:pizza }).addTo(macarte); //perfecto pizza
+    let markerPIZZA = L.marker([50.63649,3.02608],{icon:pizza }).addTo(macarte).on('click',function(e) { leftPan.open("Dominos");}); //dominos
+    let markerPIZZA1 = L.marker([50.63385,3.05564],{icon:pizza }).addTo(macarte).on('click',function(e) { leftPan.open("Rabbit1");}); //pizza rabbit centre
+    let markerPIZZA2 = L.marker([50.63697,3.02513],{icon:pizza }).addTo(macarte).on('click',function(e) { leftPan.open("Kiosque");}); //kiosque à pizza
+    let markerPIZZA3 = L.marker([50.63589,3.02881],{icon:pizza }).addTo(macarte).on('click',function(e) { leftPan.open("Rabbit2");}); //pizza rabbit eura
+    let markerPIZZA4 = L.marker([50.62981,3.04590],{icon:pizza }).addTo(macarte).on('click',function(e) { leftPan.open("Perfecto");}); //perfecto pizza
   },
   gare(){
     let gare = L.icon({
@@ -148,8 +133,8 @@ var markers = {
       iconAnchor: [20, 55],
       popupAnchor: [0,0],
     });
-    let markerGARE = L.marker([50.63627,3.07089],{icon:gare }).addTo(macarte); //lille flandres
-    let markerGARE1 = L.marker([50.63932,3.07540],{icon:gare }).addTo(macarte); //lille europe
+    let markerGARE = L.marker([50.63627,3.07089],{icon:gare }).addTo(macarte).on('click',function(e) { leftPan.open("GareFlandres");}); //lille flandres
+    let markerGARE1 = L.marker([50.63932,3.07540],{icon:gare }).addTo(macarte).on('click',function(e) { leftPan.open("GareEurope");}); //lille europe
   },
   atm(){
     let atm = L.icon({
@@ -172,12 +157,12 @@ var markers = {
       iconAnchor: [20, 55],
       popupAnchor: [0,0],
     });
-    let markerCADDY = L.marker([50.63210,3.04283],{icon:caddy }).addTo(macarte); //leader price
-    let markerCADDY1 = L.marker([50.63222,3.05387],{icon:caddy }).addTo(macarte); //match
-    let markerCADDY2 = L.marker([50.62997,3.04561],{icon:caddy }).addTo(macarte); //carrefour express vauban
-    let markerCADDY3 = L.marker([50.63435,3.03073],{icon:caddy }).addTo(macarte); //carrefour express bois blanc
-    let markerCADDY4 = L.marker([50.63748,3.07436],{icon:caddy }).addTo(macarte); //euralille
-    let markerCADDY5 = L.marker([50.62575,3.03954],{icon:caddy }).addTo(macarte); //carrefour city cormon
+    let markerCADDY = L.marker([50.63210,3.04283],{icon:caddy }).addTo(macarte).on('click',function(e) { leftPan.open("Casino");}); //casino
+    let markerCADDY1 = L.marker([50.63222,3.05387],{icon:caddy }).addTo(macarte).on('click',function(e) { leftPan.open("Match");}); //match
+    let markerCADDY2 = L.marker([50.62997,3.04561],{icon:caddy }).addTo(macarte).on('click',function(e) { leftPan.open("CarrefourExpress1");}); //carrefour express vauban
+    let markerCADDY3 = L.marker([50.63435,3.03073],{icon:caddy }).addTo(macarte).on('click',function(e) { leftPan.open("CarrefourExpress2");}); //carrefour express bois blanc
+    let markerCADDY4 = L.marker([50.63748,3.07436],{icon:caddy }).addTo(macarte).on('click',function(e) { leftPan.open("Euralille");}); //euralille
+    let markerCADDY5 = L.marker([50.62575,3.03954],{icon:caddy }).addTo(macarte).on('click',function(e) { leftPan.open("CarrefourCity");}); //carrefour city cormon
   }
 
 };
