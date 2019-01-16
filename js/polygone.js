@@ -6,7 +6,7 @@ var polygone = {
       [50.6331245, 3.0238751],
       [50.6329517, 3.0234348]
     ],{
-      color:'#703500',
+      color:'black',
       fillColor:'#be8d2e',
       fillOpacity:0.7
     }).addTo(macarte);
@@ -88,7 +88,7 @@ var polygone = {
       [50.63398, 3.04623],
       [50.63391 ,3.04639]
     ],{
-      color:'green',
+      color:'black',
       fillColor:'#6cc934',
       fillOpacity:0.7
     }).addTo(macarte);
@@ -141,8 +141,8 @@ var polygone = {
       [50.63522, 3.04995],
       [50.63528, 3.04979],
     ],{
-      color:'brown',
-      fillColor:'brown',
+      color:'black',
+      fillColor:'#ffa500',
       fillOpacity:0.7
     }).addTo(macarte);
   },
@@ -157,7 +157,7 @@ var polygone = {
       [50.63287, 3.04796],
       [50.63315, 3.04763]
     ],{
-      color:'blue',
+      color:'black',
       fillColor:'#0070ff',
       fillOpacity:0.7
     }).addTo(macarte);
