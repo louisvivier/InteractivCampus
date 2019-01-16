@@ -16,6 +16,7 @@ var map = {
     markers.isen();
     markers.hei();
     markers.isa();
+    markers.catho();
     markers.yncrea();
     markers.urbawood();
     markers.bus();

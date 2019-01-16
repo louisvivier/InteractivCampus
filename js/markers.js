@@ -27,6 +27,15 @@ var markers = {
     });
     let markerISA = L.marker([50.63390,3.04663],{icon:isa }).addTo(macarte).on('click',function(e) { leftPan.open("ISA");});
   },
+  catho(){
+    let catho = L.icon({
+      iconUrl: "images/markers/catho.png",
+      iconSize: [40, 60],
+      iconAnchor: [20,55],
+      popupAnchor: [0,0],
+    });
+    let markerCATHO = L.marker([50.63327,3.04635],{icon:catho }).addTo(macarte)//.on('click',function(e) { leftPan.open("Catho");});
+  },
   yncrea(){
     let yncrea = L.icon({
       iconUrl: "images/markers/yncrea.png",
