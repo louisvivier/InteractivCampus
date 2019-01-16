@@ -4,7 +4,7 @@ var leftPan = {
     $("#leftPan").css("visibility","visible");
     $("#leftPan").css("width","500px");
     $(".logo").attr("src", "images/logos/"+places[id].logo_name+".png");
-    if (places[id].twitter != ""){
+    if (places[id].streetpic_name != ""){
       $(".streetpic").attr("src", "images/streetpics/"+places[id].streetpic_name+".png");
     }
     else {
