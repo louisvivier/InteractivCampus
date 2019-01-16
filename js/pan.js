@@ -30,7 +30,6 @@ var leftPan = {
     else {
       $('.twitterFeed').html('');
     }
-    theMap.setView([lat, lng], zoom);
   },
   close(){
     document.getElementById("leftPan").style.visibility = "hidden";
