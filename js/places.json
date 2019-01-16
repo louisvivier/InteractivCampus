@@ -416,7 +416,7 @@ places = {
   "streetpic_name":"lille",
   "bus_infos":{
     "ligne":"18",
-    "stop":"REPUBLIQUE",
+    "stop":"REPUBLIQUE+BEAUX+ARTS",
     "way":"ANATOLE+FRANCE",
     "name":"Ligne 18 - Anatole France"
   }
@@ -474,7 +474,7 @@ places = {
   "bus_infos":{
     "ligne":"12",
     "stop":"LILLE+FLANDRES",
-    "way":"LE PARC",
+    "way":"LE+PARC",
     "name":"Ligne 12 - Le Parc"
   }
 },

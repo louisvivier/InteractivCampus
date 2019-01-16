@@ -34,9 +34,25 @@ var horairesBus = {
       }else{
         res = " " + minute + " minutes";
       }
-    }else{
+    }else if(heure == 1){
       res = " " + heure + "h" + minute;
+    }else{
+      res = "Plus de bus disponible";
     }
+    return res;
+  },
+
+  conversionHeure(heure, minute){
+    var minuteDecimal = minute/60;
+    let res = heure + minuteDecimal;
+    return res;
+  },
+
+  conversionHeureMinute(heureDecimal){
+    var minuteDecimal = heureDecimal%1;
+    var heure = heureDecimal - minuteDecimal;
+    var minute = minuteDecimal*60;
+    let res = [heure, minute];
     return res;
   },
 
@@ -62,9 +78,16 @@ var horairesBus = {
     var resultat3 = horairesBus.soustractionHeure(heureActuel, minuteActuel, heure3, minute3);
     heure3 = resultat3[0];
     minute3 = resultat3[1];
-    var temps1 = horairesBus.stringSuivant(heure1, minute1);
-    var temps2 = horairesBus.stringSuivant(heure2, minute2);
-    var temps3 = horairesBus.stringSuivant(heure3, minute3);
+    var tabHorairesNonTrie = [[heure1, minute1], [heure2, minute2], [heure3, minute3]];
+    dec1 = horairesBus.conversionHeure(tabHorairesNonTrie[0][0], tabHorairesNonTrie[0][1]);
+    dec2 = horairesBus.conversionHeure(tabHorairesNonTrie[1][0], tabHorairesNonTrie[1][1]);
+    dec3 = horairesBus.conversionHeure(tabHorairesNonTrie[2][0], tabHorairesNonTrie[2][1]);
+    var tabDecimal = [dec1, dec2, dec3];
+    tabDecimal.sort();
+    var tabHoraires = [horairesBus.conversionHeureMinute(tabDecimal[0]), horairesBus.conversionHeureMinute(tabDecimal[1]), horairesBus.conversionHeureMinute(tabDecimal[2])];
+    var temps1 = horairesBus.stringSuivant(tabHoraires[0][0], tabHoraires[0][1]);
+    var temps2 = horairesBus.stringSuivant(tabHoraires[1][0], tabHoraires[1][1]);
+    var temps3 = horairesBus.stringSuivant(tabHoraires[2][0], tabHoraires[2][1]);
     var horaires = [temps1, temps2, temps3];
     return horaires;
   },
@@ -77,17 +100,16 @@ var horairesBus = {
     xhr.send(null);
     var obj = xhr.response;
     var requete = JSON.parse(obj);
-    console.log(typeof(requete));
-    //try{
+    try{
       var suivant1 = requete["records"][0]["fields"]["heureestimeedepart"];
       var suivant2 = requete["records"][1]["fields"]["heureestimeedepart"];
       var suivant3 = requete["records"][2]["fields"]["heureestimeedepart"];
       var horaires = horairesBus.tempsRestant(suivant1, suivant2, suivant3);
       return horaires;
-    //}catch{
-      //var erreur = ["Non disponible", "Non disponible", "Non disponible"];
-      //return erreur;
-    //}
+    }catch{
+      var erreur = ["Non disponible", "Non disponible", "Non disponible"];
+      return erreur;
+    }
   }
 };
 /*
