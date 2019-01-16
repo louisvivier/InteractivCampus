@@ -510,17 +510,29 @@ places = {
 },
 "_comment":"________________________________________________SUPERMARKETS_________________________________________________",
 
-"Casino":{
+"Casino1":{
   "adress_street": "158 Rue Colbert",
   "adress_city": "59000 Lille",
   "phone": "03 28 36 06 07",
   "email": "",
-  "website": "https://magasins.lepetitcasino.com/",
+  "website": "https://magasins.lepetitcasino.com/fr/s/petit-casino-lille-colbert",
   "link_text":"magasins.lepetitcasino.com",
   "twitter": "casino_super",
   "marker_color": "#adadae",
   "logo_name":"casino",
-  "streetpic_name":"casino"
+  "streetpic_name":"casino1"
+},
+"Casino2":{
+  "adress_street": "204 Rue Nationale",
+  "adress_city": "59000 Lille",
+  "phone": "03 28 38 80 83",
+  "email": "",
+  "website": "https://magasins.lepetitcasino.com/fr/s/petit-casino-lille-nationale",
+  "link_text":"magasins.lepetitcasino.com",
+  "twitter": "casino_super",
+  "marker_color": "#adadae",
+  "logo_name":"casino",
+  "streetpic_name":"casino2"
 },
 "CarrefourExpress1":{
   "adress_street": "298 Rue Nationale",
