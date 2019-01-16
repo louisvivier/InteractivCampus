@@ -444,7 +444,7 @@ places = {
   "website": "https://magasins.lepetitcasino.com/",
   "link_text":"magasins.lepetitcasino.com",
   "twitter": "casino_super",
-  "marker_color": "#9eb886",
+  "marker_color": "#adadae",
   "logo_name":"casino",
   "streetpic_name":"casino"
 },
@@ -456,7 +456,7 @@ places = {
   "website": "https://www.carrefour.fr/magasin/express-lille-colbert?utm_medium=flux_opm&utm_source=flux_opm",
   "link_text":"carrefour.fr",
   "twitter": "CarrefourFrance",
-  "marker_color": "#9eb886",
+  "marker_color": "#adadae",
   "logo_name":"carrefourexpress",
   "streetpic_name":"carrefourvauban"
 },
@@ -468,7 +468,7 @@ places = {
   "website": "https://www.carrefour.fr/magasin/express-lille-dunkerque?utm_medium=flux_opm&utm_source=flux_opm",
   "link_text":"carrefour.fr",
   "twitter": "CarrefourFrance",
-  "marker_color": "#9eb886",
+  "marker_color": "#adadae",
   "logo_name":"carrefourexpress",
   "streetpic_name":"carrefourboisblanc"
 },
@@ -480,7 +480,7 @@ places = {
   "website": "https://www.carrefour.fr/magasin/city-lille-isly?utm_medium=flux_opm&utm_source=flux_opm",
   "link_text":"carrefour.fr",
   "twitter": "CarrefourFrance",
-  "marker_color": "#9eb886",
+  "marker_color": "#adadae",
   "logo_name":"carrefourcity",
   "streetpic_name":"carrefourcity"
 },
@@ -492,7 +492,7 @@ places = {
   "website": "https://www.supermarchesmatch.fr/79-lille-halles-solferino",
   "link_text":"supermarchesmatch.fr",
   "twitter": "supermarchematc",
-  "marker_color": "#9eb886",
+  "marker_color": "#adadae",
   "logo_name":"match",
   "streetpic_name":"match"
 },
@@ -504,7 +504,7 @@ places = {
   "website": "https://www.euralille.com/",
   "link_text":"euralille.com",
   "twitter": "euralille",
-  "marker_color": "#9eb886",
+  "marker_color": "#adadae",
   "logo_name":"euralille",
   "streetpic_name":"euralille"
 },
@@ -519,7 +519,7 @@ places = {
   "website": "https://www.ca-norddefrance.fr/",
   "link_text":"ca-norddefrance.fr",
   "twitter": "CreditAgricole",
-  "marker_color": "#9eb886",
+  "marker_color": "#8eabc8",
   "logo_name":"agricole",
   "streetpic_name":"atmisa"
 },
@@ -531,7 +531,7 @@ places = {
   "website": "https://www.ca-norddefrance.fr/",
   "link_text":"ca-norddefrance.fr",
   "twitter": "CreditAgricole",
-  "marker_color": "#9eb886",
+  "marker_color": "#8eabc8",
   "logo_name":"agricole",
   "streetpic_name":"agricole"
 },
@@ -543,7 +543,7 @@ places = {
   "website": "https://agences.societegenerale.fr/banque-assurance/agence-lille-vauban-id3000301106",
   "link_text":"societegenerale.fr",
   "twitter": "SocieteGenerale",
-  "marker_color": "#9eb886",
+  "marker_color": "#8eabc8",
   "logo_name":"generale",
   "streetpic_name":"generale"
 },
@@ -555,7 +555,7 @@ places = {
   "website": "https://www.cic.fr/fr/banques/particuliers/Details.aspx?banque=30027&guichet=17062&bureau=00&type=branch",
   "link_text":"cic.fr",
   "twitter": "cic",
-  "marker_color": "#9eb886",
+  "marker_color": "#8eabc8",
   "logo_name":"cic",
   "streetpic_name":"cic"
 },
@@ -567,7 +567,7 @@ places = {
   "website": "https://www.credit-du-nord.fr/",
   "link_text":"credit-du-nord.fr",
   "twitter": "creditdunord",
-  "marker_color": "#9eb886",
+  "marker_color": "#8eabc8",
   "logo_name":"nord",
   "streetpic_name":"nord"
 },
@@ -579,7 +579,7 @@ places = {
   "website": "https://particuliers.secure.lcl.fr/index.html",
   "link_text":"lcl.fr",
   "twitter": "LCL",
-  "marker_color": "#9eb886",
+  "marker_color": "#8eabc8",
   "logo_name":"lcl",
   "streetpic_name":"lcl"
 },
