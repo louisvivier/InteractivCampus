@@ -27,5 +27,6 @@
   var macarte = null;
   $("#leftPan").load('html/pan/panContent.html #leftPan');
   map.init();
+  macarte.on('click',function(e) { leftPan.close();})
 </script>
 </html>
