@@ -37,6 +37,18 @@ places = {
     "logo_name":"isa",
     "streetpic_name":"isa"
   },
+  "Catho":{
+    "adress_street": "60 Boulevard Vauban",
+    "adress_city": "59800 Lille",
+    "phone": "03 20 13 40 00",
+    "email": "",
+    "website": "https://www.univ-catholille.fr/",
+    "link_text":"univ-catholille.fr",
+    "twitter": "UnivCatholille",
+    "marker_color": "#d65543",
+    "logo_name":"catho",
+    "streetpic_name":"catho"
+  },
   "Yncrea1":{
     "adress_street": "2 Rue Norbert Segard",
     "adress_city": "59014 Lille",
