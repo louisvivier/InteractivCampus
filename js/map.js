@@ -7,12 +7,12 @@ var map = {
     // Créer l'objet "macarte" et l'insèrer dans l'élément HTML qui a l'ID "map"
     macarte = L.map('map', {maxBounds: bounds}).setView([lat, lon], 15);
     // Leaflet ne récupère pas les cartes (tiles) sur un serveur par défaut. Nous devons lui préciser où nous souhaitons les récupérer. Ici, openstreetmap.fr
-    L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
-      // Il est toujours bien de laisser le lien vers la source des données
-      attribution: '<a href="https://geniusgames.fr">Application par GeniusCorp © </a> | données © <a href="//osm.org/copyright">OpenStreetMap</a>/ODbL - rendu <a href="//openstreetmap.fr">OSM France</a>',
+    L.tileLayer('https://{s}.tile.openstreetmap.se/hydda/full/{z}/{x}/{y}.png', {
+      attribution: '',
       minZoom: 14,
       maxZoom: 20
     }).addTo(macarte);
+    $('.leaflet-control-attribution').html('<a href="https://geniusgames.fr target="_blank"">Application par GeniusCorp © </a> | <a href="http://www.openstreetmap.org/copyright">OpenStreetMap ©</a>');
     markers.isen();
     markers.hei();
     markers.isa();
