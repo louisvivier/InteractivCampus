@@ -169,8 +169,8 @@ places = {
     "link_text":"sogood.fr",
     "twitter": "",
     "marker_color": "#dfc277",
-    "logo_name":"pizza",
-    "streetpic_name":"perfecto"
+    "logo_name":"sogood",
+    "streetpic_name":"sogood"
   },
   "_comment":"________________________________________________PIZZAS_________________________________________________",
 
@@ -199,28 +199,28 @@ places = {
     "streetpic_name":"perfecto"
   },
   "Rabbit1":{
-    "adress_street": "263 Rue Nationale",
-    "adress_city": "59800 Lille",
-    "phone": "03 20 09 09 60",
+    "adress_street": "2 Avenue Hippolyte Peslin",
+    "adress_city": "59130 Lambersart",
+    "phone": "03 20 08 27 27",
     "email": "",
     "website": "https://lille.speedrabbitpizza.com/categories/pizzas",
     "link_text":"lille.speedrabbitpizza.com",
-    "twitter": "",
+    "twitter": "pizzas_lille",
     "marker_color": "#dfc277",
-    "logo_name":"pizza",
-    "streetpic_name":"perfecto"
+    "logo_name":"rabbit",
+    "streetpic_name":"rabbit2"
   },
   "Rabbit2":{
-    "adress_street": "263 Rue Nationale",
+    "adress_street": "1 Place de Strasbourg,",
     "adress_city": "59800 Lille",
-    "phone": "03 20 09 09 60",
+    "phone": "03 20 14 32 32",
     "email": "",
     "website": "https://lille.speedrabbitpizza.com/categories/pizzas",
     "link_text":"lille.speedrabbitpizza.com",
-    "twitter": "",
+    "twitter": "pizzas_lille",
     "marker_color": "#dfc277",
-    "logo_name":"pizza",
-    "streetpic_name":"perfecto"
+    "logo_name":"rabbit",
+    "streetpic_name":"rabbit1"
   },
   "Dominos":{
     "adress_street": "236 Avenue de Dunkerque",
@@ -512,15 +512,75 @@ places = {
 "_comment":"________________________________________________ATM_________________________________________________",
 
 "AtmIsa":{
-  "adress_street": "1 Avenue Willy Brandt",
+  "adress_street": "2 Rue Norbert Segard",
   "adress_city": "59000 Lille",
-  "phone": "08 26 25 32 35",
+  "phone": "03 20 00 30 00",
   "email": "",
-  "website": "https://www.euralille.com/",
-  "link_text":"euralille.com",
-  "twitter": "euralille",
+  "website": "https://www.ca-norddefrance.fr/",
+  "link_text":"ca-norddefrance.fr",
+  "twitter": "CreditAgricole",
   "marker_color": "#9eb886",
-  "logo_name":"euralille",
-  "streetpic_name":"euralille"
+  "logo_name":"agricole",
+  "streetpic_name":"atmisa"
+},
+"CreditAgricole":{
+  "adress_street": "87 Rue Colbert",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 00 30 00",
+  "email": "",
+  "website": "https://www.ca-norddefrance.fr/",
+  "link_text":"ca-norddefrance.fr",
+  "twitter": "CreditAgricole",
+  "marker_color": "#9eb886",
+  "logo_name":"agricole",
+  "streetpic_name":"agricole"
+},
+"SocieteGenerale":{
+  "adress_street": "75b Boulevard Vauban",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 54 27 71",
+  "email": "",
+  "website": "https://agences.societegenerale.fr/banque-assurance/agence-lille-vauban-id3000301106",
+  "link_text":"societegenerale.fr",
+  "twitter": "SocieteGenerale",
+  "marker_color": "#9eb886",
+  "logo_name":"generale",
+  "streetpic_name":"generale"
+},
+"CIC":{
+  "adress_street": "8 Place du Maréchal Leclerc",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 18 77 58",
+  "email": "",
+  "website": "https://www.cic.fr/fr/banques/particuliers/Details.aspx?banque=30027&guichet=17062&bureau=00&type=branch",
+  "link_text":"cic.fr",
+  "twitter": "cic",
+  "marker_color": "#9eb886",
+  "logo_name":"cic",
+  "streetpic_name":"cic"
+},
+"CreditNord":{
+  "adress_street": "3 Boulevard Montebello",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 22 75 50",
+  "email": "",
+  "website": "https://www.credit-du-nord.fr/",
+  "link_text":"credit-du-nord.fr",
+  "twitter": "creditdunord",
+  "marker_color": "#9eb886",
+  "logo_name":"nord",
+  "streetpic_name":"nord"
+},
+"LCL":{
+  "adress_street": "234 Avenue de Dunkerque",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 17 05 21",
+  "email": "",
+  "website": "https://particuliers.secure.lcl.fr/index.html",
+  "link_text":"lcl.fr",
+  "twitter": "LCL",
+  "marker_color": "#9eb886",
+  "logo_name":"lcl",
+  "streetpic_name":"lcl"
 },
 }
