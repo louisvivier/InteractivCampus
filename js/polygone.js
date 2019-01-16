@@ -9,7 +9,7 @@ var polygone = {
       color:'black',
       fillColor:'#be8d2e',
       fillOpacity:0.7
-    }).addTo(macarte);
+    }).addTo(theMap);
   },
   isen(){
     let poly_ISEN = L.polygon([
@@ -51,7 +51,7 @@ var polygone = {
       color:'black',
       fillColor:'red',
       fillOpacity:0.7
-    }).addTo(macarte);
+    }).addTo(theMap);
   },
   rameau(){
     let poly_RAMEAU = L.polygon([
@@ -234,7 +234,7 @@ var polygone = {
       color:'black',
       fillColor:'red',
       fillOpacity:0.7
-    }).addTo(macarte);
+    }).addTo(theMap);
   },
   isa(){
     let poly_ISA = L.polygon([
@@ -254,7 +254,7 @@ var polygone = {
       color:'black',
       fillColor:'#6cc934',
       fillOpacity:0.7
-    }).addTo(macarte);
+    }).addTo(theMap);
   },
   hei(){
     let poly_HEI = L.polygon([
@@ -283,7 +283,7 @@ var polygone = {
       color:'white',
       fillColor:'black',
       fillOpacity:0.7
-    }).addTo(macarte);
+    }).addTo(theMap);
   },
   yncrea(){
     let poly_yncrea = L.polygon([
@@ -298,7 +298,7 @@ var polygone = {
       color:'black',
       fillColor:'#ffa500',
       fillOpacity:0.7
-    }).addTo(macarte);
+    }).addTo(theMap);
   },
   yncreaCompta(){
     let poly_yncrea_compta = L.polygon([
@@ -310,7 +310,7 @@ var polygone = {
       color:'black',
       fillColor:'#ffa500',
       fillOpacity:0.7
-    }).addTo(macarte);
+    }).addTo(theMap);
   },
   aeu(){
     let poly_AEU = L.polygon([
@@ -327,7 +327,7 @@ var polygone = {
       color:'black',
       fillColor:'#0070ff',
       fillOpacity:0.7
-    }).addTo(macarte);
+    }).addTo(theMap);
   },
   catho(){
     let poly_catho = L.polygon([
@@ -399,6 +399,6 @@ var polygone = {
       color:'black',
       fillColor:'#ff69b4',
       fillOpacity:0.7
-    }).addTo(macarte);
+    }).addTo(theMap);
   }
 }
