@@ -432,7 +432,7 @@ places = {
   "streetpic_name":"lille",
   "bus_infos":{
     "ligne":"12",
-    "stop":"REPUBLIQUE",
+    "stop":"REPUBLIQUE+BEAUX+ARTS",
     "way":"LE+PARC"
   }
 },
