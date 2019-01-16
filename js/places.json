@@ -460,6 +460,30 @@ places = {
   "logo_name":"vlille",
   "streetpic_name":"lille"
 },
+"VlilleVauban":{
+  "adress_street": "Rue du Port,",
+  "adress_city": "59800 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/vlille/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_actu",
+  "marker_color": "#9eb886",
+  "logo_name":"vlille",
+  "streetpic_name":"lille"
+},
+"VlilleHEI":{
+  "adress_street": "18 Rue de Toul,",
+  "adress_city": "59800 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/vlille/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_actu",
+  "marker_color": "#9eb886",
+  "logo_name":"vlille",
+  "streetpic_name":"lille"
+},
 "VlilleBeauxArts":{
   "adress_street": "3 Place Richebé",
   "adress_city": "59800 Lille",
