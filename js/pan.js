@@ -9,6 +9,7 @@ var leftPan = {
     $('.adress').html(places[id].adress_street + ", " + places[id].adress_city);
     $('.phone').html(places[id].phone);
     $('.email').html(places[id].email);
+    $('.website').html('<a target="_blank" href="'+places[id].website+'">'+places[id].link_text+'</a>') ;
     if (typeof(places[id].bus_infos)!= 'undefined'){//Si arret de bus
       $('.NextBus').html("<b>"+places[id].bus_infos["name"]+"</b><br>Prochain bus dans : "+horairesBus.getHoraires(places[id].bus_infos["ligne"],places[id].bus_infos["stop"],places[id].bus_infos["way"])[0]+"<br>"+"Puis dans : "+horairesBus.getHoraires(places[id].bus_infos["ligne"],places[id].bus_infos["stop"],places[id].bus_infos["way"])[1]+"<br>"+"Et dans : "+horairesBus.getHoraires(places[id].bus_infos["ligne"],places[id].bus_infos["stop"],places[id].bus_infos["way"])[2]);
       $('.NextBus').css("display","block");
@@ -23,7 +24,6 @@ var leftPan = {
     else{
       $('.Vlille').css("display","none");
     }
-    $('.website').html('<a target="_blank" href="'+places[id].website+'">'+places[id].link_text+'</a>') ;
     if (places[id].twitter != ""){
       $('.twitterFeed').html('<a class="twitter-timeline" data-width="480" data-dnt="true" href="https://twitter.com/'+places[id].twitter+'?ref_src=twsrc%5Etfw" data-tweet-limit="5">Tweets by '+places[id].twitter+'</a> <script src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>');
     }
@@ -40,6 +40,10 @@ var leftPan = {
     $("#leftPan").css("background-color","#b3ffe6");
     $("#leftPan").css("visibility","visible");
     $("#leftPan").css("width","500px");
+    $('.adress').html('');
+    $('.phone').html('');
+    $('.email').html('');
+    $('.website').html('') ;
     $(".logo").attr("src", "");
     $(".streetpic").attr("src", "");
     $('.name').html('Temperature d\'Adicode Euratech');
