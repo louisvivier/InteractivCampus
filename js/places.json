@@ -67,7 +67,7 @@ places = {
     "streetpic_name":"isa"
   },
   "Catho1":{
-    "name":"Université Catholique de Lille",
+    "name":"Université Catholique de Lille - Hôtel Académique",
     "adress_street": "60 Boulevard Vauban",
     "adress_city": "59800 Lille",
     "phone": "03 20 13 40 00",
@@ -80,7 +80,7 @@ places = {
     "streetpic_name":"catho1"
   },
   "Catho2":{
-    "name":"Université Catholique de Lille",
+    "name":"Université Catholique de Lille - Robert Schuman",
     "adress_street": "60 Rue du Port",
     "adress_city": "59800 Lille",
     "phone": "03 20 13 40 00",
