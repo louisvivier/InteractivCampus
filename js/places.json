@@ -952,8 +952,22 @@ places = {
   "streetpic_name":"vhei",
   "vlille_station":"hei"
 },
-"VlilleBeauxArts":{
-  "name":"Station V'Lille République - Beaux Arts",
+"VlilleRepublique":{
+  "name":"Station V'Lille République Beaux Arts",
+  "adress_street": "Rue d'Inkermann",
+  "adress_city": "59800 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/vlille/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_actu",
+  "marker_color": "#9eb886",
+  "logo_name":"vlille",
+  "streetpic_name":"republique",
+  "vlille_station":"republique"
+},
+"VlilleRichebe":{
+  "name":"Station V'Lille Place Richebé",
   "adress_street": "3 Place Richebé",
   "adress_city": "59800 Lille",
   "phone": "03 20 40 40 40",
@@ -964,7 +978,7 @@ places = {
   "marker_color": "#9eb886",
   "logo_name":"vlille",
   "streetpic_name":"beauxarts",
-  "vlille_station":"republique"
+  "vlille_station":"richebe"
 },
 "VlilleCormon":{
   "name":"Station V'Lille Cormontaigne",

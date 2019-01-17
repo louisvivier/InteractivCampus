@@ -164,7 +164,7 @@ var markers = {
         popupAnchor: [0,0],
       });
       markerVELO = L.marker([50.63465,3.04841],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleSolfe");}); //solfé
-      markerVELO1 = L.marker([50.63235,3.06231],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleBeauxArts");}); //beaux arts
+      markerVELO1 = L.marker([50.63235,3.06231],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleRichebe");}); //richebe
       markerVELO2 = L.marker([50.62624,3.04001],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleCormon");}); //cormon
       markerVELO3 = L.marker([50.63424,3.02116],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleEura");}); //euratech
       markerVELO4 = L.marker([50.63416,3.03072],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleBoisBlanc");}); //bois blanc
@@ -176,6 +176,7 @@ var markers = {
       markerVEL10 = L.marker([50.63622,3.06943],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleFlandres");}); //lille flandres
       markerVEL11 = L.marker([50.63701,3.07086],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleEuralille");}); //euralille
       markerVEL12 = L.marker([50.63989,3.07538],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleEurope");}); //lille europe
+      markerVEL13 = L.marker([50.63097,3.06044],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleRepublique");}); //richebe
     },
     remove (){
       theMap.removeLayer(markerVELO);

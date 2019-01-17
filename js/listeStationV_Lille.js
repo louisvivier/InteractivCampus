@@ -11,5 +11,6 @@ var listeStationV_Lille = {
   "jardinVauban":["JARDIN+VAUBAN", "LILLE"],
   "flandres":["GARE+LILLE+FLANDRES", "LILLE"],
   "euralille":["FLANDRES+EURALILLE", "LILLE"],
-  "europe":["GARE+LILLE+EUROPE", "LILLE"]
+  "europe":["GARE+LILLE+EUROPE", "LILLE"],
+  "richebe":["PLACE+RICHEBE", "LILLE"]
 };
