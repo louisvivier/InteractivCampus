@@ -398,7 +398,7 @@ places = {
     "email": "",
     "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/metro/",
     "link_text":"transpole.fr",
-    "twitter": "",
+    "twitter": "transpole_metro",
     "marker_color": "#9eb886",
     "logo_name":"metro",
     "streetpic_name":"beauxarts"
@@ -441,6 +441,32 @@ places = {
     "marker_color": "#9eb886",
     "logo_name":"metro",
     "streetpic_name":"canteleumetro"
+  },
+  "LilleFlandres":{
+    "name":"Station de métro Gare Lille Flandres",
+    "adress_street": "Place Des Buisses",
+    "adress_city": "59000 Lille",
+    "phone": "03 20 40 40 40",
+    "email": "",
+    "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/metro/",
+    "link_text":"transpole.fr",
+    "twitter": "transpole_metro",
+    "marker_color": "#9eb886",
+    "logo_name":"metro",
+    "streetpic_name":"flandresmetro"
+  },
+  "LilleEurope":{
+    "name":"Station de métro Gare Lille Europe",
+    "adress_street": "Boulevard Louis Pasteur",
+    "adress_city": "59000 Lille",
+    "phone": "03 20 40 40 40",
+    "email": "",
+    "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/metro/",
+    "link_text":"transpole.fr",
+    "twitter": "transpole_metro",
+    "marker_color": "#9eb886",
+    "logo_name":"metro",
+    "streetpic_name":"europemetro"
   },
   "_comment":"________________________________________________GARES_________________________________________________",
 
