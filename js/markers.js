@@ -58,7 +58,7 @@ var markers = {
     markerURBA = L.marker([50.63316,3.02354],{icon:urbawood }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Urbawood");});
     let maker = L.icon({
       iconUrl: "images/markers/adimaker.png",
-      iconSize: [55, 60],
+      iconSize: [40, 60],
       iconAnchor: [20, 55],
       popupAnchor: [0, 0],
     });
