@@ -347,23 +347,29 @@ var polygone = {
 
     }
   },
-  heiprepa(){
-    let poly_HEIPREPA = L.polygon([
-      [50.6282470, 3.0472815],
-      [50.6282409, 3.0473286],
-      [50.6283241, 3.0475512],
-      [50.6288319, 3.0470006],
-      [50.6287381, 3.0468101],
-      [50.6287078, 3.0467995],
-      [50.6282470, 3.0472815]
+  heiprepa : {
+    add (){
+      let poly_HEIPREPA = L.polygon([
+        [50.6282470, 3.0472815],
+        [50.6282409, 3.0473286],
+        [50.6283241, 3.0475512],
+        [50.6288319, 3.0470006],
+        [50.6287381, 3.0468101],
+        [50.6287078, 3.0467995],
+        [50.6282470, 3.0472815]
 
-    ],{
-      color:'black',
-      fillColor:'black',
-      fillOpacity:0.7
-    }).addTo(theMap);
+      ],{
+        color:'black',
+        fillColor:'black',
+        fillOpacity:0.7
+      }).addTo(theMap);
+    },
+    remove (){
+
+    }
   },
-  yncrea(){
+  yncrea : {
+    add (){
     let poly_yncrea = L.polygon([
       [50.6340037, 3.0458948],
       [50.6342243, 3.0461505],
@@ -378,7 +384,12 @@ var polygone = {
       fillOpacity:0.7
     }).addTo(theMap);
   },
-  yncreaCompta(){
+  remove(){
+
+  }
+},
+  yncreaCompta : {
+    add (){
     let poly_yncrea_compta = L.polygon([
       [50.63539, 3.04989],
       [50.63532, 3.05005],
@@ -390,7 +401,12 @@ var polygone = {
       fillOpacity:0.7
     }).addTo(theMap);
   },
-  aeu(){
+  remove(){
+
+  }
+},
+  aeu : {
+    add (){
     let poly_AEU = L.polygon([
       [50.6331506, 3.0476289],
       [50.6328670, 3.0479592],
@@ -407,7 +423,12 @@ var polygone = {
       fillOpacity:0.7
     }).addTo(theMap);
   },
-  catho(){
+  remove(){
+
+  }
+},
+  catho : {
+    add (){
     let poly_catho = L.polygon([
       [50.6329202, 3.0459497],
       [50.6330579, 3.0460899],
@@ -479,7 +500,12 @@ var polygone = {
       fillOpacity:0.7
     }).addTo(theMap);
   },
-  cathobis(){
+  remove(){
+
+  }
+},
+  cathobis : {
+    add (){
     let poly_cathobis = L.polygon([
       [50.6321362, 3.0457545],
       [50.6324495, 3.0454101],
@@ -540,5 +566,9 @@ var polygone = {
       fillColor:'#ff69b4',
       fillOpacity:0.7
     }).addTo(theMap);
+  },
+  remove(){
+
   }
+}
 }
