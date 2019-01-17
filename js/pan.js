@@ -87,23 +87,11 @@ var optionsPan = {
   },
   schools(){
     if (switchSchools == 1){
-      console.log('off');
-      markers.isen.remove();
-      markers.hei.remove();
-      markers.isa.remove();
-      markers.catho.remove();
-      markers.yncrea.remove();
-      markers.urbawood.remove();
+      markers.ecole.remove();
       switchSchools = 0;
     }
     else if (switchSchools == 0){
-      console.log('on');
-      markers.isen.add();
-      markers.hei.add();
-      markers.isa.add();
-      markers.catho.add();
-      markers.yncrea.add();
-      markers.urbawood.add();
+      markers.ecole.add();
       /*polygone.isen();
       polygone.rameau();
       polygone.urbawood();
