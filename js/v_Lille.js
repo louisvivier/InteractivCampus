@@ -16,9 +16,9 @@ var v_Lille = {
     if(nb == 0){
       res = "Pas de borne disponible";
     }else if(nb == 1){
-      res = "1 borne disponible";
+      res = "1 place disponible";
     }else{
-      res = "" + nb + " bornes disponibles";
+      res = "" + nb + " places disponibles";
     }
     return res;
   },
@@ -36,16 +36,16 @@ var v_Lille = {
     try{
       var veloDisponible, borneDisponible;
       var nbDisponible = requete["records"][0]["fields"]["nbvelosdispo"];
-      var nbBorneDisponible = requete["records"][0]["fields"]["nbbornesdispo"];
+      var nbBorneDisponible = requete["records"][0]["fields"]["nbplacesdispo"];
       if(typeof(nbDisponible) == "undefined"){
         veloDisponible = "Pas de donné disponible";
       }else{
         veloDisponible = v_Lille.stringDisponible(nbDisponible);
       }
       if(typeof(nbBorneDisponible) == "undefined"){
-        nbBorneDisponible = "Pas de donné disponible";
+        borneDisponible = "Pas de donné disponible";
       }else{
-        nbBorneDisponible = v_Lille.stringBorne(nbBorneDisponible);
+        borneDisponible = v_Lille.stringBorne(nbBorneDisponible);
       }
       let resultat = [veloDisponible, borneDisponible];
       return resultat;

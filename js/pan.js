@@ -17,7 +17,7 @@ var leftPan = {
       $('.NextBus').css("display","none");
     }
     if (typeof(places[id].vlille_station)!= 'undefined'){//Si station Vlille
-      $('.Vlille').html("Vélos : "+v_Lille.disponible(places[id].vlille_station)[0]+"<br>"+"Bornes : "+v_Lille.disponible(places[id].vlille_station)[0]);
+      $('.Vlille').html("Vélos : "+v_Lille.disponible(places[id].vlille_station)[0]+"<br>"+"Bornes : "+v_Lille.disponible(places[id].vlille_station)[1]);
       $('.Vlille').css("display","block");
     }
     else{

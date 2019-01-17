@@ -775,7 +775,7 @@ places = {
   "vlille_station":"boisblanc"
 },
 "VlilleEura":{
-  "name":"Station V'Lille Euratechnologie",
+  "name":"Station V'Lille Euratechnologies",
   "adress_street": "Avenue de Bretagne",
   "adress_city": "59000 Lille",
   "phone": "03 20 40 40 40",
@@ -786,7 +786,7 @@ places = {
   "marker_color": "#9eb886",
   "logo_name":"vlille",
   "streetpic_name":"lille",
-  "vlille_station":"euratechnologie"
+  "vlille_station":"euratechnologies"
 },
 "_comment":"________________________________________________SUPERMARKETS_________________________________________________",
 
