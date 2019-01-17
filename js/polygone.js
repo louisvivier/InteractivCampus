@@ -285,6 +285,22 @@ var polygone = {
       fillOpacity:0.7
     }).addTo(theMap);
   },
+  heiprepa(){
+    let poly_HEIPREPA = L.polygon([
+      [50.6282470, 3.0472815],
+      [50.6282409, 3.0473286],
+      [50.6283241, 3.0475512],
+      [50.6288319, 3.0470006],
+      [50.6287381, 3.0468101],
+      [50.6287078, 3.0467995],
+      [50.6282470, 3.0472815]
+
+    ],{
+      color:'white',
+      fillColor:'black',
+      fillOpacity:0.7
+    }).addTo(theMap);
+  },
   yncrea(){
     let poly_yncrea = L.polygon([
       [50.6340037, 3.0458948],

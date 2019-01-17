@@ -18,6 +18,7 @@ var markers = {
       popupAnchor: [0,0],
     });
     let markerHEI = L.marker([50.63366,3.04539],{icon:hei }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"HEI");});
+    let markerHEIPREPA = L.marker([50.62855, 3.04711],{icon:hei }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"HEIPREPA");});
   },
   isa(){
     let isa = L.icon({

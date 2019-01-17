@@ -40,6 +40,19 @@ places = {
     "logo_name":"hei",
     "streetpic_name":"hei"
   },
+  "HEIPREPA":{
+    "name":"HEI - Grande école d'ingénieur généraliste - Classes Préparatoires",
+    "adress_street": "31 ter rue Colbert",
+    "adress_city": "59000 Lille",
+    "phone": "03 28 38 48 58",
+    "email": "contact@hei.fr",
+    "website": "http://www.hei.fr",
+    "link_text":"hei.fr",
+    "twitter": "EcoleHEI",
+    "marker_color": "#d65543",
+    "logo_name":"hei",
+    "streetpic_name":"hei"
+  },
   "ISA":{
     "name":"ISA - Institut Supérieur de l'Agriculture",
     "adress_street": "48 Boulevard Vauban",
