@@ -1,5 +1,6 @@
 var leftPan = {
   open(lat,lng,id){
+    $('.infos').css("background-color","#fff");
     $("#leftPan").css("background-color",places[id].marker_color);
     $("#leftPan").css("visibility","visible");
     $("#leftPan").css("width","500px");
@@ -37,7 +38,7 @@ var leftPan = {
     document.getElementById("leftPan").style.width = "0";
   },
   tempInfoUrbawood(){
-    $("#leftPan").css("background-color","#b3ffe6");
+    $("#leftPan").css("background-color","#bfbfbf");
     $("#leftPan").css("visibility","visible");
     $("#leftPan").css("width","500px");
     $('.adress').html('');
@@ -47,13 +48,61 @@ var leftPan = {
     $(".logo").attr("src", "");
     $(".streetpic").attr("src", "");
     $('.name').html('Temperature d\'Adicode Euratech');
+    $('.infos').css("background-color","#bfbfbf");
     $('.Vlille').css("display","none");
     $('.NextBus').css("display","none");
-    $('.twitterFeed').html('<iframe src="http://10.34.168.24:8300/createChart?feedType=Temperature&chartType=dot&node=6FED0711&limitNumberOfData=40" width="460" height="250"></iframe>');
-  }
+    $('.twitterFeed').html('<iframe src="http://10.34.168.24:8300/createChart?feedType=Temperature&chartType=dot&node=6FED0711&limitNumberOfData=40" width="460" height="250" style="border:none"></iframe>');
+  },
 }
 //blue #8eabc8
 //Red #d65543
 //Moutarde #dfc277
 //Vert #9eb886
 //Gris #adadae
+var optionsPan = {
+  init (){
+    $(".schools").click(function(){ optionsPan.schools(); });
+    $(".transport").click(function(){ optionsPan.transport(); });
+    $(".markets").click(function(){ optionsPan.markets(); });
+    $(".food").click(function(){ optionsPan.food(); });
+    $(".atm").click(function(){ optionsPan.atm(); });
+    $(".temp").click(function(){ optionsPan.temp(); });
+  },
+  schools(){
+    markers.isen();
+    markers.hei();
+    markers.isa();
+    markers.catho();
+    markers.yncrea();
+    markers.urbawood();
+    polygone.isen();
+    polygone.rameau();
+    polygone.urbawood();
+    polygone.hei();
+    polygone.heiprepa();
+    polygone.isa();
+    polygone.catho();
+    polygone.yncrea();
+    polygone.yncreaCompta();
+    polygone.aeu();
+  },
+  transport(){
+    markers.bus();
+    markers.metro();
+    markers.velo();
+    markers.gare();
+  },
+  markets(){
+    markers.caddy();
+  },
+  food(){
+    markers.sandwich();
+    markers.pizza();
+  },
+  temp(){
+    markers.thermo();
+  },
+  atm(){
+    markers.atm();
+  }
+}
