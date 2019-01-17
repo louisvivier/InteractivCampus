@@ -35,6 +35,19 @@ var leftPan = {
   close(){
     document.getElementById("leftPan").style.visibility = "hidden";
     document.getElementById("leftPan").style.width = "0";
+  },
+  tempInfoUrbawood(){
+    $("#leftPan").css("background-color","#b3ffe6");
+    $("#leftPan").css("visibility","visible");
+    $("#leftPan").css("width","500px");
+    $(".logo").attr("src", "");
+    $(".streetpic").attr("src", "");
+    $('.name').html('Temperature d\'Adicode Euratech');
+    $('.Vlille').css("display","none");
+    //$('.twitterFeed').html('');
+    $('.NextBus').css("display","none");
+    //$(".adress").load('http://10.34.168.24:8300/createChart?feedType=Temperature&chartType=line #container');
+    $('.twitterFeed').html('<iframe src="http://10.34.168.24:8300/createChart?feedType=Temperature&chartType=line&node=6FED0711" width="460" height="300"></iframe>');
   }
 }
 //blue #8eabc8

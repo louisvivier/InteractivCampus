@@ -193,7 +193,7 @@ var markers = {
       iconAnchor: [18, 30],
       popupAnchor: [0,0],
     });
-    let markerTHERMO = L.marker([50.63308,3.02345],{icon:thermo }).addTo(theMap)//.on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Thermo");}); //thermo urbawood
+    let markerTHERMO = L.marker([50.63308,3.02345],{icon:thermo }).addTo(theMap).on('click',function(e) { leftPan.tempInfoUrbawood();}); //thermo urbawood
   },
 
 };
