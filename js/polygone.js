@@ -374,7 +374,7 @@ var polygone = {
       [50.6331506, 3.0476289],
     ],{
       color:'black',
-      fillColor:'#0070ff',
+      fillColor:'#002fff',
       fillOpacity:0.7
     }).addTo(theMap);
   },
