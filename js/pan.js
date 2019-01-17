@@ -44,10 +44,8 @@ var leftPan = {
     $(".streetpic").attr("src", "");
     $('.name').html('Temperature d\'Adicode Euratech');
     $('.Vlille').css("display","none");
-    //$('.twitterFeed').html('');
     $('.NextBus').css("display","none");
-    //$(".adress").load('http://10.34.168.24:8300/createChart?feedType=Temperature&chartType=line #container');
-    $('.twitterFeed').html('<iframe src="http://10.34.168.24:8300/createChart?feedType=Temperature&chartType=line&node=6FED0711" width="460" height="300"></iframe>');
+    $('.twitterFeed').html('<iframe src="http://10.34.168.24:8300/createChart?feedType=Temperature&chartType=dot&node=6FED0711&limitNumberOfData=40" width="460" height="250"></iframe>');
   }
 }
 //blue #8eabc8
