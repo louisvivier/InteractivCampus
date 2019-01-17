@@ -12,7 +12,7 @@ var map = {
       minZoom: 14,
       maxZoom: 18
     }).addTo(theMap);
-    $('.leaflet-control-attribution').html('<a href="https://geniusgames.fr"target="_blank">Application par GeniusCorp © </a> | <a href="http://www.openstreetmap.org/copyright">OpenStreetMap ©</a>');
+    $('.leaflet-control-attribution').html('<a href="https://geniusgames.fr"target="_blank" style="color: #999999;">Application par GeniusCorp © </a> | <a href="http://www.openstreetmap.org/copyright" style="color: #999999;">OpenStreetMap ©</a>');
     markers.ecole.add();
     markers.bus.add();
     markers.metro.add();
