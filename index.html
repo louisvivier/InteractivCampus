@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/libs/leaflet.css"/>
   <link rel="stylesheet" href="css/leftPan.css"/>
+  <link rel="stylesheet" href="css/optionPan.css"/>
   <link rel="stylesheet" href="css/map.css"/>
   <link rel="stylesheet" href="css/leftPanContent.css"/>
   <script src="js/libs/leaflet.js"></script>
@@ -24,10 +25,13 @@
 
   <div id="map">
   </div>
+  <div id="optionPan">
+  </div>
 </body>
 <script>
   var theMap = null;
   $("#leftPan").load('html/pan/leftPan.html #leftPan');
+  $("#optionPan").load('html/pan/optionPan.html .optionPan');
   map.init();
   theMap.on('click',function(e) { leftPan.close();})
 </script>
