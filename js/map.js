@@ -33,6 +33,7 @@ var map = {
     polygone.rameau();
     polygone.urbawood();
     polygone.hei();
+    polygone.rizomm();
     polygone.heiprepa();
     polygone.isa();
     polygone.catho();
