@@ -92,6 +92,19 @@ places = {
     "logo_name":"catho",
     "streetpic_name":"catho2"
   },
+  "Rizomm":{
+    "name":"Le Rizomm",
+    "adress_street": "41 Rue du Port",
+    "adress_city": "59800 Lille",
+    "phone": "03 28 38 48 94",
+    "email": "saio@univ-catholille.fr",
+    "website": "https://www.fges.fr/rizomm/",
+    "link_text":"rizomm.fr",
+    "twitter": "UnivCatholille",
+    "marker_color": "#d65543",
+    "logo_name":"rizomm",
+    "streetpic_name":"rizomm"
+  },
   "Yncrea1":{
     "name":"Adimaker",
     "adress_street": "2 Rue Norbert Segard",
