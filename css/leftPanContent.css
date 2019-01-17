@@ -25,7 +25,9 @@
 .name {
   font-weight: bold;
 }
-
+.rating {
+  text-align: center;
+}
 .NextBus1{
   margin: 3px;
   font-size: 20px;

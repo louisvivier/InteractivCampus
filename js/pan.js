@@ -11,6 +11,17 @@ var leftPan = {
     $('.phone').html(places[id].phone);
     $('.email').html(places[id].email);
     $('.website').html('<a target="_blank" href="'+places[id].website+'">'+places[id].link_text+'</a>') ;
+    if (typeof(places[id].rating)!= 'undefined'){
+      if (places[id].rating["tripadvisor"] != ""){
+        $(".rating").html('<a target="_blank" href="'+places[id].rating["tripadvisor"]+'"><img border="0" alt="Tripadvisor" src="images/logos/tripadvisor.png" width="100" height="100"></a>');
+      }
+      else {
+        $(".rating").html('');
+      }
+    }
+    else {
+      $(".rating").html('');
+    }
     if (typeof(places[id].bus_infos)!= 'undefined'){//Si arret de bus
       $('.NextBus1').html("<b>"+places[id].bus_infos[0]["name"]+"</b><br>Prochain bus dans : "+horairesBus.getHoraires(places[id].bus_infos[0]["ligne"],places[id].bus_infos[0]["stop"],places[id].bus_infos[0]["way"])[0]+"<br>"+"Puis dans : "+horairesBus.getHoraires(places[id].bus_infos[0]["ligne"],places[id].bus_infos[0]["stop"],places[id].bus_infos[0]["way"])[1]+"<br>"+"Et dans : "+horairesBus.getHoraires(places[id].bus_infos[0]["ligne"],places[id].bus_infos[0]["stop"],places[id].bus_infos[0]["way"])[2]);
       $('.NextBus').css("display","block");
