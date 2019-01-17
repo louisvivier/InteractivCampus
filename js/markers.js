@@ -73,7 +73,7 @@ var markers = {
       markerYNCREA2 = L.marker([50.63530,3.04993],{icon:yncrea }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Yncrea2");});
     },
     remove(){
-      theMap.removeLayer(merkerYNCREA2);
+      theMap.removeLayer(markerYNCREA2);
     }
   },
   urbawood : {
@@ -211,7 +211,7 @@ var markers = {
       markerAEU = L.marker([50.63309,3.04795],{icon:aeu }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"AEU");});
     },
     remove (){
-      theMap.removeLayer(merkerAEU);
+      theMap.removeLayer(markerAEU);
     }
   },
   sandwich : {
