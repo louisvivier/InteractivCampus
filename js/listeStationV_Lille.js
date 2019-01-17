@@ -3,7 +3,7 @@ var listeStationV_Lille = {
   "euratechnologies":["EURATECHNOLOGIES", "LILLE"],
   "boisblanc":["BOIS+BLANCS", "LILLE"],
   "cormontaigne":["CORMONTAIGNE", "LILLE"],
-  "universitecatholique":["UNIVERSITE+CATHOLIQUE"],
+  "universitecatholique":["UNIVERSITE+CATHOLIQUE", "LILLE"],
   "hei":["RUE+DE+TOUL", "LILLE"],
   "republique":["REPUBLIQUE+BEAUX+ARTS", "LILLE"],
 };

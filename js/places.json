@@ -707,8 +707,8 @@ places = {
   "vlille_station":"solferino"
 },
 "VlilleVauban":{
-  "name":"Station V'Lille Boulevard",
-  "adress_street": "Rue du Port,",
+  "name":"Station V'Lille Université Catholique",
+  "adress_street": "Boulevard Vauban,",
   "adress_city": "59800 Lille",
   "phone": "03 20 40 40 40",
   "email": "",
