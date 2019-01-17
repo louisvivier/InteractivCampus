@@ -458,12 +458,25 @@ places = {
   "marker_color": "#9eb886",
   "logo_name":"bus",
   "streetpic_name":"rameau",
-  "bus_infos":{
+  "bus_infos":[{
     "ligne":"18",
     "stop":"SOLFERINO",
     "way":"HOTEL+DE+VILLE",
     "name":"Ligne 18 - Hotel de Ville"
+  },
+  {
+    "ligne":"12",
+    "stop":"SOLFERINO",
+    "way":"PAVE+STRATEGIQUE",
+    "name":"Ligne 12 - Pave Strategique"
+  },
+  {
+    "ligne":"12",
+    "stop":"SOLFERINO",
+    "way":"FERME+AUX+OIES",
+    "name":"Ligne 12 - Ferme Aux Oies"
   }
+]
 },
 "BusSolfe2":{
   "name":"Arrêt de bus Solférino",
@@ -477,12 +490,14 @@ places = {
   "marker_color": "#9eb886",
   "logo_name":"bus",
   "streetpic_name":"rameau",
-  "bus_infos":{
-    "ligne":"18",
-    "stop":"SOLFERINO",
-    "way":"ANATOLE+FRANCE",
-    "name":"Ligne 18 - Anatole France"
-  }
+  "bus_infos":[
+      {
+        "ligne":"18",
+        "stop":"SOLFERINO",
+        "way":"ANATOLE+FRANCE",
+        "name":"Ligne 18 - Anatole France"
+      }
+  ]
 },
 "BusSolfe3":{
   "name":"Arrêt de bus Solférino",
@@ -496,12 +511,12 @@ places = {
   "marker_color": "#9eb886",
   "logo_name":"bus",
   "streetpic_name":"rameau",
-  "bus_infos":{
+  "bus_infos":[{
     "ligne":"12",
     "stop":"SOLFERINO",
     "way":"LE+PARC",
     "name":"Ligne 12 - Le Parc"
-  }
+  }]
 },
 "BusBeauxArts1":{
   "name":"Arrêt de bus République - Beaux Arts",
@@ -515,12 +530,12 @@ places = {
   "marker_color": "#9eb886",
   "logo_name":"bus",
   "streetpic_name":"republique",
-  "bus_infos":{
+  "bus_infos":[{
     "ligne":"18",
     "stop":"REPUBLIQUE",
     "way":"ANATOLE+FRANCE",
     "name":"Ligne 18 - Anatole France"
-  }
+  }]
 },
 "BusBeauxArts2":{
   "name":"Arrêt de bus République - Beaux Arts",
@@ -534,12 +549,12 @@ places = {
   "marker_color": "#9eb886",
   "logo_name":"bus",
   "streetpic_name":"republique",
-  "bus_infos":{
+  "bus_infos":[{
     "ligne":"18",
     "stop":"REPUBLIQUE",
     "way":"HOTEL+DE+VILLE",
     "name":"Ligne 18 - Hotel De Ville"
-  }
+  }]
 },
 "BusBeauxArts3":{
   "name":"Arrêt de bus République - Beaux Arts",
@@ -553,12 +568,12 @@ places = {
   "marker_color": "#9eb886",
   "logo_name":"bus",
   "streetpic_name":"republique",
-  "bus_infos":{
+  "bus_infos":[{
     "ligne":"12",
     "stop":"REPUBLIQUE",
     "way":"LE+PARC",
     "name":"Ligne 12 - Le Parc"
-  }
+  }]
 },
 "BusFlandres1":{
   "name":"Arrêt de bus Lille Flandres",
@@ -572,12 +587,18 @@ places = {
   "marker_color": "#9eb886",
   "logo_name":"bus",
   "streetpic_name":"flandres",
-  "bus_infos":{
+  "bus_infos":[{
     "ligne":"12",
     "stop":"LILLE+FLANDRES",
     "way":"FERME+AUX+OIES",
     "name":"Ligne 12 - Ferme Aux Oies"
-  }
+  },
+  {
+    "ligne":"12",
+    "stop":"LILLE+FLANDRES",
+    "way":"PAVE+STRATEGIQUE",
+    "name":"Ligne 12 - Pave Strategique"
+  }]
 },
 "BusFlandres2":{
   "name":"Arrêt de bus Lille Flandres",
@@ -591,12 +612,12 @@ places = {
   "marker_color": "#9eb886",
   "logo_name":"bus",
   "streetpic_name":"flandres",
-  "bus_infos":{
+  "bus_infos":[{
     "ligne":"12",
     "stop":"LILLE+FLANDRES",
     "way":"LE+PARC",
     "name":"Ligne 12 - Le Parc"
-  }
+  }]
 },
 "BusEurope":{
   "name":"Arrêt de bus Lille Europe",
@@ -610,12 +631,12 @@ places = {
   "marker_color": "#9eb886",
   "logo_name":"bus",
   "streetpic_name":"europe",
-  "bus_infos":{
+  "bus_infos":[{
     "ligne":"12",
     "stop":"LILLE+EUROPE",
     "way":"LE+PARC",
     "name":"Ligne 12 - Le Parc"
-  }
+  }]
 },
 "BusCormon1":{
   "name":"Arrêt de bus Cormontaigne",
@@ -629,12 +650,19 @@ places = {
   "marker_color": "#9eb886",
   "logo_name":"bus",
   "streetpic_name":"cormon",
-  "bus_infos":{
+  "bus_infos":[
+    {
     "ligne":"12",
     "stop":"CORMONTAIGNE",
     "way":"FERME+AUX+OIES",
     "name":"Ligne 12 - Ferme Aux Oies"
-  }
+  },
+  {
+    "ligne":"12",
+    "stop":"CORMONTAIGNE",
+    "way":"PAVE+STRATEGIQUE",
+    "name":"Ligne 12 - Pave Strategique"
+  }]
 },
 "BusCormon2":{
   "name":"Arrêt de bus Cormontaigne",
@@ -648,12 +676,12 @@ places = {
   "marker_color": "#9eb886",
   "logo_name":"bus",
   "streetpic_name":"cormon",
-  "bus_infos":{
+  "bus_infos":[{
     "ligne":"12",
     "stop":"CORMONTAIGNE",
     "way":"LE+PARC",
     "name":"Ligne 12 - Le Parc"
-  }
+  }]
 },
 "BusBoisBlanc1":{
   "name":"Arrêt de bus Bois Blancs",
@@ -667,12 +695,12 @@ places = {
   "marker_color": "#9eb886",
   "logo_name":"bus",
   "streetpic_name":"bois-blanc",
-  "bus_infos":{
+  "bus_infos":[{
     "ligne":"18",
     "stop":"BOIS+BLANCS",
     "way":"ANATOLE+FRANCE",
     "name":"Ligne 18 - Anatole France"
-  }
+  }]
 },
 "BusBoisBlanc2":{
   "name":"Arrêt de bus Henri Regnault",
@@ -688,12 +716,12 @@ places = {
   "marker_color": "#9eb886",
   "logo_name":"bus",
   "streetpic_name":"bois-blanc",
-  "bus_infos":{
+  "bus_infos":[{
     "ligne":"18",
     "stop":"HENRI+REGNAULT",
     "way":"HOTEL+DE+VILLE",
     "name":"Ligne 18 - Hotel de Ville"
-  }
+  }]
 },
 "BusPont1":{
   "name":"Arrêt de bus Le Pont",
@@ -707,12 +735,12 @@ places = {
   "marker_color": "#9eb886",
   "logo_name":"bus",
   "streetpic_name":"pont",
-  "bus_infos":{
+  "bus_infos":[{
     "ligne":"18",
     "stop":"LE+PONT",
     "way":"ANATOLE+FRANCE",
     "name":"Ligne 18 - Anatole France"
-  }
+  }]
 },
 "BusPont2":{
   "name":"Arrêt de bus Le Pont",
@@ -726,12 +754,12 @@ places = {
   "marker_color": "#9eb886",
   "logo_name":"bus",
   "streetpic_name":"pont",
-  "bus_infos":{
+  "bus_infos":[{
     "ligne":"18",
     "stop":"LE+PONT",
     "way":"HOTEL+DE+VILLE",
     "name":"Ligne 18 - Hotel de Ville"
-  }
+  }]
 },
 "BusEuratech1":{
   "name":"Arrêt de bus Euratechnologies",
@@ -745,12 +773,12 @@ places = {
   "marker_color": "#9eb886",
   "logo_name":"bus",
   "streetpic_name":"euratechnologie",
-  "bus_infos":{
+  "bus_infos":[{
     "ligne":"18",
     "stop":"EURATECHNOLOGIES",
     "way":"ANATOLE+FRANCE",
     "name":"Ligne 18 - Anatole France"
-  }
+  }]
 },
 "BusEuratech2":{
   "name":"Arrêt de bus Euratechnologies",
@@ -764,12 +792,12 @@ places = {
   "marker_color": "#9eb886",
   "logo_name":"bus",
   "streetpic_name":"euratechnologie",
-  "bus_infos":{
+  "bus_infos":[{
     "ligne":"18",
     "stop":"EURATECHNOLOGIES",
     "way":"HOTEL+DE+VILLE",
     "name":"Ligne 18 - Hotel De Ville"
-  }
+  }]
 },
 
 "_comment":"________________________________________________VELOS_________________________________________________",
