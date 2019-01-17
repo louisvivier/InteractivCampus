@@ -11,7 +11,7 @@ var leftPan = {
     $('.phone').html(places[id].phone);
     $('.email').html(places[id].email);
     $('.website').html('<a target="_blank" href="'+places[id].website+'">'+places[id].link_text+'</a>') ;
-    if (typeof(places[id].bus_infos[0])!= 'undefined'){//Si arret de bus
+    if (typeof(places[id].bus_infos)!= 'undefined'){//Si arret de bus
       $('.NextBus').html("<b>"+places[id].bus_infos[0]["name"]+"</b><br>Prochain bus dans : "+horairesBus.getHoraires(places[id].bus_infos[0]["ligne"],places[id].bus_infos[0]["stop"],places[id].bus_infos[0]["way"])[0]+"<br>"+"Puis dans : "+horairesBus.getHoraires(places[id].bus_infos[0]["ligne"],places[id].bus_infos[0]["stop"],places[id].bus_infos[0]["way"])[1]+"<br>"+"Et dans : "+horairesBus.getHoraires(places[id].bus_infos[0]["ligne"],places[id].bus_infos[0]["stop"],places[id].bus_infos[0]["way"])[2]);
       $('.NextBus').css("display","block");
       if(typeof(places[id].bus_infos[1]) != 'undefined'){
@@ -20,10 +20,12 @@ var leftPan = {
         if(typeof(places[id].bus_infos[2]) != 'undefined'){
           $('.NextBus2').html("<b>"+places[id].bus_infos[2]["name"]+"</b><br>Prochain bus dans : "+horairesBus.getHoraires(places[id].bus_infos[2]["ligne"],places[id].bus_infos[2]["stop"],places[id].bus_infos[2]["way"])[0]+"<br>"+"Puis dans : "+horairesBus.getHoraires(places[id].bus_infos[2]["ligne"],places[id].bus_infos[2]["stop"],places[id].bus_infos[2]["way"])[1]+"<br>"+"Et dans : "+horairesBus.getHoraires(places[id].bus_infos[2]["ligne"],places[id].bus_infos[2]["stop"],places[id].bus_infos[2]["way"])[2]);
           $('.NextBus2').css("display","block");
-        }else{
+        }
+        else{
           $('.NextBus2').css("display","none");
         }
-      }else{
+      }
+      else{
         $('.NextBus1').css("display","none");
         $('.NextBus2').css("display","none");
       }
