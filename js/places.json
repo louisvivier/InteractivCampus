@@ -593,7 +593,7 @@ places = {
   }
 },
 "BusBoisBlanc2":{
-  "name":"Arrêt de bus Bois Blancs",
+  "name":"Arrêt de bus Henri Regnault",
   "adress_street": "Bois Blancs",
   "adress_city": "59000 Lille",
   "phone": "03 20 40 40 40",
