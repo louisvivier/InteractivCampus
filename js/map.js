@@ -35,6 +35,5 @@ var map = {
     polygone.cathobis.add();
     polygone.yncrea.add();
     polygone.yncreaCompta.add();
-    polygone.aeu.add();
   }
 };

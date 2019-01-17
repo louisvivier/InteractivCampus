@@ -99,7 +99,6 @@ var optionsPan = {
       polygone.cathobis.remove();
       polygone.yncrea.remove();
       polygone.yncreaCompta.remove();
-      polygone.aeu.remove();
       switchSchools = 0;
     }
     else if (switchSchools == 0){
@@ -115,7 +114,6 @@ var optionsPan = {
       polygone.cathobis.add();
       polygone.yncrea.add();
       polygone.yncreaCompta.add();
-      polygone.aeu.add();
       switchSchools = 1;
     }
   },
