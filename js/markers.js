@@ -46,7 +46,6 @@ var markers = {
       iconAnchor: [20,55],
       popupAnchor: [0,0],
     });
-    let markerYNCREA = L.marker([50.63402,3.04610],{icon:yncrea }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Yncrea1");});
     let markerYNCREA2 = L.marker([50.63530,3.04993],{icon:yncrea }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Yncrea2");});
   },
   urbawood(){
@@ -57,7 +56,16 @@ var markers = {
       popupAnchor: [0, 0],
     });
     let markerURBA = L.marker([50.63316,3.02354],{icon:urbawood }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Urbawood");});
+    let maker = L.icon({
+      iconUrl: "images/markers/adimaker.png",
+      iconSize: [55, 60],
+      iconAnchor: [20, 55],
+      popupAnchor: [0, 0],
+    });
+    let markerMAKER = L.marker([50.63402,3.04610],{icon:maker }).addTo(theMap)//.on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Adimaker");});
   },
+
+
   //***********************************************TRANSPORTS********************************************************
   bus(){
     let bus = L.icon({
