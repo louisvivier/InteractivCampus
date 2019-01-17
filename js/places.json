@@ -575,7 +575,7 @@ places = {
 },
 "BusBoisBlanc1":{
   "name":"Arrêt de bus Bois Blancs",
-  "adress_street": "Bois Blancs",
+  "adress_street": "Quartier Bois-Blancs",
   "adress_city": "59000 Lille",
   "phone": "03 20 40 40 40",
   "email": "",
@@ -593,8 +593,13 @@ places = {
   }
 },
 "BusBoisBlanc2":{
+<<<<<<< HEAD
   "name":"Arrêt de bus Henri Regnault",
   "adress_street": "Bois Blancs",
+=======
+  "name":"Arrêt de bus Bois Blancs",
+  "adress_street": "Quartier Bois-Blancs",
+>>>>>>> 7cd2ee7139b8b92698fa8610998c5046a3be2b3f
   "adress_city": "59000 Lille",
   "phone": "03 20 40 40 40",
   "email": "",
