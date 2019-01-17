@@ -63,7 +63,14 @@ var markers = {
       popupAnchor: [0, 0],
     });
     markerMAKER = L.marker([50.63402,3.04610],{icon:maker }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Yncrea1");});
-  },
+  let rizomm = L.icon({
+    iconUrl: "images/markers/rizomm.png",
+    iconSize: [40, 60],
+    iconAnchor: [20, 55],
+    popupAnchor: [0, 0],
+  });
+  markerRIZOMM = L.marker([50.63326,3.04503],{icon:rizomm }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Rizomm");});
+},
 
 
   //***********************************************TRANSPORTS********************************************************
