@@ -110,6 +110,8 @@ var markers = {
       markerBUS14 = L.marker([50.63194,3.06211],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusBeauxArts3");}); //beaux arts
       markerBUS15 = L.marker([50.63319,3.01853],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusEuratech1");}); //euratechnologies
       markerBUS16 = L.marker([50.63310,3.01921],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusEuratech2");}); //euratechnologies
+      markerBUS17 = L.marker([50.63240,3.04674],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusUniversite1");}); //universitecatholique
+      markerBUS18 = L.marker([50.63246,3.04650],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusUniversite2");}); //universitecatholique
     },
     remove (){
       theMap.removeLayer(markerBUS);
@@ -142,6 +144,7 @@ var markers = {
       markerMETRO = L.marker([50.63214,3.06161],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Beaux-Arts");});
       markerMETRO1 = L.marker([50.62633,3.04060],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Cormontaigne");});
       markerMETRO2 = L.marker([50.63441,3.03039],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BoisBlanc");});
+      markerMETRO3 = L.marker([50.63709,3.02444],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Canteleu");});
     },
     remove (){
       theMap.removeLayer(markerMETRO);
@@ -164,6 +167,12 @@ var markers = {
       markerVELO4 = L.marker([50.63416,3.03072],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleBoisBlanc");}); //bois blanc
       markerVELO5 = L.marker([50.63214,3.04613],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleVauban");}); //vauban
       markerVELO6 = L.marker([50.63403,3.04512],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleHEI");}); //hei
+      markerVELO7 = L.marker([50.63720,3.02460],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleCante");}); //canteleu
+      markerVELO8 = L.marker([50.63085,3.04786],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlillePort");}); //National
+      markerVELO9 = L.marker([50.63591,3.05034],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleJardin");}); //jardinvauban
+      markerVEL10 = L.marker([50.63622,3.06943],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleFlandres");}); //lille flandres
+      markerVEL11 = L.marker([50.63701,3.07086],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleEuralille");}); //euralille
+      markerVEL12 = L.marker([50.63989,3.07538],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleEurope");}); //lille europe
     },
     remove (){
       theMap.removeLayer(markerVELO);

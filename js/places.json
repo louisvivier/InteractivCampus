@@ -429,6 +429,19 @@ places = {
     "logo_name":"metro",
     "streetpic_name":"cormontaigne"
   },
+  "Canteleu":{
+    "name":"Station de métro Canteleu",
+    "adress_street": "Avenue De Dunkerque",
+    "adress_city": "59000 Lille",
+    "phone": "03 20 40 40 40",
+    "email": "",
+    "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/metro/",
+    "link_text":"transpole.fr",
+    "twitter": "transpole_metro",
+    "marker_color": "#9eb886",
+    "logo_name":"metro",
+    "streetpic_name":"canteleumetro"
+  },
   "_comment":"________________________________________________GARES_________________________________________________",
 
   "GareEurope":{
@@ -439,7 +452,7 @@ places = {
     "email": "",
     "website": "http://www.gares-sncf.com/fr/gare/frlle/lille-europe",
     "link_text":"gares-sncf.com",
-    "twitter": "",
+    "twitter": "SNCF",
     "marker_color": "#9eb886",
     "logo_name":"sncf",
     "streetpic_name":"europe"
@@ -452,7 +465,7 @@ places = {
     "email": "",
     "website": "https://www.gares-sncf.com/fr/gare/fradj/lille-flandres",
     "link_text":"gares-sncf.com",
-    "twitter": "",
+    "twitter": "TERHDF",
     "marker_color": "#9eb886",
     "logo_name":"sncf",
     "streetpic_name":"flandres"
@@ -812,6 +825,62 @@ places = {
     "name":"Ligne 18 - Hotel De Ville"
   }]
 },
+"BusUniversite1":{
+  "name":"Arrêt de bus Universite Catholique",
+  "adress_street": "Boulevard Vauban",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/bus/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_bus",
+  "marker_color": "#9eb886",
+  "logo_name":"bus",
+  "streetpic_name":"catho1",
+  "bus_infos":[{
+    "ligne":"18",
+    "stop":"UNIV+CATHOLIQUE",
+    "way":"HOTEL+DE+VILLE",
+    "name":"Ligne 18 - Hotel De Ville"
+  },
+  {
+    "ligne":"12",
+    "stop":"UNIV+CATHOLIQUE",
+    "way":"PAVE+STRATEGIQUE",
+    "name":"Ligne 12 - Pave Strategique"
+  },
+  {
+    "ligne":"12",
+    "stop":"UNIV+CATHOLIQUE",
+    "way":"FERME+AUX+OIES",
+    "name":"Ligne 12 - Ferme Aux Oies"
+  }]
+},
+"BusUniversite2":{
+  "name":"Arrêt de bus Universite Catholique",
+  "adress_street": "Boulevard Vauban",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/bus/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_bus",
+  "marker_color": "#9eb886",
+  "logo_name":"bus",
+  "streetpic_name":"catho1",
+  "bus_infos":[{
+    "ligne":"18",
+    "stop":"UNIV+CATHOLIQUE",
+    "way":"ANATOLE+FRANCE",
+    "name":"Ligne 18 - Anatole France"
+  },
+  {
+    "ligne":"12",
+    "stop":"UNIV+CATHOLIQUE",
+    "way":"LE+PARC",
+    "name":"Ligne 12 - Le Parc"
+  }]
+},
 
 "_comment":"________________________________________________VELOS_________________________________________________",
 
@@ -912,6 +981,90 @@ places = {
   "logo_name":"vlille",
   "streetpic_name":"euratechnologie",
   "vlille_station":"euratechnologies"
+},
+"VlilleCante":{
+  "name":"Station V'Lille Canteleu",
+  "adress_street": "Avenue de Dunkerque",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/vlille/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_actu",
+  "marker_color": "#9eb886",
+  "logo_name":"vlille",
+  "streetpic_name":"canteleuvlille",
+  "vlille_station":"canteleu"
+},
+"VlillePort":{
+  "name":"Station V'Lille Nationale Rue Du Port",
+  "adress_street": "Rue Nationale",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/vlille/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_actu",
+  "marker_color": "#9eb886",
+  "logo_name":"vlille",
+  "streetpic_name":"port",
+  "vlille_station":"rueDuPort"
+},
+"VlilleJardin":{
+  "name":"Station V'Lille Jardin Vauban",
+  "adress_street": "Boulevard Vauban",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/vlille/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_actu",
+  "marker_color": "#9eb886",
+  "logo_name":"vlille",
+  "streetpic_name":"jardinvauban",
+  "vlille_station":"jardinVauban"
+},
+"VlilleFlandres":{
+  "name":"Station V'Lille Gare Lille Flandres",
+  "adress_street": "Place De La Gare",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/vlille/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_actu",
+  "marker_color": "#9eb886",
+  "logo_name":"vlille",
+  "streetpic_name":"flandres",
+  "vlille_station":"flandres"
+},
+"VlilleEuralille":{
+  "name":"Station V'Lille Flandres-Euralille",
+  "adress_street": "Place Des Buisses",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/vlille/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_actu",
+  "marker_color": "#9eb886",
+  "logo_name":"vlille",
+  "streetpic_name":"euralille",
+  "vlille_station":"euralille"
+},
+"VlilleEurope":{
+  "name":"Station V'Lille Gare Lille Europe",
+  "adress_street": "Boulevard De Leeds",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/vlille/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_actu",
+  "marker_color": "#9eb886",
+  "logo_name":"vlille",
+  "streetpic_name":"europe",
+  "vlille_station":"europe"
 },
 "_comment":"________________________________________________SUPERMARKETS_________________________________________________",
 
