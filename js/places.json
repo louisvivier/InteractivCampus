@@ -773,7 +773,7 @@ places = {
   "twitter": "transpole_actu",
   "marker_color": "#9eb886",
   "logo_name":"vlille",
-  "streetpic_name":"lille",
+  "streetpic_name":"vcatho",
   "vlille_station":"universitecatholique"
 },
 "VlilleHEI":{
@@ -787,7 +787,7 @@ places = {
   "twitter": "transpole_actu",
   "marker_color": "#9eb886",
   "logo_name":"vlille",
-  "streetpic_name":"lille",
+  "streetpic_name":"vhei",
   "vlille_station":"hei"
 },
 "VlilleBeauxArts":{
