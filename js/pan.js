@@ -10,10 +10,10 @@ var leftPan = {
     $('.adress').html(places[id].adress_street + ", " + places[id].adress_city);
     $('.phone').html(places[id].phone);
     $('.email').html(places[id].email);
-    $('.website').html('<a target="_blank" href="'+places[id].website+'">'+places[id].link_text+'</a>') ;
+    $('.website').html('<a href="'+places[id].website+'">'+places[id].link_text+'</a>') ;
     if (typeof(places[id].rating)!= 'undefined'){
       if (places[id].rating["tripadvisor"] != ""){
-        $(".rating").html('<a target="_blank" href="'+places[id].rating["tripadvisor"]+'"><img border="0" alt="Tripadvisor" src="images/logos/tripadvisor.png" width="100" height="100"></a>');
+        $(".rating").html('<a href="'+places[id].rating["tripadvisor"]+'"><img border="0" alt="Tripadvisor" src="images/logos/tripadvisor.png" width="100" height="100"></a>');
       }
       else {
         $(".rating").html('');
@@ -59,6 +59,8 @@ var leftPan = {
       $('.twitterFeed').html('');
     }
     theMap.setView([lat, lng],17);
+    $("a").attr("target", "popup");
+    $("a").attr("onclick", 'window.open(this.href,"popup","width=800,height=600"); return false;');
   },
   close(){
     document.getElementById("leftPan").style.visibility = "hidden";
