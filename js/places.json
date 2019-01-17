@@ -119,7 +119,11 @@ places = {
     "twitter": "",
     "marker_color": "#dfc277",
     "logo_name":"aeu",
-    "streetpic_name":"aeu"
+    "streetpic_name":"aeu",
+    "rating":{
+      "google":"",
+      "tripadvisor":""
+    }
   },
   "Boite":{
     "name":"La boîte à Sandwichs",
@@ -132,7 +136,11 @@ places = {
     "twitter": "",
     "marker_color": "#dfc277",
     "logo_name":"boite",
-    "streetpic_name":"boite"
+    "streetpic_name":"boite",
+    "rating":{
+      "google":"",
+      "tripadvisor":""
+    }
   },
   "Celine":{
     "name":"Céline Kebab",
@@ -145,7 +153,11 @@ places = {
     "twitter": "",
     "marker_color": "#dfc277",
     "logo_name":"celine",
-    "streetpic_name":"celine"
+    "streetpic_name":"celine",
+    "rating":{
+      "google":"",
+      "tripadvisor":""
+    }
   },
   "Colisee":{
     "name":"La friterie du Colisée",
@@ -158,7 +170,11 @@ places = {
     "twitter": "",
     "marker_color": "#dfc277",
     "logo_name":"colisee",
-    "streetpic_name":"colisee"
+    "streetpic_name":"colisee",
+    "rating":{
+      "google":"",
+      "tripadvisor":""
+    }
   },
   "Dog":{
     "name":"Dog Sandwichs",
@@ -171,7 +187,11 @@ places = {
     "twitter": "",
     "marker_color": "#dfc277",
     "logo_name":"dog",
-    "streetpic_name":"dog"
+    "streetpic_name":"dog",
+    "rating":{
+      "google":"",
+      "tripadvisor":""
+    }
   },
   "Epis":{
     "name":"L'Epis d'Or'",
@@ -184,7 +204,11 @@ places = {
     "twitter": "",
     "marker_color": "#dfc277",
     "logo_name":"sandwich",
-    "streetpic_name":"epis"
+    "streetpic_name":"epis",
+    "rating":{
+      "google":"",
+      "tripadvisor":""
+    }
   },
   "Paul":{
     "name":"Boulangerie Paul",
@@ -197,7 +221,11 @@ places = {
     "twitter": "",
     "marker_color": "#dfc277",
     "logo_name":"paul",
-    "streetpic_name":"paul"
+    "streetpic_name":"paul",
+    "rating":{
+      "google":"",
+      "tripadvisor":""
+    }
   },
   "Pause":{
     "name":"Pause Sandwich",
@@ -210,7 +238,11 @@ places = {
     "twitter": "",
     "marker_color": "#dfc277",
     "logo_name":"sandwich",
-    "streetpic_name":"pause"
+    "streetpic_name":"pause",
+    "rating":{
+      "google":"",
+      "tripadvisor":""
+    }
   },
   "Sogood":{
     "name":"Sogood",
@@ -223,7 +255,11 @@ places = {
     "twitter": "",
     "marker_color": "#dfc277",
     "logo_name":"sogood",
-    "streetpic_name":"sogood"
+    "streetpic_name":"sogood",
+    "rating":{
+      "google":"",
+      "tripadvisor":""
+    }
   },
   "_comment":"________________________________________________PIZZAS_________________________________________________",
 
@@ -238,7 +274,11 @@ places = {
     "twitter": "",
     "marker_color": "#dfc277",
     "logo_name":"kiosque",
-    "streetpic_name":"kiosque"
+    "streetpic_name":"kiosque",
+    "rating":{
+      "google":"",
+      "tripadvisor":""
+    }
   },
   "Perfecto":{
     "name":"Perfecto Pizza",
@@ -251,7 +291,11 @@ places = {
     "twitter": "",
     "marker_color": "#dfc277",
     "logo_name":"pizza",
-    "streetpic_name":"perfecto"
+    "streetpic_name":"perfecto",
+    "rating":{
+      "google":"",
+      "tripadvisor":""
+    }
   },
   "Rabbit2":{
     "name":"Speed Rabbit Pizza",
@@ -264,7 +308,11 @@ places = {
     "twitter": "pizzas_lille",
     "marker_color": "#dfc277",
     "logo_name":"rabbit",
-    "streetpic_name":"rabbit2"
+    "streetpic_name":"rabbit2",
+    "rating":{
+      "google":"",
+      "tripadvisor":""
+    }
   },
   "Rabbit1":{
     "name":"Speed Rabbit Pizza",
@@ -277,7 +325,11 @@ places = {
     "twitter": "pizzas_lille",
     "marker_color": "#dfc277",
     "logo_name":"rabbit",
-    "streetpic_name":"rabbit1"
+    "streetpic_name":"rabbit1",
+    "rating":{
+      "google":"",
+      "tripadvisor":""
+    }
   },
   "Dominos":{
     "name":"Domino's Pizza",
@@ -290,7 +342,11 @@ places = {
     "twitter": "",
     "marker_color": "#dfc277",
     "logo_name":"dominos",
-    "streetpic_name":"dominos"
+    "streetpic_name":"dominos",
+    "rating":{
+      "google":"",
+      "tripadvisor":""
+    }
   },
 
 "_comment":"________________________________________________METROS_________________________________________________",
