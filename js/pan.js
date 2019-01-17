@@ -140,7 +140,7 @@ var optionsPan = {
     }
     else if (switchMetro == 0){
       markers.metro.add();
-      $('.transport').css("opacity","1");
+      $('.metro').css("opacity","1");
       switchMetro = 1;
     }
   },
