@@ -76,7 +76,7 @@ var leftPan = {
 //Gris #adadae
 var optionsPan = {
   init (){
-    $(".schools").click(function(){ optionsPan.schools(); });
+    $(".schools").click(function(){ optionsPan.schools();});
     $(".transport").click(function(){ optionsPan.transport(); });
     $(".markets").click(function(){ optionsPan.markets(); });
     $(".food").click(function(){ optionsPan.food(); });
@@ -84,40 +84,95 @@ var optionsPan = {
     $(".temp").click(function(){ optionsPan.temp(); });
   },
   schools(){
-    markers.isen();
-    markers.hei();
-    markers.isa();
-    markers.catho();
-    markers.yncrea();
-    markers.urbawood();
-    polygone.isen();
-    polygone.rameau();
-    polygone.urbawood();
-    polygone.hei();
-    polygone.heiprepa();
-    polygone.isa();
-    polygone.catho();
-    polygone.yncrea();
-    polygone.yncreaCompta();
-    polygone.aeu();
+    if (switchSchools == 1){
+      console.log('off');
+      markers.isen.remove();
+      markers.hei.remove();
+      markers.isa.remove();
+      markers.catho.remove();
+      markers.yncrea.remove();
+      markers.urbawood.remove();
+      switchSchools = 0;
+    }
+    else if (switchSchools == 0){
+      console.log('on');
+      markers.isen.add();
+      markers.hei.add();
+      markers.isa.add();
+      markers.catho.add();
+      markers.yncrea.add();
+      markers.urbawood.add();
+      /*polygone.isen();
+      polygone.rameau();
+      polygone.urbawood();
+      polygone.hei();
+      polygone.heiprepa();
+      polygone.isa();
+      polygone.catho();
+      polygone.yncrea();
+      polygone.yncreaCompta();
+      polygone.aeu();*/
+      switchSchools = 1;
+    }
   },
   transport(){
-    markers.bus();
-    markers.metro();
-    markers.velo();
-    markers.gare();
+    if (switchTransport == 1){
+      markers.bus.remove();
+      markers.metro.remove();
+      markers.velo.remove();
+      markers.gare.remove();
+      switchTransport = 0;
+    }
+    else if (switchTransport == 0){
+      markers.bus.add();
+      markers.metro.add();
+      markers.velo.add();
+      markers.gare.add();
+      switchTransport = 1;
+    }
   },
   markets(){
-    markers.caddy();
+    if (switchMarkets == 1){
+      markers.caddy.remove();
+      switchMarkets = 0;
+    }
+    else if (switchMarkets == 0){
+      markers.caddy.add();
+      switchMarkets = 1;
+    }
   },
   food(){
-    markers.sandwich();
-    markers.pizza();
+    if (switchFood == 1){
+      markers.sandwich.remove();
+      markers.pizza.remove();
+      markers.aeu.remove();
+      switchFood = 0;
+    }
+    else if (switchFood == 0){
+      markers.sandwich.add();
+      markers.pizza.add();
+      markers.aeu.add();
+      switchFood = 1;
+    }
   },
   temp(){
-    markers.thermo();
+    if (switchTemp == 1){
+      markers.thermo.remove();
+      switchTemp = 0;
+    }
+    else if (switchTemp == 0){
+      markers.thermo.add();
+      switchTemp = 1;
+    }
   },
   atm(){
-    markers.atm();
+    if (switchAtm == 1){
+      markers.atm.remove();
+      switchAtm = 0;
+    }
+    else if (switchAtm == 0){
+      markers.atm.add();
+      switchAtm = 1;
+    }
   }
 }
