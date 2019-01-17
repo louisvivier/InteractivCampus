@@ -286,7 +286,7 @@ var polygone = {
       [50.6337120, 3.0457422],
       [50.6337238, 3.0457156],
     ],{
-      color:'white',
+      color:'black',
       fillColor:'black',
       fillOpacity:0.7
     }).addTo(theMap);
@@ -313,8 +313,8 @@ var polygone = {
       [50.6333880, 3.0446805],
       [50.6328683, 3.0452476]
     ],{
-      color:'white',
-      fillColor:'blue',
+      color:'black',
+      fillColor:'#00b9ff',
       fillOpacity:0.7
     }).addTo(theMap);
   },
@@ -329,7 +329,7 @@ var polygone = {
       [50.6282470, 3.0472815]
 
     ],{
-      color:'white',
+      color:'black',
       fillColor:'black',
       fillOpacity:0.7
     }).addTo(theMap);
