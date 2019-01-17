@@ -99,6 +99,7 @@ var optionsPan = {
       polygone.cathobis.remove();
       polygone.yncrea.remove();
       polygone.yncreaCompta.remove();
+      $('.schools').css("opacity","0.5");
       switchSchools = 0;
     }
     else if (switchSchools == 0){
@@ -114,6 +115,7 @@ var optionsPan = {
       polygone.cathobis.add();
       polygone.yncrea.add();
       polygone.yncreaCompta.add();
+      $('.schools').css("opacity","1");
       switchSchools = 1;
     }
   },
@@ -123,6 +125,7 @@ var optionsPan = {
       markers.metro.remove();
       markers.velo.remove();
       markers.gare.remove();
+      $('.transport').css("opacity","0.5");
       switchTransport = 0;
     }
     else if (switchTransport == 0){
@@ -130,16 +133,19 @@ var optionsPan = {
       markers.metro.add();
       markers.velo.add();
       markers.gare.add();
+      $('.transport').css("opacity","1");
       switchTransport = 1;
     }
   },
   markets(){
     if (switchMarkets == 1){
       markers.caddy.remove();
+      $('.markets').css("opacity","0.5");
       switchMarkets = 0;
     }
     else if (switchMarkets == 0){
       markers.caddy.add();
+      $('.markets').css("opacity","1");
       switchMarkets = 1;
     }
   },
@@ -148,32 +154,38 @@ var optionsPan = {
       markers.sandwich.remove();
       markers.pizza.remove();
       markers.aeu.remove();
+      $('.food').css("opacity","0.5");
       switchFood = 0;
     }
     else if (switchFood == 0){
       markers.sandwich.add();
       markers.pizza.add();
       markers.aeu.add();
+      $('.food').css("opacity","1");
       switchFood = 1;
     }
   },
   temp(){
     if (switchTemp == 1){
       markers.thermo.remove();
+      $('.temp').css("opacity","0.5");
       switchTemp = 0;
     }
     else if (switchTemp == 0){
       markers.thermo.add();
+      $('.temp').css("opacity","1");
       switchTemp = 1;
     }
   },
   atm(){
     if (switchAtm == 1){
       markers.atm.remove();
+      $('.atm').css("opacity","0.5");
       switchAtm = 0;
     }
     else if (switchAtm == 0){
       markers.atm.add();
+      $('.atm').css("opacity","1");
       switchAtm = 1;
     }
   }
