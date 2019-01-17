@@ -131,6 +131,8 @@ var markers = {
       theMap.removeLayer(markerBUS14);
       theMap.removeLayer(markerBUS15);
       theMap.removeLayer(markerBUS16);
+      theMap.removeLayer(markerBUS17);
+      theMap.removeLayer(markerBUS18);
     }
   },
   metro : {
@@ -153,6 +155,9 @@ var markers = {
       theMap.removeLayer(markerMETRO);
       theMap.removeLayer(markerMETRO1);
       theMap.removeLayer(markerMETRO2);
+      theMap.removeLayer(markerMETRO3);
+      theMap.removeLayer(markerMETRO4);
+      theMap.removeLayer(markerMETRO5);
     }
   },
   velo : {
@@ -173,10 +178,10 @@ var markers = {
       markerVELO7 = L.marker([50.63720,3.02460],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleCante");}); //canteleu
       markerVELO8 = L.marker([50.63085,3.04786],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlillePort");}); //National
       markerVELO9 = L.marker([50.63591,3.05034],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleJardin");}); //jardinvauban
-      markerVEL10 = L.marker([50.63622,3.06943],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleFlandres");}); //lille flandres
-      markerVEL11 = L.marker([50.63701,3.07086],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleEuralille");}); //euralille
-      markerVEL12 = L.marker([50.63989,3.07538],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleEurope");}); //lille europe
-      markerVEL13 = L.marker([50.63097,3.06044],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleRepublique");}); //richebe
+      markerVELO10 = L.marker([50.63622,3.06943],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleFlandres");}); //lille flandres
+      markerVELO11 = L.marker([50.63701,3.07086],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleEuralille");}); //euralille
+      markerVELO12 = L.marker([50.63989,3.07538],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleEurope");}); //lille europe
+      markerVELO13 = L.marker([50.63097,3.06044],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleRepublique");}); //richebe
     },
     remove (){
       theMap.removeLayer(markerVELO);
@@ -186,6 +191,13 @@ var markers = {
       theMap.removeLayer(markerVELO4);
       theMap.removeLayer(markerVELO5);
       theMap.removeLayer(markerVELO6);
+      theMap.removeLayer(markerVELO7);
+      theMap.removeLayer(markerVELO8);
+      theMap.removeLayer(markerVELO9);
+      theMap.removeLayer(markerVELO10);
+      theMap.removeLayer(markerVELO11);
+      theMap.removeLayer(markerVELO12);
+      theMap.removeLayer(markerVELO13);
     }
   },
   //******************************************AUTRE************************************************
