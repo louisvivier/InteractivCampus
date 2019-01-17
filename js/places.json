@@ -575,7 +575,7 @@ places = {
 },
 "BusBoisBlanc1":{
   "name":"Arrêt de bus Bois Blancs",
-  "adress_street": "Bois Blancs",
+  "adress_street": "Quartier Bois-Blancs",
   "adress_city": "59000 Lille",
   "phone": "03 20 40 40 40",
   "email": "",
@@ -594,7 +594,7 @@ places = {
 },
 "BusBoisBlanc2":{
   "name":"Arrêt de bus Bois Blancs",
-  "adress_street": "Bois Blancs",
+  "adress_street": "Quartier Bois-Blancs",
   "adress_city": "59000 Lille",
   "phone": "03 20 40 40 40",
   "email": "",
