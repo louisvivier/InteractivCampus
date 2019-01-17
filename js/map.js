@@ -36,6 +36,7 @@ var map = {
     polygone.heiprepa();
     polygone.isa();
     polygone.catho();
+    polygone.cathobis();
     polygone.yncrea();
     polygone.yncreaCompta();
     polygone.aeu();
