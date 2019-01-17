@@ -143,13 +143,14 @@ var markers = {
         iconAnchor: [20,55],
         popupAnchor: [0,0],
       });
-      markerMETRO0 = L.marker([50.63150,3.06000],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Beaux-Arts");});
       markerMETRO = L.marker([50.63214,3.06161],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Beaux-Arts");});
       markerMETRO1 = L.marker([50.62633,3.04060],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Cormontaigne");});
       markerMETRO2 = L.marker([50.63441,3.03039],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BoisBlanc");});
       markerMETRO3 = L.marker([50.63709,3.02444],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Canteleu");});
       markerMETRO4 = L.marker([50.63742,3.07106],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"LilleFlandres");});
       markerMETRO5 = L.marker([50.63927,3.07636],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"LilleEurope");});
+      markerMETRO6 = L.marker([50.63150,3.06000],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Beaux-Arts");});
+
     },
     remove (){
       theMap.removeLayer(markerMETRO);
@@ -158,6 +159,7 @@ var markers = {
       theMap.removeLayer(markerMETRO3);
       theMap.removeLayer(markerMETRO4);
       theMap.removeLayer(markerMETRO5);
+      theMap.removeLayer(markerMETRO6);
     }
   },
   velo : {
