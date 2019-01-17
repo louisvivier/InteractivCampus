@@ -154,6 +154,7 @@ var horairesBus = {
         try{
           var suivant3 = requete["records"][2]["fields"]["heureestimeedepart"];
           var horaires = horairesBus.tempsRestant(suivant1, suivant2, suivant3);
+          return horaires
         }catch{
           var horaires = horairesBus.tempsRestant2(suivant1, suivant2);
           return horaires;
