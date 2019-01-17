@@ -680,7 +680,7 @@ places = {
   "twitter": "transpole_bus",
   "marker_color": "#9eb886",
   "logo_name":"bus",
-  "streetpic_name":"lille",
+  "streetpic_name":"pont",
   "bus_infos":{
     "ligne":"18",
     "stop":"LE+PONT",
@@ -699,7 +699,7 @@ places = {
   "twitter": "transpole_bus",
   "marker_color": "#9eb886",
   "logo_name":"bus",
-  "streetpic_name":"lille",
+  "streetpic_name":"pont",
   "bus_infos":{
     "ligne":"18",
     "stop":"LE+PONT",
@@ -759,7 +759,7 @@ places = {
   "twitter": "transpole_actu",
   "marker_color": "#9eb886",
   "logo_name":"vlille",
-  "streetpic_name":"lille",
+  "streetpic_name":"rameau",
   "vlille_station":"solferino"
 },
 "VlilleVauban":{
@@ -801,7 +801,7 @@ places = {
   "twitter": "transpole_actu",
   "marker_color": "#9eb886",
   "logo_name":"vlille",
-  "streetpic_name":"lille",
+  "streetpic_name":"beauxarts",
   "vlille_station":"republique"
 },
 "VlilleCormon":{
@@ -815,7 +815,7 @@ places = {
   "twitter": "transpole_actu",
   "marker_color": "#9eb886",
   "logo_name":"vlille",
-  "streetpic_name":"lille",
+  "streetpic_name":"cormon",
   "vlille_station":"cormontaigne"
 },
 "VlilleBoisBlanc":{
@@ -829,7 +829,7 @@ places = {
   "twitter": "transpole_actu",
   "marker_color": "#9eb886",
   "logo_name":"vlille",
-  "streetpic_name":"lille",
+  "streetpic_name":"bois-blanc",
   "vlille_station":"boisblanc"
 },
 "VlilleEura":{
@@ -843,7 +843,7 @@ places = {
   "twitter": "transpole_actu",
   "marker_color": "#9eb886",
   "logo_name":"vlille",
-  "streetpic_name":"lille",
+  "streetpic_name":"euratechnologie",
   "vlille_station":"euratechnologies"
 },
 "_comment":"________________________________________________SUPERMARKETS_________________________________________________",
