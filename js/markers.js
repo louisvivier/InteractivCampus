@@ -62,7 +62,7 @@ var markers = {
       iconAnchor: [20, 55],
       popupAnchor: [0, 0],
     });
-    let markerMAKER = L.marker([50.63402,3.04610],{icon:maker }).addTo(theMap)//.on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Adimaker");});
+    let markerMAKER = L.marker([50.63402,3.04610],{icon:maker }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Yncrea1");});
   },
 
 
