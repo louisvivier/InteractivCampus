@@ -1,6 +1,6 @@
 var markers = {
   //******************************************ECOLES**************************************************
-  isen : {
+  ecole : {
     add (){
       let isen = L.icon({
         iconUrl: "images/markers/isen.png",
@@ -8,105 +8,81 @@ var markers = {
         iconAnchor: [20, 55], //ancrage
         popupAnchor: [0, 0],
       });
-      markerISEN = L.marker([50.63409,3.04879],{ icon: isen }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"ISEN");});
-      markerRameau = L.marker([50.63439,3.04979],{ icon: isen }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Rameau");});
-    },
-    remove () {
-      theMap.removeLayer(markerISEN);
-      theMap.removeLayer(markerRameau);
-    }
-  },
-  hei : {
-    add (){
+
       let hei = L.icon({
         iconUrl: "images/markers/hei.png",
         iconSize: [40, 60],
         iconAnchor: [20,55],
         popupAnchor: [0,0],
       });
-      markerHEI = L.marker([50.63366,3.04539],{icon:hei }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"HEI");});
-      markerHEIPREPA = L.marker([50.62855, 3.04711],{icon:hei }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"HEIPREPA");});
-    },
-    remove (){
-      theMap.removeLayer(markerHEI);
-      theMap.removeLayer(markerHEIPREPA);
-    }
-  },
-  isa : {
-    add (){
+
       let isa = L.icon({
         iconUrl: "images/markers/isa.png",
         iconSize: [40, 60],
         iconAnchor: [20,55],
         popupAnchor: [0,0],
       });
-      markerISA = L.marker([50.63390,3.04663],{icon:isa }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"ISA");});
-    },
-    remove (){
-      theMap.removeLayer(markerISA);
-    }
-  },
-  catho : {
-    add (){
+
       let catho = L.icon({
         iconUrl: "images/markers/catho.png",
         iconSize: [40, 60],
         iconAnchor: [20,55],
         popupAnchor: [0,0],
       });
-      markerCATHO1 = L.marker([50.63327,3.04635],{icon:catho }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Catho1");});
-      markerCATHO2 = L.marker([50.63215,3.04504],{icon:catho }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Catho2");});
-    },
-    remove (){
-      theMap.removeLayer(markerCATHO1);
-      theMap.removeLayer(markerCATHO2);
-    }
-  },
-  yncrea : {
-    add (){
+
       let yncrea = L.icon({
         iconUrl: "images/markers/yncrea.png",
         iconSize: [40, 60],
         iconAnchor: [20,55],
         popupAnchor: [0,0],
       });
-      markerYNCREA2 = L.marker([50.63530,3.04993],{icon:yncrea }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Yncrea2");});
-    },
-    remove(){
-      theMap.removeLayer(markerYNCREA2);
-    }
-  },
-  urbawood : {
-    add (){
+
       let urbawood = L.icon({
         iconUrl: "images/markers/urbawood.png",
         iconSize: [55, 60],
         iconAnchor: [20, 55],
         popupAnchor: [0, 0],
       });
-      markerURBA = L.marker([50.63316,3.02354],{icon:urbawood }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Urbawood");});
+
       let maker = L.icon({
         iconUrl: "images/markers/adimaker.png",
         iconSize: [40, 60],
         iconAnchor: [20, 55],
         popupAnchor: [0, 0],
       });
-      markerMAKER = L.marker([50.63402,3.04610],{icon:maker }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Yncrea1");});
+
       let rizomm = L.icon({
         iconUrl: "images/markers/rizomm.png",
         iconSize: [40, 60],
         iconAnchor: [20, 55],
         popupAnchor: [0, 0],
       });
+      markerISEN = L.marker([50.63409,3.04879],{ icon: isen }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"ISEN");});
+      markerRameau = L.marker([50.63439,3.04979],{ icon: isen }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Rameau");});
       markerRIZOMM = L.marker([50.63326,3.04503],{icon:rizomm }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Rizomm");});
+      markerHEI = L.marker([50.63366,3.04539],{icon:hei }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"HEI");});
+      markerHEIPREPA = L.marker([50.62855, 3.04711],{icon:hei }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"HEIPREPA");});
+      markerISA = L.marker([50.63390,3.04663],{icon:isa }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"ISA");});
+      markerCATHO1 = L.marker([50.63327,3.04635],{icon:catho }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Catho1");});
+      markerCATHO2 = L.marker([50.63215,3.04504],{icon:catho }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Catho2");});
+      markerYNCREA2 = L.marker([50.63530,3.04993],{icon:yncrea }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Yncrea2");});
+      markerURBA = L.marker([50.63316,3.02354],{icon:urbawood }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Urbawood");});
+      markerMAKER = L.marker([50.63402,3.04610],{icon:maker }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Yncrea1");});
     },
-    remove (){
+    remove () {
+      theMap.removeLayer(markerISEN);
+      theMap.removeLayer(markerRameau);
+      theMap.removeLayer(markerHEI);
+      theMap.removeLayer(markerHEIPREPA);
+      theMap.removeLayer(markerISA);
+      theMap.removeLayer(markerCATHO1);
+      theMap.removeLayer(markerCATHO2);
+      theMap.removeLayer(markerYNCREA2);
       theMap.removeLayer(markerURBA);
       theMap.removeLayer(markerMAKER);
       theMap.removeLayer(markerRIZOMM);
     }
   },
-
 
   //***********************************************TRANSPORTS********************************************************
   bus : {

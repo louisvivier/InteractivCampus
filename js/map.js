@@ -13,12 +13,7 @@ var map = {
       maxZoom: 18
     }).addTo(theMap);
     $('.leaflet-control-attribution').html('<a href="https://geniusgames.fr"target="_blank">Application par GeniusCorp © </a> | <a href="http://www.openstreetmap.org/copyright">OpenStreetMap ©</a>');
-    markers.isen.add();
-    markers.hei.add();
-    markers.isa.add();
-    markers.catho.add();
-    markers.yncrea.add();
-    markers.urbawood.add();
+    markers.ecole.add();
     markers.bus.add();
     markers.metro.add();
     markers.velo.add();
