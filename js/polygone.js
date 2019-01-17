@@ -1,7 +1,7 @@
 var polygone = {
   urbawood : {
     add (){
-      let poly_urbawood = L.polygon([
+      poly_urbawood = L.polygon([
         [50.6330912, 3.0232973],
         [50.6332685, 3.0237283],
         [50.6331245, 3.0238751],
@@ -13,12 +13,12 @@ var polygone = {
       }).addTo(theMap);
     },
     remove (){
-
+      theMap.removeLayer(poly_urbawood);
     }
   },
   isen : {
     add (){
-      let poly_ISEN = L.polygon([
+      poly_ISEN = L.polygon([
         [50.6340013, 3.0493308],
         [50.6340281, 3.0492803],
         [50.6340351, 3.0492889],
@@ -60,12 +60,12 @@ var polygone = {
       }).addTo(theMap);
     },
     remove (){
-
+      theMap.removeLayer(poly_ISEN);
     }
   },
   rameau : {
     add(){
-      let poly_RAMEAU = L.polygon([
+      poly_RAMEAU = L.polygon([
         [50.6346449, 3.0494983],
         [50.6346143, 3.0494582],
         [50.6346113, 3.0494638],
@@ -248,12 +248,12 @@ var polygone = {
       }).addTo(theMap);
     },
     remove (){
-
+      theMap.removeLayer(poly_RAMEAU);
     }
   },
   isa : {
     add (){
-      let poly_ISA = L.polygon([
+      poly_ISA = L.polygon([
         [50.63408, 3.04659],
         [50.63404, 3.04677],
         [50.63401, 3.04674],
@@ -273,11 +273,12 @@ var polygone = {
       }).addTo(theMap);
     },
     remove (){
+      theMap.removeLayer(poly_ISA);
     }
   },
   hei : {
     add (){
-      let poly_HEI = L.polygon([
+      poly_HEI = L.polygon([
 
         [50.6336070, 3.0455924],
         [50.6335930, 3.0456279],
@@ -312,12 +313,12 @@ var polygone = {
       }).addTo(theMap);
     },
     remove (){
-
+      theMap.removeLayer(poly_HEI);
     }
   },
   rizomm : {
     add(){
-      let poly_RIZOMM = L.polygon([
+      poly_RIZOMM = L.polygon([
         [50.6328683, 3.0452476],
         [50.6328683, 3.0452476],
         [50.6328830, 3.0453625],
@@ -344,12 +345,12 @@ var polygone = {
       }).addTo(theMap);
     },
     remove (){
-
+      theMap.removeLayer(poly_RIZOMM);
     }
   },
   heiprepa : {
     add (){
-      let poly_HEIPREPA = L.polygon([
+      poly_HEIPREPA = L.polygon([
         [50.6282470, 3.0472815],
         [50.6282409, 3.0473286],
         [50.6283241, 3.0475512],
@@ -365,12 +366,12 @@ var polygone = {
       }).addTo(theMap);
     },
     remove (){
-
+      theMap.removeLayer(poly_HEIPREPA);
     }
   },
   yncrea : {
     add (){
-    let poly_yncrea = L.polygon([
+    poly_yncrea = L.polygon([
       [50.6340037, 3.0458948],
       [50.6342243, 3.0461505],
       [50.6342028, 3.0462018],
@@ -385,12 +386,12 @@ var polygone = {
     }).addTo(theMap);
   },
   remove(){
-
+    theMap.removeLayer(poly_yncrea);
   }
 },
   yncreaCompta : {
     add (){
-    let poly_yncrea_compta = L.polygon([
+    poly_yncrea_compta = L.polygon([
       [50.63539, 3.04989],
       [50.63532, 3.05005],
       [50.63522, 3.04995],
@@ -402,12 +403,12 @@ var polygone = {
     }).addTo(theMap);
   },
   remove(){
-
+    theMap.removeLayer(poly_yncrea_compta);
   }
 },
   aeu : {
     add (){
-    let poly_AEU = L.polygon([
+    poly_AEU = L.polygon([
       [50.6331506, 3.0476289],
       [50.6328670, 3.0479592],
       [50.6330671, 3.0483732],
@@ -424,12 +425,12 @@ var polygone = {
     }).addTo(theMap);
   },
   remove(){
-
+    theMap.removeLayer(poly_AEU);
   }
 },
   catho : {
     add (){
-    let poly_catho = L.polygon([
+    poly_catho = L.polygon([
       [50.6329202, 3.0459497],
       [50.6330579, 3.0460899],
       [50.6331915, 3.0462259],
@@ -501,12 +502,12 @@ var polygone = {
     }).addTo(theMap);
   },
   remove(){
-
+    theMap.removeLayer(poly_catho);
   }
 },
   cathobis : {
     add (){
-    let poly_cathobis = L.polygon([
+    poly_cathobis = L.polygon([
       [50.6321362, 3.0457545],
       [50.6324495, 3.0454101],
       [50.6324403, 3.0453936],
@@ -568,7 +569,7 @@ var polygone = {
     }).addTo(theMap);
   },
   remove(){
-
+    theMap.removeLayer(poly_cathobis);
   }
 }
 }

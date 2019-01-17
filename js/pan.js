@@ -88,20 +88,34 @@ var optionsPan = {
   schools(){
     if (switchSchools == 1){
       markers.ecole.remove();
+      polygone.isen.remove();
+      polygone.rameau.remove();
+      polygone.urbawood.remove();
+      polygone.hei.remove();
+      polygone.rizomm.remove();
+      polygone.heiprepa.remove();
+      polygone.isa.remove();
+      polygone.catho.remove();
+      polygone.cathobis.remove();
+      polygone.yncrea.remove();
+      polygone.yncreaCompta.remove();
+      polygone.aeu.remove();
       switchSchools = 0;
     }
     else if (switchSchools == 0){
       markers.ecole.add();
-      /*polygone.isen();
-      polygone.rameau();
-      polygone.urbawood();
-      polygone.hei();
-      polygone.heiprepa();
-      polygone.isa();
-      polygone.catho();
-      polygone.yncrea();
-      polygone.yncreaCompta();
-      polygone.aeu();*/
+      polygone.isen.add();
+      polygone.rameau.add();
+      polygone.urbawood.add();
+      polygone.hei.add();
+      polygone.rizomm.add();
+      polygone.heiprepa.add();
+      polygone.isa.add();
+      polygone.catho.add();
+      polygone.cathobis.add();
+      polygone.yncrea.add();
+      polygone.yncreaCompta.add();
+      polygone.aeu.add();
       switchSchools = 1;
     }
   },
