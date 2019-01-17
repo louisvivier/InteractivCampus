@@ -36,7 +36,8 @@ var markers = {
       iconAnchor: [20,55],
       popupAnchor: [0,0],
     });
-    let markerCATHO = L.marker([50.63327,3.04635],{icon:catho }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Catho");});
+    let markerCATHO1 = L.marker([50.63327,3.04635],{icon:catho }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Catho1");});
+    let markerCATHO2 = L.marker([50.63215,3.04504],{icon:catho }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Catho2");});
   },
   yncrea(){
     let yncrea = L.icon({
