@@ -375,7 +375,7 @@ places = {
   "twitter": "transpole_bus",
   "marker_color": "#9eb886",
   "logo_name":"bus",
-  "streetpic_name":"lille",
+  "streetpic_name":"rameau",
   "bus_infos":{
     "ligne":"18",
     "stop":"SOLFERINO",
@@ -394,7 +394,7 @@ places = {
   "twitter": "transpole_bus",
   "marker_color": "#9eb886",
   "logo_name":"bus",
-  "streetpic_name":"lille",
+  "streetpic_name":"rameau",
   "bus_infos":{
     "ligne":"18",
     "stop":"SOLFERINO",
@@ -413,7 +413,7 @@ places = {
   "twitter": "transpole_bus",
   "marker_color": "#9eb886",
   "logo_name":"bus",
-  "streetpic_name":"lille",
+  "streetpic_name":"rameau",
   "bus_infos":{
     "ligne":"12",
     "stop":"SOLFERINO",
@@ -432,7 +432,7 @@ places = {
   "twitter": "transpole_bus",
   "marker_color": "#9eb886",
   "logo_name":"bus",
-  "streetpic_name":"lille",
+  "streetpic_name":"republique",
   "bus_infos":{
     "ligne":"18",
     "stop":"REPUBLIQUE",
@@ -451,7 +451,7 @@ places = {
   "twitter": "transpole_bus",
   "marker_color": "#9eb886",
   "logo_name":"bus",
-  "streetpic_name":"lille",
+  "streetpic_name":"republique",
   "bus_infos":{
     "ligne":"18",
     "stop":"REPUBLIQUE",
@@ -470,7 +470,7 @@ places = {
   "twitter": "transpole_bus",
   "marker_color": "#9eb886",
   "logo_name":"bus",
-  "streetpic_name":"lille",
+  "streetpic_name":"republique",
   "bus_infos":{
     "ligne":"12",
     "stop":"REPUBLIQUE",
@@ -546,7 +546,7 @@ places = {
   "twitter": "transpole_bus",
   "marker_color": "#9eb886",
   "logo_name":"bus",
-  "streetpic_name":"lille",
+  "streetpic_name":"cormon",
   "bus_infos":{
     "ligne":"12",
     "stop":"CORMONTAIGNE",
@@ -565,7 +565,7 @@ places = {
   "twitter": "transpole_bus",
   "marker_color": "#9eb886",
   "logo_name":"bus",
-  "streetpic_name":"lille",
+  "streetpic_name":"cormon",
   "bus_infos":{
     "ligne":"12",
     "stop":"CORMONTAIGNE",
@@ -584,7 +584,7 @@ places = {
   "twitter": "transpole_bus",
   "marker_color": "#9eb886",
   "logo_name":"bus",
-  "streetpic_name":"lille",
+  "streetpic_name":"bois-blanc",
   "bus_infos":{
     "ligne":"18",
     "stop":"BOIS+BLANCS",
@@ -605,7 +605,7 @@ places = {
   "twitter": "transpole_bus",
   "marker_color": "#9eb886",
   "logo_name":"bus",
-  "streetpic_name":"lille",
+  "streetpic_name":"bois-blanc",
   "bus_infos":{
     "ligne":"18",
     "stop":"HENRI+REGNAULT",
@@ -662,7 +662,7 @@ places = {
   "twitter": "transpole_bus",
   "marker_color": "#9eb886",
   "logo_name":"bus",
-  "streetpic_name":"lille",
+  "streetpic_name":"euratechnologie",
   "bus_infos":{
     "ligne":"18",
     "stop":"EURATECHNOLOGIES",
@@ -681,7 +681,7 @@ places = {
   "twitter": "transpole_bus",
   "marker_color": "#9eb886",
   "logo_name":"bus",
-  "streetpic_name":"lille",
+  "streetpic_name":"euratechnologie",
   "bus_infos":{
     "ligne":"18",
     "stop":"EURATECHNOLOGIES",
@@ -707,8 +707,8 @@ places = {
   "vlille_station":"solferino"
 },
 "VlilleVauban":{
-  "name":"Station V'Lille Université Catholique",
-  "adress_street": "Boulevard Vauban,",
+  "name":"Station V'Lille Boulevard",
+  "adress_street": "Rue du Port,",
   "adress_city": "59800 Lille",
   "phone": "03 20 40 40 40",
   "email": "",
