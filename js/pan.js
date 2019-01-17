@@ -89,7 +89,10 @@ var leftPan = {
 var optionsPan = {
   init (){
     $(".schools").click(function(){ optionsPan.schools();});
-    $(".transport").click(function(){ optionsPan.transport(); });
+    $(".metro").click(function(){ optionsPan.metro(); });
+    $(".bus").click(function(){ optionsPan.bus(); });
+    $(".vlille").click(function(){ optionsPan.vlille(); });
+    $(".train").click(function(){ optionsPan.train(); });
     $(".markets").click(function(){ optionsPan.markets(); });
     $(".food").click(function(){ optionsPan.food(); });
     $(".atm").click(function(){ optionsPan.atm(); });
@@ -129,22 +132,52 @@ var optionsPan = {
       switchSchools = 1;
     }
   },
-  transport(){
-    if (switchTransport == 1){
-      markers.bus.remove();
+  metro(){
+    if (switchMetro == 1){
       markers.metro.remove();
-      markers.velo.remove();
-      markers.gare.remove();
-      $('.transport').css("opacity","0.5");
-      switchTransport = 0;
+      $('.metro').css("opacity","0.5");
+      switchMetro = 0;
     }
-    else if (switchTransport == 0){
-      markers.bus.add();
+    else if (switchMetro == 0){
       markers.metro.add();
-      markers.velo.add();
-      markers.gare.add();
       $('.transport').css("opacity","1");
-      switchTransport = 1;
+      switchMetro = 1;
+    }
+  },
+  bus(){
+    if (switchBus == 1){
+      markers.bus.remove();
+      $('.bus').css("opacity","0.5");
+      switchBus = 0;
+    }
+    else if (switchBus == 0){
+      markers.bus.add();
+      $('.bus').css("opacity","1");
+      switchBus = 1;
+    }
+  },
+  vlille(){
+    if (switchVlille == 1){
+      markers.velo.remove();
+      $('.vlille').css("opacity","0.5");
+      switchVlille = 0;
+    }
+    else if (switchVlille == 0){
+      markers.velo.add();
+      $('.vlille').css("opacity","1");
+      switchVlille = 1;
+    }
+  },
+  train(){
+    if (switchTrain == 1){
+      markers.gare.remove();
+      $('.train').css("opacity","0.5");
+      switchTrain = 0;
+    }
+    else if (switchTrain == 0){
+      markers.gare.add();
+      $('.train').css("opacity","1");
+      switchTrain = 1;
     }
   },
   markets(){
