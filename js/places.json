@@ -111,9 +111,9 @@ places = {
     "adress_city": "59014 Lille",
     "phone": "03 28 38 48 58",
     "email": "contact@yncrea.fr",
-    "website": "http://www.yncrea-hautsdefrance.fr",
-    "link_text":"yncrea-hautsdefrance.fr",
-    "twitter": "yncrea_hdf",
+    "website": "http://www.yncrea-hautsdefrance.fr/adimaker/cest-quoi.html",
+    "link_text":"adimaker.fr",
+    "twitter": "adimaker_yncrea",
     "marker_color": "#d65543",
     "logo_name":"adimaker",
     "streetpic_name":"yncrea1"
