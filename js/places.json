@@ -251,7 +251,7 @@ places = {
   },
   "Paul":{
     "name":"Boulangerie Paul",
-    "adress_street": "19 Place Du Général De Gaulle",
+    "adress_street": "6 Place de Strasbourg",
     "adress_city": "59000 Lille",
     "phone": "03 20 57 40 99",
     "email": "",
@@ -297,7 +297,7 @@ places = {
     "streetpic_name":"sogood",
     "rating":{
       "google":"",
-      "tripadvisor":""
+      "tripadvisor":"https://www.tripadvisor.fr/Restaurant_Review-g187178-d12597148-Reviews-Sogood_Euratechnologies-Lille_Nord_Hauts_de_France.html"
     }
   },
   "_comment":"________________________________________________PIZZAS_________________________________________________",
@@ -316,7 +316,7 @@ places = {
     "streetpic_name":"kiosque",
     "rating":{
       "google":"",
-      "tripadvisor":""
+      "tripadvisor":"https://www.tripadvisor.fr/Restaurant_Review-g1009257-d6908584-Reviews-Le_Kiosque_a_Pizzas-Lambersart_Lille_Nord_Hauts_de_France.html"
     }
   },
   "Perfecto":{
@@ -333,7 +333,7 @@ places = {
     "streetpic_name":"perfecto",
     "rating":{
       "google":"",
-      "tripadvisor":""
+      "tripadvisor":"https://www.tripadvisor.fr/Restaurant_Review-g187178-d15707797-Reviews-Perfecto_Pizza-Lille_Nord_Hauts_de_France.html"
     }
   },
   "Rabbit2":{
@@ -350,7 +350,7 @@ places = {
     "streetpic_name":"rabbit2",
     "rating":{
       "google":"",
-      "tripadvisor":""
+      "tripadvisor":"https://www.tripadvisor.fr/Restaurant_Review-g1009257-d1323722-Reviews-Speed_Rabbit_Pizza-Lambersart_Lille_Nord_Hauts_de_France.html"
     }
   },
   "Rabbit1":{
@@ -367,7 +367,7 @@ places = {
     "streetpic_name":"rabbit1",
     "rating":{
       "google":"",
-      "tripadvisor":""
+      "tripadvisor":"https://www.tripadvisor.fr/Restaurant_Review-g187178-d6090519-Reviews-Speed_Rabbit_Pizza-Lille_Nord_Hauts_de_France.html"
     }
   },
   "Dominos":{
@@ -384,7 +384,7 @@ places = {
     "streetpic_name":"dominos",
     "rating":{
       "google":"",
-      "tripadvisor":""
+      "tripadvisor":"https://www.tripadvisor.fr/Restaurant_Review-g1009257-d5260255-Reviews-Domino_s_Pizza-Lambersart_Lille_Nord_Hauts_de_France.html"
     }
   },
 
