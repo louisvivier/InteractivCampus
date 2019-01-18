@@ -627,6 +627,31 @@ places = {
     "name":"Ligne 12 - Le Parc"
   }]
 },
+"BusBeauxArts4":{
+  "name":"Arrêt de bus République - Beaux Arts",
+  "adress_street": "République Beaux Arts",
+  "adress_city": "59000 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/bus/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_bus",
+  "marker_color": "#9eb886",
+  "logo_name":"bus",
+  "streetpic_name":"republique",
+  "bus_infos":[{
+    "ligne":"12",
+    "stop":"REPUBLIQUE",
+    "way":"PAVE+STRATEGIQUE",
+    "name":"Ligne 12 - Pave Strategique"
+  },
+  {
+    "ligne":"12",
+    "stop":"REPUBLIQUE",
+    "way":"FERME+AUX+OIES",
+    "name":"Ligne 12 - Le Parc"
+  }]
+},
 "BusFlandres1":{
   "name":"Arrêt de bus Lille Flandres",
   "adress_street": "Lille Flandres",
@@ -756,8 +781,6 @@ places = {
 },
 "BusBoisBlanc2":{
   "name":"Arrêt de bus Henri Regnault",
-  "adress_street": "Bois Blancs",
-  "name":"Arrêt de bus Bois Blancs",
   "adress_street": "Quartier Bois-Blancs",
   "adress_city": "59000 Lille",
   "phone": "03 20 40 40 40",

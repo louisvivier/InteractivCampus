@@ -112,6 +112,7 @@ var markers = {
       markerBUS16 = L.marker([50.63310,3.01921],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusEuratech2");}); //euratechnologies
       markerBUS17 = L.marker([50.63240,3.04674],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusUniversite1");}); //universitecatholique
       markerBUS18 = L.marker([50.63246,3.04650],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusUniversite2");}); //universitecatholique
+      markerBUS19 = L.marker([50.63197,3.06243],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusBeauxArts4");}); //beaux arts
     },
     remove (){
       theMap.removeLayer(markerBUS);
@@ -133,6 +134,7 @@ var markers = {
       theMap.removeLayer(markerBUS16);
       theMap.removeLayer(markerBUS17);
       theMap.removeLayer(markerBUS18);
+      theMap.removeLayer(markerBUS19);
     }
   },
   metro : {
