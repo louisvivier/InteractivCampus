@@ -1,14 +1,18 @@
 .images {
   object-fit: contain;
   margin-bottom: 3px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .logo{
   width: 33%;
   height: auto;
+  border-radius: 5px;
 }
 .streetpic{
   width: 66.1%;
   height: auto;
+  border-radius: 5px;
 }
 .infos{
   margin: 3px;
