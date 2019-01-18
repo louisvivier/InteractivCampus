@@ -285,7 +285,7 @@ places = {
   },
   "Sogood":{
     "name":"Sogood",
-    "adress_street": "163 Avenue de Bretagne,",
+    "adress_street": "163 Avenue de Bretagne",
     "adress_city": "59000 Lille",
     "phone": "03 20 53 40 12",
     "email": "",
