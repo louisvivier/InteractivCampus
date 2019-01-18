@@ -58,7 +58,7 @@ var leftPan = {
     else {
       $('.twitterFeed').html('');
     }
-    theMap.setView([lat, lng],17);
+    //theMap.setView([lat, lng],17); //CENTRAGE MAP APRES CLICK SUR MARKER
     $("a").attr("target", "popup");
     $("a").attr("onclick", 'window.open(this.href,"popup","width=800,height=600,left=300,top=300"); return false;');
   },
