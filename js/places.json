@@ -16,7 +16,7 @@ places = {
   },
   "Rameau":{
     "name":"Palais Rameau",
-    "adress_street": "39 Boulevard Vauban,",
+    "adress_street": "39 Boulevard Vauban",
     "adress_city": "59800 Lille",
     "phone": "03 20 49 50 00",
     "email": "lille@isen.fr",
@@ -304,7 +304,7 @@ places = {
 
   "Kiosque":{
     "name":"Le Kiosque à Pizzas",
-    "adress_street": "246 Avenue de Dunkerque ",
+    "adress_street": "246 Avenue de Dunkerque",
     "adress_city": "59130 Lambersart",
     "phone": "03 62 65 11 51",
     "email": "",
@@ -948,8 +948,8 @@ places = {
   "vlille_station":"solferino"
 },
 "VlilleVauban":{
-  "name":"Station V'Lille Boulevard",
-  "adress_street": "Rue du Port,",
+  "name":"Station V'Lille Université Catholique",
+  "adress_street": "Rue du Port",
   "adress_city": "59800 Lille",
   "phone": "03 20 40 40 40",
   "email": "",
@@ -962,8 +962,8 @@ places = {
   "vlille_station":"universitecatholique"
 },
 "VlilleHEI":{
-  "name":"Station V'Lille HEI",
-  "adress_street": "18 Rue de Toul,",
+  "name":"Station V'Lille Rue de Toul",
+  "adress_street": "18 Rue de Toul",
   "adress_city": "59800 Lille",
   "phone": "03 20 40 40 40",
   "email": "",
