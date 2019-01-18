@@ -1,4 +1,7 @@
 #map{ /* la carte DOIT avoir une hauteur sinon elle n'apparaît pas */
-   height:97vh;
+   height:100vh;
    z-index: 0; /*Afficher la carte sous le panneau lateral*/
+}
+body {
+  margin:0;
 }
