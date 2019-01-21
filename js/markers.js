@@ -285,6 +285,20 @@ var markers = {
       theMap.removeLayer(markerGARE1);
     }
   },
+  parkings : {
+    add (){
+      let metro = L.icon({
+        iconUrl: "images/markers/metro.png",
+        iconSize: [40, 60],
+        iconAnchor: [20,55],
+        popupAnchor: [0,0],
+      });
+      console.log("add");
+    },
+    remove (){
+      console.log("remove");
+    }
+  },
   atm : {
     add (){
       let atm = L.icon({

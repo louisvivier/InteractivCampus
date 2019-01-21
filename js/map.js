@@ -23,6 +23,7 @@ var map = {
     markers.sandwich.add();
     markers.pizza.add();
     markers.gare.add();
+    markers.parkings.add();
     markers.atm.add();
     markers.caddy.add();
     markers.thermo.add();

@@ -95,6 +95,7 @@ var optionsPan = {
     $(".bus").click(function(){ optionsPan.bus(); });
     $(".vlille").click(function(){ optionsPan.vlille(); });
     $(".train").click(function(){ optionsPan.train(); });
+    $(".parking").click(function(){ optionsPan.parking(); });
     $(".markets").click(function(){ optionsPan.markets(); });
     $(".food").click(function(){ optionsPan.food(); });
     $(".atm").click(function(){ optionsPan.atm(); });
@@ -184,6 +185,18 @@ var optionsPan = {
       markers.gare.add();
       $('.train').css("opacity","1");
       switchTrain = 1;
+    }
+  },
+  parking(){
+    if (switchParking == 1){
+      markers.parkings.remove();
+      $('.parking').css("opacity","0.5");
+      switchParking = 0;
+    }
+    else if (switchParking == 0){
+      markers.parkings.add();
+      $('.parking').css("opacity","1");
+      switchParking = 1;
     }
   },
   markets(){
