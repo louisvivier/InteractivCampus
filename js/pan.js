@@ -138,11 +138,15 @@ var optionsPan = {
     if (switchMetro == 1){
       markers.metro.remove();
       $('.metro').css("opacity","0.5");
+      polyline.ligne1.remove();
+      polyline.ligne2.remove();
       switchMetro = 0;
     }
     else if (switchMetro == 0){
       markers.metro.add();
       $('.metro').css("opacity","1");
+      polyline.ligne1.add();
+      polyline.ligne2.add();
       switchMetro = 1;
     }
   },
