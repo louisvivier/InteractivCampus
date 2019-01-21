@@ -18,18 +18,15 @@ var polyline = {
       });
 
       poly_ligne_1_1 = L.polyline(coord_ligne_1_1, {
-        color:'yellow',
-        opacity:0.7
+        color:'#FFE700'
       }).addTo(theMap);
 
       poly_ligne_1_2 = L.polyline(coord_ligne_1_2, {
-        color:'yellow',
-        opacity:0.7
+        color:'#FFE700'
       }).addTo(theMap);
 
       poly_ligne_1_3 = L.polyline(coord_ligne_1_3, {
-        color:'yellow',
-        opacity:0.7
+        color:'#FFE700'
       }).addTo(theMap);
     },
     remove(){
@@ -172,108 +169,82 @@ var polyline = {
       });
 
       poly_ligne_2_1 = L.polyline(coord_ligne_2_1, {
-        color:'red',
-        opacity:0.7
+        color:'#E10019'
       }).addTo(theMap);
       poly_ligne_2_2 = L.polyline(coord_ligne_2_2, {
-        color:'red',
-        opacity:0.7
+        color:'#E10019'
       }).addTo(theMap);
       poly_ligne_2_3 = L.polyline(coord_ligne_2_3, {
-        color:'red',
-        opacity:0.7
+        color:'#E10019'
       }).addTo(theMap);
       poly_ligne_2_4 = L.polyline(coord_ligne_2_4, {
-        color:'red',
-        opacity:0.7
+        color:'#E10019'
       }).addTo(theMap);
       poly_ligne_2_5 = L.polyline(coord_ligne_2_5, {
-        color:'red',
-        opacity:0.7
+        color:'#E10019'
       }).addTo(theMap);
       poly_ligne_2_6 = L.polyline(coord_ligne_2_6, {
-        color:'red',
-        opacity:0.7
+        color:'#E10019'
       }).addTo(theMap);
       poly_ligne_2_7 = L.polyline(coord_ligne_2_7, {
-        color:'red',
-        opacity:0.7
+        color:'#E10019'
       }).addTo(theMap);
       poly_ligne_2_8 = L.polyline(coord_ligne_2_8, {
-        color:'red',
-        opacity:0.7
+        color:'#E10019'
       }).addTo(theMap);
       poly_ligne_2_9 = L.polyline(coord_ligne_2_9, {
-        color:'red',
-        opacity:0.7
+        color:'#E10019'
       }).addTo(theMap);
       poly_ligne_2_10 = L.polyline(coord_ligne_2_10, {
-        color:'red',
-        opacity:0.7
+        color:'#E10019'
       }).addTo(theMap);
       poly_ligne_2_11 = L.polyline(coord_ligne_2_11, {
-        color:'red',
-        opacity:0.7
+        color:'#E10019'
       }).addTo(theMap);
       poly_ligne_2_12 = L.polyline(coord_ligne_2_12, {
-        color:'red',
-        opacity:0.7
+        color:'#E10019'
       }).addTo(theMap);
       poly_ligne_2_13 = L.polyline(coord_ligne_2_13, {
-        color:'red',
-        opacity:0.7
+        color:'#E10019'
       }).addTo(theMap);
       poly_ligne_2_14 = L.polyline(coord_ligne_2_14, {
-        color:'red',
-        opacity:0.7
+        color:'#E10019'
       }).addTo(theMap);
       poly_ligne_2_15 = L.polyline(coord_ligne_2_15, {
-        color:'red',
-        opacity:0.7
+        color:'#E10019'
       }).addTo(theMap);
       poly_ligne_2_16 = L.polyline(coord_ligne_2_16, {
-        color:'red',
-        opacity:0.7
+        color:'#E10019'
       }).addTo(theMap);
       poly_ligne_2_17 = L.polyline(coord_ligne_2_17, {
-        color:'red',
-        opacity:0.7
+        color:'#E10019'
       }).addTo(theMap);
       poly_ligne_2_18 = L.polyline(coord_ligne_2_18, {
-        color:'red',
-        opacity:0.7
+        color:'#E10019'
       }).addTo(theMap);
       poly_ligne_2_19 = L.polyline(coord_ligne_2_19, {
-        color:'red',
-        opacity:0.7
+        color:'#E10019'
       }).addTo(theMap);
       poly_ligne_2_20 = L.polyline(coord_ligne_2_20, {
-        color:'red',
-        opacity:0.7
+        color:'#E10019'
       }).addTo(theMap);
       poly_ligne_2_21 = L.polyline(coord_ligne_2_21, {
-        color:'red',
-        opacity:0.7
+        color:'#E10019'
       }).addTo(theMap);
       poly_ligne_2_22 = L.polyline(coord_ligne_2_22, {
-        color:'red',
-        opacity:0.7
+        color:'#E10019'
       }).addTo(theMap);
       poly_ligne_2_23 = L.polyline(coord_ligne_2_23, {
-        color:'red',
-        opacity:0.7
+        color:'#E10019'
       }).addTo(theMap);
       poly_ligne_2_24 = L.polyline(coord_ligne_2_24, {
-        color:'red',
-        opacity:0.7
+        color:'#E10019'
       }).addTo(theMap);
       poly_ligne_2_25 = L.polyline(coord_ligne_2_25, {
-        color:'red',
-        opacity:0.7
+        color:'#E10019'
       }).addTo(theMap);
       poly_ligne_2_26 = L.polyline(coord_ligne_2_26, {
-        color:'red',
-        opacity:0.7
+        color:'#E10019'
       }).addTo(theMap);
 
     },
