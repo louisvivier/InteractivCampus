@@ -296,7 +296,7 @@ var markers = {
       markerPARKING = L.marker([50.636788993222,3.0730428283576],{icon:parking}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,"ParkingEurallile");});
     },
     remove (){
-      console.log("remove");
+      theMap.removeLayer(markerPARKING);
     }
   },
   atm : {
