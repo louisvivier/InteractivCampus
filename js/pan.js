@@ -52,6 +52,13 @@ var leftPan = {
     else{
       $('.Vlille').css("display","none");
     }
+    if (typeof(places[id].parking_type) != 'undefined'){
+      $('.ParkingPlace').html("Places disponibles : "+placesParking.disponible(places[id].parking_id, places[id].parking_type)[0]+"<br>"+"Capacité max : "+placesParking.disponible(places[id].parking_id, places[id].parking_type)[1]);
+      $('.ParkingPlace').css("display","block");
+      console.log("pizza");
+    }else{
+      $('.ParkingPlace').css("display","none");
+    }
     if (places[id].twitter != ""){
       $('.twitterFeed').html('<a class="twitter-timeline" data-width="480" data-dnt="true" href="https://twitter.com/'+places[id].twitter+'?ref_src=twsrc%5Etfw" data-tweet-limit="5">Tweets by '+places[id].twitter+'</a> <script src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>');
     }

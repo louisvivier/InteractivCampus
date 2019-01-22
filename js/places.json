@@ -1129,6 +1129,25 @@ places = {
   "streetpic_name":"europe",
   "vlille_station":"europe"
 },
+
+"_comment":"__________________________________________________PARKINGS___________________________________________________",
+
+"ParkingEurallile":{
+  "name":"Parking Euralille",
+  "adress_street": "Avenue Willy Brandt",
+  "adress_city":"59777 Lille",
+  "phone":"03 20 67 33 10",
+  "email":"",
+  "website":"https://www.autocite.fr/parking/lille/euralille.aspx",
+  "link_text":"autocite.fr",
+  "twitter": "",
+  "marker_color":"#9eb886",
+  "logo_name":"parking",
+  "streetpic_name":"parking",
+  "parking_type":"normal",
+  "parking_id":"Parking+Euralille"
+},
+
 "_comment":"________________________________________________SUPERMARKETS_________________________________________________",
 
 "Casino1":{

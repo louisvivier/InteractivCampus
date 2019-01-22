@@ -287,13 +287,13 @@ var markers = {
   },
   parkings : {
     add (){
-      let metro = L.icon({
-        iconUrl: "images/markers/metro.png",
+      let parking = L.icon({
+        iconUrl: "images/markers/parking.png",
         iconSize: [40, 60],
         iconAnchor: [20,55],
         popupAnchor: [0,0],
       });
-      console.log("add");
+      markerPARKING = L.marker([50.636788993222,3.0730428283576],{icon:parking}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,"ParkingEurallile");});
     },
     remove (){
       console.log("remove");
