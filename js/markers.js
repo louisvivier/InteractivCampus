@@ -293,10 +293,19 @@ var markers = {
         iconAnchor: [20,55],
         popupAnchor: [0,0],
       });
+      let parkingRelais = L.icon({
+        iconUrl: "images/markers/parkingrelais.png",
+        iconSize: [40, 60],
+        iconAnchor: [20,55],
+        popupAnchor: [0,0],
+      });
+
       markerPARKING = L.marker([50.636788993222,3.0730428283576],{icon:parking}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,"ParkingEurallile");});
+      markerPARKINGR = L.marker([50.60784,3.04035],{icon:parkingRelais}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,"ParkingRCHR");});
     },
     remove (){
       theMap.removeLayer(markerPARKING);
+      theMap.removeLayer(markerPARKINGR);
     }
   },
   atm : {

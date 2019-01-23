@@ -52,10 +52,9 @@ var leftPan = {
     else{
       $('.Vlille').css("display","none");
     }
-    if (typeof(places[id].parking_type) != 'undefined'){
-      $('.ParkingPlace').html("Places disponibles : "+placesParking.disponible(places[id].parking_id, places[id].parking_type)[0]+"<br>"+"Capacité max : "+placesParking.disponible(places[id].parking_id, places[id].parking_type)[1]);
+    if (typeof(places[id].parking_info) != 'undefined'){
+      $('.ParkingPlace').html("Places disponibles : "+placesParking.disponible(places[id].parking_info.parking_id, places[id].parking_info.parking_type)+"<br>"+"Capacité max : "+ places[id].parking_info.parking_capacity);
       $('.ParkingPlace').css("display","block");
-      console.log("pizza");
     }else{
       $('.ParkingPlace').css("display","none");
     }

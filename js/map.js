@@ -3,7 +3,7 @@ var map = {
     // On initialise la latitude et la longitude de Paris (centre de la carte)
     let lat = 50.6326571;
     let lon = 3.0360376;
-    let southWest = L.latLng(50.6090,2.9573),northEast = L.latLng(50.6540,3.1213),bounds = L.latLngBounds(southWest, northEast);
+    let southWest = L.latLng(50.60555,2.9573),northEast = L.latLng(50.6540,3.1213),bounds = L.latLngBounds(southWest, northEast);
     // Créer l'objet "theMap" et l'insèrer dans l'élément HTML qui a l'ID "map"
     theMap = L.map('map', {maxBounds: bounds, zoomControl:false}).setView([lat, lon], 15);
     // Leaflet ne récupère pas les cartes (tiles) sur un serveur par défaut. Nous devons lui préciser où nous souhaitons les récupérer. Ici, openstreetmap.fr

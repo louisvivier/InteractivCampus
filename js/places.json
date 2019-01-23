@@ -1144,8 +1144,30 @@ places = {
   "marker_color":"#9eb886",
   "logo_name":"parking",
   "streetpic_name":"parking",
-  "parking_type":"normal",
-  "parking_id":"Parking+Euralille"
+  "parking_info":{
+    "parking_type":"normal",
+    "parking_id":"Parking+Euralille",
+    "parking_capacity":"2500"
+  }
+},
+
+"ParkingRCHR":{
+  "name":"Parking Relais CHRU Eurasanté",
+  "adress_street": "Boulevard Eugène Duthoit",
+  "adress_city":"59000 Lille",
+  "phone":"03 20 40 40 40",
+  "email":"",
+  "website":"https://www.transpole.fr/cms/institutionnel/se-deplacer/parkings-pr/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_actu",
+  "marker_color":"#9eb886",
+  "logo_name":"parkingrelais",
+  "streetpic_name":"parkingrelais",
+  "parking_info":{
+    "parking_type":"relais",
+    "parking_id":2,
+    "parking_capacity":"250"
+  }
 },
 
 "_comment":"________________________________________________SUPERMARKETS_________________________________________________",
