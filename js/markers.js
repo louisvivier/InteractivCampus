@@ -145,7 +145,6 @@ var markers = {
         iconAnchor: [20,55],
         popupAnchor: [0,0],
       });
-<<<<<<< HEAD
       markerMETRO = L.marker([50.63214,3.06161],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Beaux-Arts");});
       markerMETRO1 = L.marker([50.62633,3.04060],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Cormontaigne");});
       markerMETRO2 = L.marker([50.63441,3.03039],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BoisBlanc");});
@@ -167,16 +166,6 @@ var markers = {
       markerMETRO18 = L.marker([50.61807,3.07213],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"PorteDouai");});
       markerMETRO19 = L.marker([50.62107,3.07889],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"PorteValenciennes");});
       markerMETRO20 = L.marker([50.62345,3.05159],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Wazemmes");});
-=======
-      markerMETRO = L.marker([50.63214,3.06161],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"Beaux-Arts");});
-      markerMETRO1 = L.marker([50.62633,3.04060],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"Cormontaigne");});
-      markerMETRO2 = L.marker([50.63441,3.03039],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"BoisBlanc");});
-      markerMETRO3 = L.marker([50.63709,3.02444],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"Canteleu");});
-      markerMETRO4 = L.marker([50.63742,3.07106],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"LilleFlandres");});
-      markerMETRO5 = L.marker([50.63927,3.07636],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"LilleEurope");});
-      markerMETRO6 = L.marker([50.63150,3.06000],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"Beaux-Arts");});
-
->>>>>>> 61696b559ec3c385f0de3f4e6b24abce447abdc3
     },
     remove (){
       theMap.removeLayer(markerMETRO);
@@ -337,8 +326,6 @@ var markers = {
         iconAnchor: [20,55],
         popupAnchor: [0,0],
       });
-
-<<<<<<< HEAD
       markerPARKING = L.marker([50.636788993222,3.0730428283576],{icon:parking}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,"ParkingEurallile");});
       markerPARKING1 = L.marker([50.63883,3.07717],{icon:parking}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,"ParkingTours");});
       markerPARKING2 = L.marker([50.64033,3.07572],{icon:parking}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,"ParkingLilleEurope");});
@@ -354,14 +341,6 @@ var markers = {
       markerPARKINGR1 = L.marker([50.61780,3.05005],{icon:parkingRelais}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,"ParkingRPorteDesPostes");});
       markerPARKINGR2 = L.marker([50.61749,3.06390],{icon:parkingRelais}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,"ParkingRPorteDArras");});
       markerPARKINGR3 = L.marker([50.65315,2.97500],{icon:parkingRelais}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,"ParkingRSaintPhilibert");});
-=======
-      markerPARKING = L.marker([50.636788993222,3.0730428283576],{icon:parking}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,this._icon,"ParkingEurallile");});
-      markerPARKINGR = L.marker([50.60784,3.04035],{icon:parkingRelais}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,this._icon,"ParkingRCHR");});
-      markerPARKINGR1 = L.marker([50.61780,3.05005],{icon:parkingRelais}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,this._icon,"ParkingRPorteDesPostes");});
-      markerPARKINGR2 = L.marker([50.61749,3.06390],{icon:parkingRelais}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,this._icon,"ParkingRPorteDArras");});
-      markerPARKINGR3 = L.marker([50.65315,2.97500],{icon:parkingRelais}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,this._icon,"ParkingRSaintPhilibert");});
->>>>>>> 61696b559ec3c385f0de3f4e6b24abce447abdc3
-
     },
     remove (){
       theMap.removeLayer(markerPARKING);
