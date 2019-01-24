@@ -468,6 +468,189 @@ places = {
     "logo_name":"metro",
     "streetpic_name":"europemetro"
   },
+  "SaintPhilibert":{
+    "name":"Station de métro Saint Philibert",
+    "adress_street": "Rue Du Grand But",
+    "adress_city": "59000 Lille",
+    "phone": "03 20 40 40 40",
+    "email": "",
+    "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/metro/",
+    "link_text":"transpole.fr",
+    "twitter": "transpole_metro",
+    "marker_color": "#9eb886",
+    "logo_name":"metro",
+    "streetpic_name":"philibert"
+  },
+  "PorteDesPostes":{
+    "name":"Station de métro Porte Des Postes",
+    "adress_street": "Place Barthélémy Dorez",
+    "adress_city": "59000 Lille",
+    "phone": "03 20 40 40 40",
+    "email": "",
+    "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/metro/",
+    "link_text":"transpole.fr",
+    "twitter": "transpole_metro",
+    "marker_color": "#9eb886",
+    "logo_name":"metro",
+    "streetpic_name":"postes"
+  },
+  "PorteDArras":{
+    "name":"Station de métro Porte D'Arras",
+    "adress_street": "Boulevard D'Alsace",
+    "adress_city": "59000 Lille",
+    "phone": "03 20 40 40 40",
+    "email": "",
+    "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/metro/",
+    "link_text":"transpole.fr",
+    "twitter": "transpole_metro",
+    "marker_color": "#9eb886",
+    "logo_name":"metro",
+    "streetpic_name":"arras"
+  },
+  "Eurasante":{
+    "name":"Station de métro CHU - Eurasante",
+    "adress_street": "Rue Du Professeur Laguesse",
+    "adress_city": "59000 Lille",
+    "phone": "03 20 40 40 40",
+    "email": "",
+    "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/metro/",
+    "link_text":"transpole.fr",
+    "twitter": "transpole_metro",
+    "marker_color": "#9eb886",
+    "logo_name":"metro",
+    "streetpic_name":"eurasante"
+  },
+  "LilleGrandPalais":{
+    "name":"Station de métro Lille Grand Palais",
+    "adress_street": "Boulevard Du Maréchal Vaillant",
+    "adress_city": "59000 Lille",
+    "phone": "03 20 40 40 40",
+    "email": "",
+    "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/metro/",
+    "link_text":"transpole.fr",
+    "twitter": "transpole_metro",
+    "marker_color": "#9eb886",
+    "logo_name":"metro",
+    "streetpic_name":"grandpalais"
+  },
+  "MairieLille":{
+    "name":"Station de métro Mairie De Lille",
+    "adress_street": "Rue Saint Sauveur",
+    "adress_city": "59000 Lille",
+    "phone": "03 20 40 40 40",
+    "email": "",
+    "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/metro/",
+    "link_text":"transpole.fr",
+    "twitter": "transpole_metro",
+    "marker_color": "#9eb886",
+    "logo_name":"metro",
+    "streetpic_name":"mairielille"
+  },
+  "Rihour":{
+    "name":"Station de métro Rihour",
+    "adress_street": "Place Rihour",
+    "adress_city": "59000 Lille",
+    "phone": "03 20 40 40 40",
+    "email": "",
+    "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/metro/",
+    "link_text":"transpole.fr",
+    "twitter": "transpole_metro",
+    "marker_color": "#9eb886",
+    "logo_name":"metro",
+    "streetpic_name":"rihour"
+  },
+  "Gambetta":{
+    "name":"Station de métro Gambetta",
+    "adress_street": "Rue De Flandre",
+    "adress_city": "59000 Lille",
+    "phone": "03 20 40 40 40",
+    "email": "",
+    "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/metro/",
+    "link_text":"transpole.fr",
+    "twitter": "transpole_metro",
+    "marker_color": "#9eb886",
+    "logo_name":"metro",
+    "streetpic_name":"Gambetta"
+  },
+  "OscarLambret":{
+    "name":"Station de métro CHU - O. Lambret",
+    "adress_street": "Avenue Oscar Lambret",
+    "adress_city": "59000 Lille",
+    "phone": "03 20 40 40 40",
+    "email": "",
+    "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/metro/",
+    "link_text":"transpole.fr",
+    "twitter": "transpole_metro",
+    "marker_color": "#9eb886",
+    "logo_name":"metro",
+    "streetpic_name":"lambret"
+  },
+  "PortLille":{
+    "name":"Station de métro Port De Lille",
+    "adress_street": "Rue De Turenne",
+    "adress_city": "59000 Lille",
+    "phone": "03 20 40 40 40",
+    "email": "",
+    "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/metro/",
+    "link_text":"transpole.fr",
+    "twitter": "transpole_metro",
+    "marker_color": "#9eb886",
+    "logo_name":"metro",
+    "streetpic_name":"portlille"
+  },
+  "Montebello":{
+    "name":"Station de métro Montebello",
+    "adress_street": "Boulevard Montebello",
+    "adress_city": "59000 Lille",
+    "phone": "03 20 40 40 40",
+    "email": "",
+    "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/metro/",
+    "link_text":"transpole.fr",
+    "twitter": "transpole_metro",
+    "marker_color": "#9eb886",
+    "logo_name":"metro",
+    "streetpic_name":"montebello"
+  },
+  "PorteDouai":{
+    "name":"Station de métro Porte De Douai",
+    "adress_street": "Place Fernig",
+    "adress_city": "59000 Lille",
+    "phone": "03 20 40 40 40",
+    "email": "",
+    "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/metro/",
+    "link_text":"transpole.fr",
+    "twitter": "transpole_metro",
+    "marker_color": "#9eb886",
+    "logo_name":"metro",
+    "streetpic_name":"portedouai"
+  },
+  "PorteValenciennes":{
+    "name":"Station de métro Porte De Valenciennes",
+    "adress_street": "Boulevard De Belfort",
+    "adress_city": "59000 Lille",
+    "phone": "03 20 40 40 40",
+    "email": "",
+    "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/metro/",
+    "link_text":"transpole.fr",
+    "twitter": "transpole_metro",
+    "marker_color": "#9eb886",
+    "logo_name":"metro",
+    "streetpic_name":"portevalenciennes"
+  },
+  "Wazemmes":{
+    "name":"Station de métro Wazemmes",
+    "adress_street": "Rue Racine",
+    "adress_city": "59000 Lille",
+    "phone": "03 20 40 40 40",
+    "email": "",
+    "website": "https://www.transpole.fr/cms/institutionnel/reseau-transpole/metro/",
+    "link_text":"transpole.fr",
+    "twitter": "transpole_metro",
+    "marker_color": "#9eb886",
+    "logo_name":"metro",
+    "streetpic_name":"wazemmes"
+  },
+
   "_comment":"________________________________________________GARES_________________________________________________",
 
   "GareEurope":{
@@ -1148,6 +1331,196 @@ places = {
     "parking_type":"normal",
     "parking_id":"Parking+Euralille",
     "parking_capacity":"2500"
+  }
+},
+
+"ParkingTours":{
+  "name":"Parking Tours",
+  "adress_street": "Boulevard Louis Pasteur",
+  "adress_city":"59777 Lille",
+  "phone":"03 20 67 33 10",
+  "email":"",
+  "website":"https://www.autocite.fr/parking/lille/tours.aspx",
+  "link_text":"autocite.fr",
+  "twitter": "",
+  "marker_color":"#9eb886",
+  "logo_name":"parking",
+  "streetpic_name":"parking",
+  "parking_info":{
+    "parking_type":"normal",
+    "parking_id":"Parking+Tours",
+    "parking_capacity":"250"
+  }
+},
+
+"ParkingLilleEurope":{
+  "name":"Parking Gare Lille Europe",
+  "adress_street": "Boulevard Louis Pasteur",
+  "adress_city":"59777 Lille",
+  "phone":"03 20 67 33 10",
+  "email":"",
+  "website":"https://www.autocite.fr/parking/lille/gare-europe.aspx",
+  "link_text":"autocite.fr",
+  "twitter": "",
+  "marker_color":"#9eb886",
+  "logo_name":"parking",
+  "streetpic_name":"parking",
+  "parking_info":{
+    "parking_type":"normal",
+    "parking_id":"Parking+Gare+Lille+Europe",
+    "parking_capacity":"450"
+  }
+},
+
+"ParkingLilleFlandres":{
+  "name":"Parking Gare Lille Flandres",
+  "adress_street": "Rue Javary",
+  "adress_city":"59777 Lille",
+  "phone":"",
+  "email":"",
+  "website":"https://www.effia.com/parking/parking-gare-de-lille-flandres-effia",
+  "link_text":"effia.fr",
+  "twitter": "",
+  "marker_color":"#9eb886",
+  "logo_name":"parking",
+  "streetpic_name":"parking",
+  "parking_info":{
+    "parking_type":"normal",
+    "parking_id":"Parking+Gare+Lille+Flandres",
+    "parking_capacity":"376"
+  }
+},
+
+"ParkingRepublique":{
+  "name":"Parking République",
+  "adress_street": "159 Boulevard De La Liberté",
+  "adress_city":"59000 Lille",
+  "phone":"",
+  "email":"",
+  "website":"https://www.effia.com/parking/parking-lille-republique-effia",
+  "link_text":"effia.fr",
+  "twitter": "",
+  "marker_color":"#9eb886",
+  "logo_name":"parking",
+  "streetpic_name":"parking",
+  "parking_info":{
+    "parking_type":"normal",
+    "parking_id":"Parking+Republique",
+    "parking_capacity":"203"
+  }
+},
+
+"ParkingLiberte":{
+  "name":"Parking Liberté",
+  "adress_street": "Allée des Marronniers",
+  "adress_city":"59000 Lille",
+  "phone":"",
+  "email":"",
+  "website":"https://www.effia.com/parking/parking-lille-champ-de-mars-liberte-effia",
+  "link_text":"effia.fr",
+  "twitter": "",
+  "marker_color":"#9eb886",
+  "logo_name":"parking",
+  "streetpic_name":"parking",
+  "parking_info":{
+    "parking_type":"normal",
+    "parking_id":"Parking+Liberte",
+    "parking_capacity":"525"
+  }
+},
+
+"ParkingGrandPlace":{
+  "name":"Parking Grand Place",
+  "adress_street": "Place Du Général De Gaulle",
+  "adress_city":"59000 Lille",
+  "phone":"",
+  "email":"",
+  "website":"https://fr.parkindigo.com/parking/grand-place-59000100",
+  "link_text":"parkindigo.com",
+  "twitter": "",
+  "marker_color":"#9eb886",
+  "logo_name":"parking",
+  "streetpic_name":"parking",
+  "parking_info":{
+    "parking_type":"normal",
+    "parking_id":"Parking+Grand+Place",
+    "parking_capacity":"342"
+  }
+},
+
+"ParkingTanneurs":{
+  "name":"Parking Les Tanneurs",
+  "adress_street": "70 Rue Du Molinel",
+  "adress_city":"59000 Lille",
+  "phone":"",
+  "email":"",
+  "website":"https://fr.parkindigo.com/parking/les-tanneurs-59001100",
+  "link_text":"parkindigo.com",
+  "twitter": "",
+  "marker_color":"#9eb886",
+  "logo_name":"parking",
+  "streetpic_name":"parking",
+  "parking_info":{
+    "parking_type":"normal",
+    "parking_id":"Parking+Les+Tanneurs",
+    "parking_capacity":"520"
+  }
+},
+
+"ParkingNouveauSiecle":{
+  "name":"Parking Nouveau Siècle",
+  "adress_street": "Place Mendes France",
+  "adress_city":"59000 Lille",
+  "phone":"",
+  "email":"",
+  "website":"https://www.effia.com/parking/parking-lille-nouveau-siecle-effia",
+  "link_text":"effia.fr",
+  "twitter": "",
+  "marker_color":"#9eb886",
+  "logo_name":"parking",
+  "streetpic_name":"parking",
+  "parking_info":{
+    "parking_type":"normal",
+    "parking_id":"Parking+Nouveau+Siecle",
+    "parking_capacity":"940"
+  }
+},
+
+"ParkingRihour":{
+  "name":"Parking Rihour-Primptemps",
+  "adress_street": "Place Rihour",
+  "adress_city":"59000 Lille",
+  "phone":"",
+  "email":"",
+  "website":"https://www.parking-rihour-printemps.com",
+  "link_text":"parking-rihour-printemps.com",
+  "twitter": "",
+  "marker_color":"#9eb886",
+  "logo_name":"parking",
+  "streetpic_name":"parking",
+  "parking_info":{
+    "parking_type":"normal",
+    "parking_id":"Parking+Rihour-Printemps",
+    "parking_capacity":"300"
+  }
+},
+
+"ParkingGrandPalais":{
+  "name":"Parking Grand Palais",
+  "adress_street": "Boulevard des Citées Unies",
+  "adress_city":"59000 Lille",
+  "phone":"",
+  "email":"",
+  "website":"https://www.autocite.fr/parking/lille/grand-palais.aspx",
+  "link_text":"autocite.fr",
+  "twitter": "",
+  "marker_color":"#9eb886",
+  "logo_name":"parking",
+  "streetpic_name":"parking",
+  "parking_info":{
+    "parking_type":"normal",
+    "parking_id":"Parking+Grand+Palais",
+    "parking_capacity":"1219"
   }
 },
 

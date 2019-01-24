@@ -152,7 +152,20 @@ var markers = {
       markerMETRO4 = L.marker([50.63742,3.07106],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"LilleFlandres");});
       markerMETRO5 = L.marker([50.63927,3.07636],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"LilleEurope");});
       markerMETRO6 = L.marker([50.63150,3.06000],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Beaux-Arts");});
-
+      markerMETRO7 = L.marker([50.65187,2.97456],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"SaintPhilibert");});
+      markerMETRO8 = L.marker([50.61842,3.05026],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"PorteDesPostes");});
+      markerMETRO9 = L.marker([50.61760,3.06227],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"PorteDArras");});
+      markerMETRO10 = L.marker([50.60813,3.03898],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Eurasante");});
+      markerMETRO11 = L.marker([50.62965,3.07491],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"LilleGrandPalais");});
+      markerMETRO12 = L.marker([50.63281,3.07065],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"MairieLille");});
+      markerMETRO13 = L.marker([50.63568,3.06299],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Rihour");});
+      markerMETRO14 = L.marker([50.62694,3.05272],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Gambetta");});
+      markerMETRO15 = L.marker([50.61308,3.03644],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"OscarLambret");});
+      markerMETRO16 = L.marker([50.63010,3.03547],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"PortLille");});
+      markerMETRO17 = L.marker([50.62205,3.04543],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Montebello");});
+      markerMETRO18 = L.marker([50.61807,3.07213],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"PorteDouai");});
+      markerMETRO19 = L.marker([50.62107,3.07889],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"PorteValenciennes");});
+      markerMETRO20 = L.marker([50.62345,3.05159],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Wazemmes");});
     },
     remove (){
       theMap.removeLayer(markerMETRO);
@@ -162,6 +175,20 @@ var markers = {
       theMap.removeLayer(markerMETRO4);
       theMap.removeLayer(markerMETRO5);
       theMap.removeLayer(markerMETRO6);
+      theMap.removeLayer(markerMETRO7);
+      theMap.removeLayer(markerMETRO8);
+      theMap.removeLayer(markerMETRO9);
+      theMap.removeLayer(markerMETRO10);
+      theMap.removeLayer(markerMETRO11);
+      theMap.removeLayer(markerMETRO12);
+      theMap.removeLayer(markerMETRO13);
+      theMap.removeLayer(markerMETRO14);
+      theMap.removeLayer(markerMETRO15);
+      theMap.removeLayer(markerMETRO16);
+      theMap.removeLayer(markerMETRO17);
+      theMap.removeLayer(markerMETRO18);
+      theMap.removeLayer(markerMETRO19);
+      theMap.removeLayer(markerMETRO20);
     }
   },
   velo : {
@@ -301,6 +328,16 @@ var markers = {
       });
 
       markerPARKING = L.marker([50.636788993222,3.0730428283576],{icon:parking}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,"ParkingEurallile");});
+      markerPARKING1 = L.marker([50.63883,3.07717],{icon:parking}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,"ParkingTours");});
+      markerPARKING2 = L.marker([50.64033,3.07572],{icon:parking}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,"ParkingLilleEurope");});
+      markerPARKING3 = L.marker([50.63112,3.06251],{icon:parking}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,"ParkingRepublique");});
+      markerPARKING4 = L.marker([50.63456,3.07538],{icon:parking}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,"ParkingLilleFlandres");});
+      markerPARKING5 = L.marker([50.63978,3.05244],{icon:parking}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,"ParkingLiberte");});
+      markerPARKING6 = L.marker([50.63704,3.06276],{icon:parking}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,"ParkingGrandPlace");});
+      markerPARKING7 = L.marker([50.63416,3.06722],{icon:parking}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,"ParkingTanneurs");});
+      markerPARKING8 = L.marker([50.63719,3.05947],{icon:parking}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,"ParkingNouveauSiecle");});
+      markerPARKING9 = L.marker([50.63543,3.06148],{icon:parking}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,"ParkingRihour");});
+      markerPARKING10 = L.marker([50.63129,3.07794],{icon:parking}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,"ParkingGrandPalais");});
       markerPARKINGR = L.marker([50.60784,3.04035],{icon:parkingRelais}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,"ParkingRCHR");});
       markerPARKINGR1 = L.marker([50.61780,3.05005],{icon:parkingRelais}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,"ParkingRPorteDesPostes");});
       markerPARKINGR2 = L.marker([50.61749,3.06390],{icon:parkingRelais}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,"ParkingRPorteDArras");});
@@ -309,6 +346,16 @@ var markers = {
     },
     remove (){
       theMap.removeLayer(markerPARKING);
+      theMap.removeLayer(markerPARKING1);
+      theMap.removeLayer(markerPARKING2);
+      theMap.removeLayer(markerPARKING3);
+      theMap.removeLayer(markerPARKING4);
+      theMap.removeLayer(markerPARKING5);
+      theMap.removeLayer(markerPARKING6);
+      theMap.removeLayer(markerPARKING7);
+      theMap.removeLayer(markerPARKING8);
+      theMap.removeLayer(markerPARKING9);
+      theMap.removeLayer(markerPARKING10);
       theMap.removeLayer(markerPARKINGR);
       theMap.removeLayer(markerPARKINGR1);
       theMap.removeLayer(markerPARKINGR2);
