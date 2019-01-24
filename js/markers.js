@@ -57,17 +57,17 @@ var markers = {
         iconAnchor: [20, 55],
         popupAnchor: [0, 0],
       });
-      markerISEN = L.marker([50.63409,3.04879],{ icon: isen }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"ISEN");});
-      markerRameau = L.marker([50.63439,3.04979],{ icon: isen }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Rameau");});
-      markerRIZOMM = L.marker([50.63326,3.04503],{icon:rizomm }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Rizomm");});
-      markerHEI = L.marker([50.63366,3.04539],{icon:hei }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"HEI");});
-      markerHEIPREPA = L.marker([50.62855, 3.04711],{icon:hei }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"HEIPREPA");});
-      markerISA = L.marker([50.63390,3.04663],{icon:isa }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"ISA");});
-      markerCATHO1 = L.marker([50.63327,3.04635],{icon:catho }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Catho1");});
-      markerCATHO2 = L.marker([50.63215,3.04504],{icon:catho }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Catho2");});
-      markerYNCREA2 = L.marker([50.63530,3.04993],{icon:yncrea }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Yncrea2");});
-      markerURBA = L.marker([50.63316,3.02354],{icon:urbawood }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Urbawood");});
-      markerMAKER = L.marker([50.63402,3.04610],{icon:maker }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Yncrea1");});
+      markerISEN = L.marker([50.63409,3.04879],{ icon: isen }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"ISEN");});
+      markerRameau = L.marker([50.63439,3.04979],{ icon: isen }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"Rameau");});
+      markerRIZOMM = L.marker([50.63326,3.04503],{icon:rizomm }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"Rizomm");});
+      markerHEI = L.marker([50.63366,3.04539],{icon:hei }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"HEI");});
+      markerHEIPREPA = L.marker([50.62855, 3.04711],{icon:hei }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"HEIPREPA");});
+      markerISA = L.marker([50.63390,3.04663],{icon:isa }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"ISA");});
+      markerCATHO1 = L.marker([50.63327,3.04635],{icon:catho }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"Catho1");});
+      markerCATHO2 = L.marker([50.63215,3.04504],{icon:catho }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"Catho2");});
+      markerYNCREA2 = L.marker([50.63530,3.04993],{icon:yncrea }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"Yncrea2");});
+      markerURBA = L.marker([50.63316,3.02354],{icon:urbawood }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"Urbawood");});
+      markerMAKER = L.marker([50.63402,3.04610],{icon:maker }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"Yncrea1");});
     },
     remove () {
       theMap.removeLayer(markerISEN);
@@ -93,26 +93,26 @@ var markers = {
         iconAnchor: [20,55],
         popupAnchor: [0,0],
       });
-      markerBUS = L.marker([50.63411,3.04850],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusSolfe1");}); //solfé
-      markerBUS1 = L.marker([50.63413,3.04946],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusSolfe2");}); //solfé
-      markerBUS2 = L.marker([50.63158,3.06226],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusBeauxArts1");}); //beaux arts
-      markerBUS3 = L.marker([50.63134,3.06231],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusBeauxArts2");}); //beaux arts
-      markerBUS4 = L.marker([50.62661,3.04079],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusCormon1");}); //cormon
-      markerBUS5 = L.marker([50.62648,3.04002],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusCormon2");}); //cormon
-      markerBUS6 = L.marker([50.63386,3.03197],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusBoisBlanc1");}); //boisblanc
-      markerBUS7 = L.marker([50.63299,3.03125],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusBoisBlanc2");}); //boisblanc
-      markerBUS8 = L.marker([50.63712,3.07073],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusFlandres1");}); //flandres
-      markerBUS9 = L.marker([50.63720,3.07024],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusFlandres2");}); //flandres
-      markerBUS10 = L.marker([50.63942,3.07507],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusEurope");}); //europe
-      markerBUS11 = L.marker([50.63089,3.02271],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusPont1");}); //pont
-      markerBUS12 = L.marker([50.63076,3.02271],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusPont2");}); //pont
-      markerBUS13 = L.marker([50.63486,3.04895],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusSolfe3");}); //solfé
-      markerBUS14 = L.marker([50.63194,3.06211],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusBeauxArts3");}); //beaux arts
-      markerBUS15 = L.marker([50.63319,3.01853],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusEuratech1");}); //euratechnologies
-      markerBUS16 = L.marker([50.63310,3.01921],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusEuratech2");}); //euratechnologies
-      markerBUS17 = L.marker([50.63240,3.04674],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusUniversite1");}); //universitecatholique
-      markerBUS18 = L.marker([50.63246,3.04650],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusUniversite2");}); //universitecatholique
-      markerBUS19 = L.marker([50.63197,3.06243],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BusBeauxArts4");}); //beaux arts
+      markerBUS = L.marker([50.63411,3.04850],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"BusSolfe1");}); //solfé
+      markerBUS1 = L.marker([50.63413,3.04946],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"BusSolfe2");}); //solfé
+      markerBUS2 = L.marker([50.63158,3.06226],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"BusBeauxArts1");}); //beaux arts
+      markerBUS3 = L.marker([50.63134,3.06231],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"BusBeauxArts2");}); //beaux arts
+      markerBUS4 = L.marker([50.62661,3.04079],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"BusCormon1");}); //cormon
+      markerBUS5 = L.marker([50.62648,3.04002],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"BusCormon2");}); //cormon
+      markerBUS6 = L.marker([50.63386,3.03197],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"BusBoisBlanc1");}); //boisblanc
+      markerBUS7 = L.marker([50.63299,3.03125],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"BusBoisBlanc2");}); //boisblanc
+      markerBUS8 = L.marker([50.63712,3.07073],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"BusFlandres1");}); //flandres
+      markerBUS9 = L.marker([50.63720,3.07024],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"BusFlandres2");}); //flandres
+      markerBUS10 = L.marker([50.63942,3.07507],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"BusEurope");}); //europe
+      markerBUS11 = L.marker([50.63089,3.02271],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"BusPont1");}); //pont
+      markerBUS12 = L.marker([50.63076,3.02271],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"BusPont2");}); //pont
+      markerBUS13 = L.marker([50.63486,3.04895],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"BusSolfe3");}); //solfé
+      markerBUS14 = L.marker([50.63194,3.06211],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"BusBeauxArts3");}); //beaux arts
+      markerBUS15 = L.marker([50.63319,3.01853],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"BusEuratech1");}); //euratechnologies
+      markerBUS16 = L.marker([50.63310,3.01921],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"BusEuratech2");}); //euratechnologies
+      markerBUS17 = L.marker([50.63240,3.04674],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"BusUniversite1");}); //universitecatholique
+      markerBUS18 = L.marker([50.63246,3.04650],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"BusUniversite2");}); //universitecatholique
+      markerBUS19 = L.marker([50.63197,3.06243],{icon:bus }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"BusBeauxArts4");}); //beaux arts
     },
     remove (){
       theMap.removeLayer(markerBUS);
@@ -145,13 +145,13 @@ var markers = {
         iconAnchor: [20,55],
         popupAnchor: [0,0],
       });
-      markerMETRO = L.marker([50.63214,3.06161],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Beaux-Arts");});
-      markerMETRO1 = L.marker([50.62633,3.04060],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Cormontaigne");});
-      markerMETRO2 = L.marker([50.63441,3.03039],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"BoisBlanc");});
-      markerMETRO3 = L.marker([50.63709,3.02444],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Canteleu");});
-      markerMETRO4 = L.marker([50.63742,3.07106],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"LilleFlandres");});
-      markerMETRO5 = L.marker([50.63927,3.07636],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"LilleEurope");});
-      markerMETRO6 = L.marker([50.63150,3.06000],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Beaux-Arts");});
+      markerMETRO = L.marker([50.63214,3.06161],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"Beaux-Arts");});
+      markerMETRO1 = L.marker([50.62633,3.04060],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"Cormontaigne");});
+      markerMETRO2 = L.marker([50.63441,3.03039],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"BoisBlanc");});
+      markerMETRO3 = L.marker([50.63709,3.02444],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"Canteleu");});
+      markerMETRO4 = L.marker([50.63742,3.07106],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"LilleFlandres");});
+      markerMETRO5 = L.marker([50.63927,3.07636],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"LilleEurope");});
+      markerMETRO6 = L.marker([50.63150,3.06000],{icon:metro }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"Beaux-Arts");});
 
     },
     remove (){
@@ -172,20 +172,20 @@ var markers = {
         iconAnchor: [20,55],
         popupAnchor: [0,0],
       });
-      markerVELO = L.marker([50.63465,3.04841],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleSolfe");}); //solfé
-      markerVELO1 = L.marker([50.63235,3.06231],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleRichebe");}); //richebe
-      markerVELO2 = L.marker([50.62624,3.04001],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleCormon");}); //cormon
-      markerVELO3 = L.marker([50.63424,3.02116],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleEura");}); //euratech
-      markerVELO4 = L.marker([50.63416,3.03072],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleBoisBlanc");}); //bois blanc
-      markerVELO5 = L.marker([50.63214,3.04613],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleVauban");}); //vauban
-      markerVELO6 = L.marker([50.63403,3.04512],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleHEI");}); //hei
-      markerVELO7 = L.marker([50.63720,3.02460],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleCante");}); //canteleu
-      markerVELO8 = L.marker([50.63085,3.04786],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlillePort");}); //National
-      markerVELO9 = L.marker([50.63591,3.05034],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleJardin");}); //jardinvauban
-      markerVELO10 = L.marker([50.63622,3.06943],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleFlandres");}); //lille flandres
-      markerVELO11 = L.marker([50.63701,3.07086],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleEuralille");}); //euralille
-      markerVELO12 = L.marker([50.63989,3.07538],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleEurope");}); //lille europe
-      markerVELO13 = L.marker([50.63097,3.06044],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"VlilleRepublique");}); //richebe
+      markerVELO = L.marker([50.63465,3.04841],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"VlilleSolfe");}); //solfé
+      markerVELO1 = L.marker([50.63235,3.06231],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"VlilleRichebe");}); //richebe
+      markerVELO2 = L.marker([50.62624,3.04001],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"VlilleCormon");}); //cormon
+      markerVELO3 = L.marker([50.63424,3.02116],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"VlilleEura");}); //euratech
+      markerVELO4 = L.marker([50.63416,3.03072],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"VlilleBoisBlanc");}); //bois blanc
+      markerVELO5 = L.marker([50.63214,3.04613],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"VlilleVauban");}); //vauban
+      markerVELO6 = L.marker([50.63403,3.04512],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"VlilleHEI");}); //hei
+      markerVELO7 = L.marker([50.63720,3.02460],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"VlilleCante");}); //canteleu
+      markerVELO8 = L.marker([50.63085,3.04786],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"VlillePort");}); //National
+      markerVELO9 = L.marker([50.63591,3.05034],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"VlilleJardin");}); //jardinvauban
+      markerVELO10 = L.marker([50.63622,3.06943],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"VlilleFlandres");}); //lille flandres
+      markerVELO11 = L.marker([50.63701,3.07086],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"VlilleEuralille");}); //euralille
+      markerVELO12 = L.marker([50.63989,3.07538],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"VlilleEurope");}); //lille europe
+      markerVELO13 = L.marker([50.63097,3.06044],{icon:velo }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"VlilleRepublique");}); //richebe
     },
     remove (){
       theMap.removeLayer(markerVELO);
@@ -213,7 +213,7 @@ var markers = {
         iconAnchor: [20, 55],
         popupAnchor: [0,0],
       });
-      markerAEU = L.marker([50.63309,3.04795],{icon:aeu }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"AEU");});
+      markerAEU = L.marker([50.63309,3.04795],{icon:aeu }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"AEU");});
     },
     remove (){
       theMap.removeLayer(markerAEU);
@@ -227,14 +227,14 @@ var markers = {
         iconAnchor: [20, 55],
         popupAnchor: [0,0],
       });
-      markerSAND = L.marker([50.63359,3.04813],{icon:sandwich }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Dog");}); //dog
-      markerSAND1 = L.marker([50.63334,3.04788],{icon:sandwich }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Boite");}); //boite à sandwich
-      markerSAND2 = L.marker([50.63445,3.02112],{icon:sandwich }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Pause");}); //pause sandwich
-      markerSAND3 = L.marker([50.63420,3.05505],{icon:sandwich }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Paul");}); //Paul
-      markerSAND4 = L.marker([50.63601,3.02760],{icon:sandwich }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Colisee");}); //friterie colysee
-      markerSAND5 = L.marker([50.62983,3.04597],{icon:sandwich }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Celine");}); //kebab celine
-      markerSAND6 = L.marker([50.63405,3.02094],{icon:sandwich }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Sogood");}); //sogood
-      markerSAND7 = L.marker([50.63062,3.04448],{icon:sandwich }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Epis");}); //épis
+      markerSAND = L.marker([50.63359,3.04813],{icon:sandwich }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"Dog");}); //dog
+      markerSAND1 = L.marker([50.63334,3.04788],{icon:sandwich }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"Boite");}); //boite à sandwich
+      markerSAND2 = L.marker([50.63445,3.02112],{icon:sandwich }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"Pause");}); //pause sandwich
+      markerSAND3 = L.marker([50.63420,3.05505],{icon:sandwich }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"Paul");}); //Paul
+      markerSAND4 = L.marker([50.63601,3.02760],{icon:sandwich }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"Colisee");}); //friterie colysee
+      markerSAND5 = L.marker([50.62983,3.04597],{icon:sandwich }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"Celine");}); //kebab celine
+      markerSAND6 = L.marker([50.63405,3.02094],{icon:sandwich }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"Sogood");}); //sogood
+      markerSAND7 = L.marker([50.63062,3.04448],{icon:sandwich }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"Epis");}); //épis
     },
     remove (){
       theMap.removeLayer(markerSAND);
@@ -255,11 +255,11 @@ var markers = {
         iconAnchor: [20, 55],
         popupAnchor: [0,0],
       });
-      markerPIZZA = L.marker([50.63649,3.02608],{icon:pizza }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Dominos");}); //dominos
-      markerPIZZA1 = L.marker([50.63385,3.05564],{icon:pizza }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Rabbit1");}); //pizza rabbit centre
-      markerPIZZA2 = L.marker([50.63697,3.02513],{icon:pizza }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Kiosque");}); //kiosque à pizza
-      markerPIZZA3 = L.marker([50.63589,3.02881],{icon:pizza }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Rabbit2");}); //pizza rabbit eura
-      markerPIZZA4 = L.marker([50.62981,3.04590],{icon:pizza }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Perfecto");}); //perfecto pizza
+      markerPIZZA = L.marker([50.63649,3.02608],{icon:pizza }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"Dominos");}); //dominos
+      markerPIZZA1 = L.marker([50.63385,3.05564],{icon:pizza }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"Rabbit1");}); //pizza rabbit centre
+      markerPIZZA2 = L.marker([50.63697,3.02513],{icon:pizza }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"Kiosque");}); //kiosque à pizza
+      markerPIZZA3 = L.marker([50.63589,3.02881],{icon:pizza }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"Rabbit2");}); //pizza rabbit eura
+      markerPIZZA4 = L.marker([50.62981,3.04590],{icon:pizza }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"Perfecto");}); //perfecto pizza
     },
     remove (){
       theMap.removeLayer(markerPIZZA);
@@ -277,8 +277,8 @@ var markers = {
         iconAnchor: [20, 55],
         popupAnchor: [0,0],
       });
-      markerGARE = L.marker([50.63627,3.07089],{icon:gare }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"GareFlandres");}); //lille flandres
-      markerGARE1 = L.marker([50.63932,3.07540],{icon:gare }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"GareEurope");}); //lille europe
+      markerGARE = L.marker([50.63627,3.07089],{icon:gare }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"GareFlandres");}); //lille flandres
+      markerGARE1 = L.marker([50.63932,3.07540],{icon:gare }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"GareEurope");}); //lille europe
     },
     remove (){
       theMap.removeLayer(markerGARE);
@@ -300,11 +300,11 @@ var markers = {
         popupAnchor: [0,0],
       });
 
-      markerPARKING = L.marker([50.636788993222,3.0730428283576],{icon:parking}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,"ParkingEurallile");});
-      markerPARKINGR = L.marker([50.60784,3.04035],{icon:parkingRelais}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,"ParkingRCHR");});
-      markerPARKINGR1 = L.marker([50.61780,3.05005],{icon:parkingRelais}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,"ParkingRPorteDesPostes");});
-      markerPARKINGR2 = L.marker([50.61749,3.06390],{icon:parkingRelais}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,"ParkingRPorteDArras");});
-      markerPARKINGR3 = L.marker([50.65315,2.97500],{icon:parkingRelais}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,"ParkingRSaintPhilibert");});
+      markerPARKING = L.marker([50.636788993222,3.0730428283576],{icon:parking}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,this._icon,"ParkingEurallile");});
+      markerPARKINGR = L.marker([50.60784,3.04035],{icon:parkingRelais}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,this._icon,"ParkingRCHR");});
+      markerPARKINGR1 = L.marker([50.61780,3.05005],{icon:parkingRelais}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,this._icon,"ParkingRPorteDesPostes");});
+      markerPARKINGR2 = L.marker([50.61749,3.06390],{icon:parkingRelais}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,this._icon,"ParkingRPorteDArras");});
+      markerPARKINGR3 = L.marker([50.65315,2.97500],{icon:parkingRelais}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,this._icon,"ParkingRSaintPhilibert");});
 
     },
     remove (){
@@ -323,12 +323,12 @@ var markers = {
         iconAnchor: [20, 55],
         popupAnchor: [0,0],
       });
-      markerATM = L.marker([50.63195,3.04642],{icon:atm }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"SocieteGenerale");}); //société générale
-      markerATM1 = L.marker([50.63348,3.04707],{icon:atm }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"AtmIsa");}); //atm isa
-      markerATM2 = L.marker([50.63640,3.02629],{icon:atm }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"LCL");}); //lcl
-      markerATM3 = L.marker([50.62621,3.04082],{icon:atm }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"CreditNord");}); //crédit du nord cormon
-      markerATM4 = L.marker([50.63083,3.04449],{icon:atm }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"CreditAgricole");}); //crédit agricole vauban
-      markerATM5 = L.marker([50.62916,3.04258],{icon:atm }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"CIC");}); //CIC
+      markerATM = L.marker([50.63195,3.04642],{icon:atm }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"SocieteGenerale");}); //société générale
+      markerATM1 = L.marker([50.63348,3.04707],{icon:atm }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"AtmIsa");}); //atm isa
+      markerATM2 = L.marker([50.63640,3.02629],{icon:atm }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"LCL");}); //lcl
+      markerATM3 = L.marker([50.62621,3.04082],{icon:atm }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"CreditNord");}); //crédit du nord cormon
+      markerATM4 = L.marker([50.63083,3.04449],{icon:atm }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"CreditAgricole");}); //crédit agricole vauban
+      markerATM5 = L.marker([50.62916,3.04258],{icon:atm }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"CIC");}); //CIC
     },
     remove (){
       theMap.removeLayer(markerATM);
@@ -347,13 +347,13 @@ var markers = {
         iconAnchor: [20, 55],
         popupAnchor: [0,0],
       });
-      markerCADDY = L.marker([50.63210,3.04283],{icon:caddy }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Casino1");}); //casino
-      markerCADDY1 = L.marker([50.63222,3.05387],{icon:caddy }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Match");}); //match
-      markerCADDY2 = L.marker([50.62997,3.04561],{icon:caddy }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"CarrefourExpress1");}); //carrefour express vauban
-      markerCADDY3 = L.marker([50.63435,3.03073],{icon:caddy }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"CarrefourExpress2");}); //carrefour express bois blanc
-      markerCADDY4 = L.marker([50.63748,3.07436],{icon:caddy }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Euralille");}); //euralille
-      markerCADDY5 = L.marker([50.62575,3.03954],{icon:caddy }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"CarrefourCity");}); //carrefour city cormon
-      markerCADDY6 = L.marker([50.63219,3.05076],{icon:caddy }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,"Casino2");}); //Petit casino
+      markerCADDY = L.marker([50.63210,3.04283],{icon:caddy }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"Casino1");}); //casino
+      markerCADDY1 = L.marker([50.63222,3.05387],{icon:caddy }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"Match");}); //match
+      markerCADDY2 = L.marker([50.62997,3.04561],{icon:caddy }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"CarrefourExpress1");}); //carrefour express vauban
+      markerCADDY3 = L.marker([50.63435,3.03073],{icon:caddy }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"CarrefourExpress2");}); //carrefour express bois blanc
+      markerCADDY4 = L.marker([50.63748,3.07436],{icon:caddy }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"Euralille");}); //euralille
+      markerCADDY5 = L.marker([50.62575,3.03954],{icon:caddy }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"CarrefourCity");}); //carrefour city cormon
+      markerCADDY6 = L.marker([50.63219,3.05076],{icon:caddy }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"Casino2");}); //Petit casino
     },
     remove (){
       theMap.removeLayer(markerCADDY);
