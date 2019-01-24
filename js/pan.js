@@ -1,5 +1,6 @@
 var leftPan = {
-  open(lat,lng,id){
+  open(lat,lng,icon,id){
+    $('.leaflet-marker-icon').css("opacity","0.6");
     $('.infos').css("background-color","#fff");
     $("#leftPan").css("background-color",places[id].marker_color);
     $("#leftPan").css("visibility","visible");
@@ -64,13 +65,15 @@ var leftPan = {
     else {
       $('.twitterFeed').html('');
     }
-    //theMap.setView([lat, lng],17); //CENTRAGE MAP APRES CLICK SUR MARKER
+    icon.style.opacity = "1";
+    theMap.setView([lat, lng],theMap.getZoom()); //CENTRAGE MAP APRES CLICK SUR MARKER (en conservant niveau de zoom)
     $("a").attr("target", "popup");
     $("a").attr("onclick", 'window.open(this.href,"popup","width=800,height=600,left=300,top=300"); return false;');
   },
   close(){
     document.getElementById("leftPan").style.visibility = "hidden";
     document.getElementById("leftPan").style.width = "0";
+    $('.leaflet-marker-icon').css("opacity","1");
   },
   tempInfoUrbawood(){
     $("#leftPan").css("background-color","#bfbfbf");
