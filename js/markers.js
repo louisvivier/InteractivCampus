@@ -302,10 +302,17 @@ var markers = {
 
       markerPARKING = L.marker([50.636788993222,3.0730428283576],{icon:parking}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,"ParkingEurallile");});
       markerPARKINGR = L.marker([50.60784,3.04035],{icon:parkingRelais}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,"ParkingRCHR");});
+      markerPARKINGR1 = L.marker([50.61780,3.05005],{icon:parkingRelais}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,"ParkingRPorteDesPostes");});
+      markerPARKINGR2 = L.marker([50.61749,3.06390],{icon:parkingRelais}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,"ParkingRPorteDArras");});
+      markerPARKINGR3 = L.marker([50.65315,2.97500],{icon:parkingRelais}).addTo(theMap).on('click', function(e) { leftPan.open(this._latlng.lat, this._latlng.lng,"ParkingRSaintPhilibert");});
+
     },
     remove (){
       theMap.removeLayer(markerPARKING);
       theMap.removeLayer(markerPARKINGR);
+      theMap.removeLayer(markerPARKINGR1);
+      theMap.removeLayer(markerPARKINGR2);
+      theMap.removeLayer(markerPARKINGR3);
     }
   },
   atm : {

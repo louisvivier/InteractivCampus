@@ -1170,6 +1170,63 @@ places = {
   }
 },
 
+  "ParkingRPorteDesPostes":{
+    "name":"Parking Relais Porte Des Postes",
+    "adress_street": "Place Barthélémy Dorez",
+    "adress_city":"59000 Lille",
+    "phone":"03 20 40 40 40",
+    "email":"",
+    "website":"https://www.transpole.fr/cms/institutionnel/se-deplacer/parkings-pr/",
+    "link_text":"transpole.fr",
+    "twitter": "transpole_actu",
+    "marker_color":"#9eb886",
+    "logo_name":"parkingrelais",
+    "streetpic_name":"parkingrelais",
+    "parking_info":{
+      "parking_type":"relais",
+      "parking_id":6,
+      "parking_capacity":"90"
+    }
+},
+
+"ParkingRPorteDArras":{
+  "name":"Parking Relais Porte D'Arras",
+  "adress_street": "Boulevard D'Alsace",
+  "adress_city":"59000 Lille",
+  "phone":"03 20 40 40 40",
+  "email":"",
+  "website":"https://www.transpole.fr/cms/institutionnel/se-deplacer/parkings-pr/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_actu",
+  "marker_color":"#9eb886",
+  "logo_name":"parkingrelais",
+  "streetpic_name":"parkingrelais",
+  "parking_info":{
+    "parking_type":"relais",
+    "parking_id":5,
+    "parking_capacity":"100"
+  }
+},
+
+"ParkingRSaintPhilibert":{
+  "name":"Parking Relais Saint Philibert",
+  "adress_street": "Rue du Grand But",
+  "adress_city":"59000 Lille",
+  "phone":"03 20 40 40 40",
+  "email":"",
+  "website":"https://www.transpole.fr/cms/institutionnel/se-deplacer/parkings-pr/",
+  "link_text":"transpole.fr",
+  "twitter": "transpole_actu",
+  "marker_color":"#9eb886",
+  "logo_name":"parkingrelais",
+  "streetpic_name":"parkingrelais",
+  "parking_info":{
+    "parking_type":"relais",
+    "parking_id":4,
+    "parking_capacity":"330"
+  }
+},
+
 "_comment":"________________________________________________SUPERMARKETS_________________________________________________",
 
 "Casino1":{
