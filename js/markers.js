@@ -191,6 +191,22 @@ var markers = {
       theMap.removeLayer(markerMETRO20);
     }
   },
+  tram : {
+    add(){
+      let tram = L.icon({
+        iconUrl: "images/markers/tram.png",
+        iconSize: [40, 60],
+        iconAnchor: [20,55],
+        popupAnchor: [0,0],
+      });
+      markerTRAM = L.marker([50.63751,3.07080],{icon:tram }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"TramFlandres");});
+      markerTRAM1 = L.marker([50.64002,3.07400],{icon:tram }).addTo(theMap).on('click',function(e) { leftPan.open(this._latlng.lat,this._latlng.lng,this._icon,"TramEurope");});
+    },
+    remove(){
+      theMap.removeLayer(markerTRAM);
+      theMap.removeLayer(markerTRAM1);
+    }
+  },
   velo : {
     add(){
       let velo = L.icon({

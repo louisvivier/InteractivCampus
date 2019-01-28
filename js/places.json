@@ -1083,6 +1083,65 @@ places = {
   }]
 },
 
+"_comment":"________________________________________________TRAM__________________________________________________",
+
+"TramFlandres":{
+  "name":"Arrêt de tramway Gare Lille Flandres",
+  "adress_street": "Avenue Le Corbusier",
+  "adress_city": "59800 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.ilevia.fr/cms/institutionnel/reseau-ilevia/tram/",
+  "link_text":"ilevia.fr",
+  "twitter": "ilevia_tram",
+  "marker_color": "#9eb886",
+  "logo_name":"tram",
+  "streetpic_name":"flandresmetro",
+  "tram_infos":[{
+    "ligne":"TRAM",
+    "stop":"LILLE+FLANDRES",
+    "way":"EUROTELEPORT",
+    "name":"Ligne R - Roubaix Euroteleport"
+  },
+  {
+    "ligne":"TRAM",
+    "stop":"LILLE+FLANDRES",
+    "way":"TOURCOING+CENTRE",
+    "name":"Ligne T - Tourcoing Centre"
+  }]
+},
+"TramEurope":{
+  "name":"Arrêt de tramway Gare Lille Europe",
+  "adress_street": "Place de l'Europe",
+  "adress_city": "59800 Lille",
+  "phone": "03 20 40 40 40",
+  "email": "",
+  "website": "https://www.ilevia.fr/cms/institutionnel/reseau-ilevia/tram/",
+  "link_text":"ilevia.fr",
+  "twitter": "ilevia_tram",
+  "marker_color": "#9eb886",
+  "logo_name":"tram",
+  "streetpic_name":"europemetro",
+  "tram_infos":[{
+    "ligne":"TRAM",
+    "stop":"LILLE+EUROPE",
+    "way":"EUROTELEPORT",
+    "name":"Ligne R - Roubaix Euroteleport"
+  },
+  {
+    "ligne":"TRAM",
+    "stop":"LILLE+EUROPE",
+    "way":"TOURCOING+CENTRE",
+    "name":"Ligne T - Tourcoing Centre"
+  },
+  {
+    "ligne":"TRAM",
+    "stop":"LILLE+EUROPE",
+    "way":"LILLE FLANDRES",
+    "name":"Ligne T R - Gare Lille Flandres"
+  }]
+},
+
 "_comment":"________________________________________________VELOS_________________________________________________",
 
 "VlilleSolfe":{

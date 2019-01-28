@@ -18,6 +18,7 @@ var map = {
     markers.ecole.add();
     markers.bus.add();
     markers.metro.add();
+    markers.tram.add();
     markers.velo.add();
     markers.aeu.add();
     markers.sandwich.add();
