@@ -142,7 +142,7 @@ var horairesBus = {
   getHoraires(ligne, arret, sens){ //("18", "SOLFERINO", "ANATOLE+FRANCE")
     var xhr = new XMLHttpRequest();
     xhr.response = "json";
-    var chemin = "https://opendata.lillemetropole.fr/api/records/1.0/search/?dataset=transpole-prochainspassages&facet=nomstation&facet=codeligne&facet=sensligne&refine.codeligne=" + ligne + "&refine.nomstation=" + arret + "&refine.sensligne=" + sens;
+    var chemin = "https://opendata.lillemetropole.fr/api/records/1.0/search/?dataset=ilevia-prochainspassages&facet=nomstation&facet=codeligne&facet=sensligne&refine.codeligne=" + ligne + "&refine.nomstation=" + arret + "&refine.sensligne=" + sens;
     xhr.open('GET', chemin, false);
     xhr.send(null);
     var obj = xhr.response;
