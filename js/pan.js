@@ -25,14 +25,17 @@ var leftPan = {
     }
     if (typeof(places[id].bus_infos)!= 'undefined'){//Si arret de bus
       let type = "bus";
-      $('.NextBus1').html("<b>"+places[id].bus_infos[0]["name"]+"</b><br>Prochain bus dans : "+horairesBusTram.getHoraires(type, places[id].bus_infos[0]["ligne"],places[id].bus_infos[0]["stop"],places[id].bus_infos[0]["way"])[0]+"<br>"+"Puis dans : "+horairesBusTram.getHoraires(type, places[id].bus_infos[0]["ligne"],places[id].bus_infos[0]["stop"],places[id].bus_infos[0]["way"])[1]+"<br>"+"Et dans : "+horairesBusTram.getHoraires(type, places[id].bus_infos[0]["ligne"],places[id].bus_infos[0]["stop"],places[id].bus_infos[0]["way"])[2]);
+      let request = horairesBusTram.getHoraires(type, places[id].bus_infos[0]["ligne"],places[id].bus_infos[0]["stop"],places[id].bus_infos[0]["way"]);
+      $('.NextBus1').html("<b>"+places[id].bus_infos[0]["name"]+"</b><br>Prochain bus dans : "+request[0]+"<br>"+"Puis dans : "+request[1]+"<br>"+"Et dans : "+request[2]);
       $('.NextBus').css("display","block");
       $('.NextBus1').css("display","block");
       if(typeof(places[id].bus_infos[1]) != 'undefined'){
-        $('.NextBus2').html("<b>"+places[id].bus_infos[1]["name"]+"</b><br>Prochain bus dans : "+horairesBusTram.getHoraires(type, places[id].bus_infos[1]["ligne"],places[id].bus_infos[1]["stop"],places[id].bus_infos[1]["way"])[0]+"<br>"+"Puis dans : "+horairesBusTram.getHoraires(type, places[id].bus_infos[1]["ligne"],places[id].bus_infos[1]["stop"],places[id].bus_infos[1]["way"])[1]+"<br>"+"Et dans : "+horairesBusTram.getHoraires(type, places[id].bus_infos[1]["ligne"],places[id].bus_infos[1]["stop"],places[id].bus_infos[1]["way"])[2]);
+        let request = horairesBusTram.getHoraires(type, places[id].bus_infos[1]["ligne"],places[id].bus_infos[1]["stop"],places[id].bus_infos[1]["way"]);
+        $('.NextBus2').html("<b>"+places[id].bus_infos[1]["name"]+"</b><br>Prochain bus dans : "+request[0]+"<br>"+"Puis dans : "+request[1]+"<br>"+"Et dans : "+request[2]);
         $('.NextBus2').css("display","block");
         if(typeof(places[id].bus_infos[2]) != 'undefined'){
-          $('.NextBus3').html("<b>"+places[id].bus_infos[2]["name"]+"</b><br>Prochain bus dans : "+horairesBusTram.getHoraires(type, places[id].bus_infos[2]["ligne"],places[id].bus_infos[2]["stop"],places[id].bus_infos[2]["way"])[0]+"<br>"+"Puis dans : "+horairesBusTram.getHoraires(type, places[id].bus_infos[2]["ligne"],places[id].bus_infos[2]["stop"],places[id].bus_infos[2]["way"])[1]+"<br>"+"Et dans : "+horairesBusTram.getHoraires(type, places[id].bus_infos[2]["ligne"],places[id].bus_infos[2]["stop"],places[id].bus_infos[2]["way"])[2]);
+          let request = horairesBusTram.getHoraires(type, places[id].bus_infos[2]["ligne"],places[id].bus_infos[2]["stop"],places[id].bus_infos[2]["way"]);
+          $('.NextBus3').html("<b>"+places[id].bus_infos[2]["name"]+"</b><br>Prochain bus dans : "+request[0]+"<br>"+"Puis dans : "+request[1]+"<br>"+"Et dans : "+request[2]);
           $('.NextBus3').css("display","block");
         }
         else{
@@ -47,16 +50,19 @@ var leftPan = {
     else{
       $('.NextBus').css("display","none");
     }
-    if (typeof(places[id].tram_infos)!= 'undefined'){//Si arret de bus
+    if (typeof(places[id].tram_infos)!= 'undefined'){//Si arret de tram
       let type = "tram";
-      $('.NextTram1').html("<b>"+places[id].tram_infos[0]["name"]+"</b><br>Prochain tram dans : "+horairesBusTram.getHoraires(type, places[id].tram_infos[0]["ligne"],places[id].tram_infos[0]["stop"],places[id].tram_infos[0]["way"])[0]+"<br>"+"Puis dans : "+horairesBusTram.getHoraires(type, places[id].tram_infos[0]["ligne"],places[id].tram_infos[0]["stop"],places[id].tram_infos[0]["way"])[1]+"<br>"+"Et dans : "+horairesBusTram.getHoraires(type, places[id].tram_infos[0]["ligne"],places[id].tram_infos[0]["stop"],places[id].tram_infos[0]["way"])[2]);
+      let request = horairesBusTram.getHoraires(type, places[id].tram_infos[0]["ligne"],places[id].tram_infos[0]["stop"],places[id].tram_infos[0]["way"]);
+      $('.NextTram1').html("<b>"+places[id].tram_infos[0]["name"]+"</b><br>Prochain tram dans : "+request[0]+"<br>"+"Puis dans : "+request[1]+"<br>"+"Et dans : "+request[2]);
       $('.NextTram').css("display","block");
       $('.NextTram1').css("display","block");
       if(typeof(places[id].tram_infos[1]) != 'undefined'){
-        $('.NextTram2').html("<b>"+places[id].tram_infos[1]["name"]+"</b><br>Prochain tram dans : "+horairesBusTram.getHoraires(type, places[id].tram_infos[1]["ligne"],places[id].tram_infos[1]["stop"],places[id].tram_infos[1]["way"])[0]+"<br>"+"Puis dans : "+horairesBusTram.getHoraires(type, places[id].tram_infos[1]["ligne"],places[id].tram_infos[1]["stop"],places[id].tram_infos[1]["way"])[1]+"<br>"+"Et dans : "+horairesBusTram.getHoraires(type, places[id].tram_infos[1]["ligne"],places[id].tram_infos[1]["stop"],places[id].tram_infos[1]["way"])[2]);
+        let request = horairesBusTram.getHoraires(type, places[id].tram_infos[1]["ligne"],places[id].tram_infos[1]["stop"],places[id].tram_infos[1]["way"]);
+        $('.NextTram2').html("<b>"+places[id].tram_infos[1]["name"]+"</b><br>Prochain tram dans : "+request[0]+"<br>"+"Puis dans : "+request[1]+"<br>"+"Et dans : "+request[2]);
         $('.NextTram2').css("display","block");
         if(typeof(places[id].tram_infos[2]) != 'undefined'){
-          $('.NextTram3').html("<b>"+places[id].tram_infos[2]["name"]+"</b><br>Prochain tram dans : "+horairesBusTram.getHoraires(type, places[id].tram_infos[2]["ligne"],places[id].tram_infos[2]["stop"],places[id].tram_infos[2]["way"])[0]+"<br>"+"Puis dans : "+horairesBusTram.getHoraires(type, places[id].tram_infos[2]["ligne"],places[id].tram_infos[2]["stop"],places[id].tram_infos[2]["way"])[1]+"<br>"+"Et dans : "+horairesBusTram.getHoraires(type, places[id].tram_infos[2]["ligne"],places[id].tram_infos[2]["stop"],places[id].tram_infos[2]["way"])[2]);
+          let request = horairesBusTram.getHoraires(type, places[id].tram_infos[2]["ligne"],places[id].tram_infos[2]["stop"],places[id].tram_infos[2]["way"]);
+          $('.NextTram3').html("<b>"+places[id].tram_infos[2]["name"]+"</b><br>Prochain tram dans : "+request[0]+"<br>"+"Puis dans : "+request[1]+"<br>"+"Et dans : "+request[2]);
           $('.NextTram3').css("display","block");
         }
         else{
@@ -72,14 +78,16 @@ var leftPan = {
       $('.NextTram').css("display","none");
     }
     if (typeof(places[id].vlille_station)!= 'undefined'){//Si station Vlille
-      $('.Vlille').html("Vélos : "+v_Lille.disponible(places[id].vlille_station)[0]+"<br>"+"Bornes : "+v_Lille.disponible(places[id].vlille_station)[1]);
+      let request = v_Lille.disponible(places[id].vlille_station);
+      $('.Vlille').html("Vélos : "+request[0]+"<br>"+"Bornes : "+request[1]);
       $('.Vlille').css("display","block");
     }
     else{
       $('.Vlille').css("display","none");
     }
     if (typeof(places[id].parking_info) != 'undefined'){
-      $('.ParkingPlace').html("Places disponibles : "+placesParking.disponible(places[id].parking_info.parking_id, places[id].parking_info.parking_type)+"<br>"+"Capacité max : "+ places[id].parking_info.parking_capacity);
+      let request = placesParking.disponible(places[id].parking_info.parking_id, places[id].parking_info.parking_type);
+      $('.ParkingPlace').html("Places disponibles : "+request+"<br>"+"Capacité max : "+ places[id].parking_info.parking_capacity);
       $('.ParkingPlace').css("display","block");
     }else{
       $('.ParkingPlace').css("display","none");
