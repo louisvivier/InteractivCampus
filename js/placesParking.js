@@ -7,7 +7,12 @@ var placesParking = {
     xhr.send(null);
     var obj = xhr.response;
     var requete = JSON.parse(obj);
-    var nombrePlaces = requete.records[0].fields.aff;
+    var nombrePlaces;
+    try {
+      nombrePlaces = requete.records[0].fields.aff;
+    }catch{
+      nombrePlaces = "Pas de données Disponibles";
+    }
     return nombrePlaces;
   },
   disponibleRelais(nomparking){
