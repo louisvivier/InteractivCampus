@@ -702,7 +702,7 @@ places = {
   {
     "ligne":"12",
     "stop":"SOLFERINO",
-    "way":"MARCQ+CLEMENCEAU",
+    "way":"MARCQ+PISCINE",
     "name":"Ligne 12 - Marq Piscine"
   }
 ]
@@ -819,7 +819,7 @@ places = {
   "bus_infos":[{
     "ligne":"12",
     "stop":"REPUBLIQUE",
-    "way":"MARCQ+CLEMENCEAU",
+    "way":"MARCQ+PISCINE",
     "name":"Ligne 12 - Marq Piscine"
   }]
 },
@@ -838,7 +838,7 @@ places = {
   "bus_infos":[{
     "ligne":"12",
     "stop":"LILLE+FLANDRES",
-    "way":"MARCQ+CLEMENCEAU",
+    "way":"MARCQ+PISCINE",
     "name":"Ligne 12 - Marq Piscine"
   }]
 },
@@ -895,7 +895,7 @@ places = {
   "bus_infos":[{
     "ligne":"12",
     "stop":"CORMONTAIGNE",
-    "way":"MARCQ+CLEMENCEAU",
+    "way":"MARCQ+PISCINE",
     "name":"Ligne 12 - Marq Piscine"
   }]
 },
@@ -1053,7 +1053,7 @@ places = {
   {
     "ligne":"12",
     "stop":"UNIV+CATHOLIQUE",
-    "way":"MARCQ+CLEMENCEAU",
+    "way":"MARCQ+PISCINE",
     "name":"Ligne 12 - Marq Piscine"
   }]
 },
